@@ -1,0 +1,101 @@
+ENCUESTA DE SATISFACCIÓN LABORAL - OAXACA 2024-2025
+===================================================
+
+Período: Septiembre 2024 - Diciembre 2024
+Región: Oaxaca
+Total de Encuestados: 150
+
+RESPUESTA 1:
+Fecha de Registro: 2024-11-18
+Nombre: juan garcia
+Edad: 35
+Profesion: ingeniero de sistemas
+Empresa: tech oaxaca
+Salario: 18500
+Satisfaccion: muy buena
+Comentario: buen ambiente laboral, crecimiento profesional limitado
+
+RESPUESTA 2:
+Fecha de Registro: 2024-10-22
+Nombre: maria lopez
+Edad: 28
+Profesion: contador
+Empresa: despacho contable juarez
+Salario: 12300
+Satisfaccion: buena
+Comentario: trabajo flexible, pero salario inicial bajo
+
+RESPUESTA 3:
+Fecha de Registro: 2024-11-30
+Nombre: carlos rodriguez
+Edad: 42
+Profesion: profesor universitario
+Empresa: uabjo
+Salario: 13800
+Satisfaccion: regular
+Comentario: carga academica pesada, poco reconocimiento
+
+RESPUESTA 4:
+Fecha de Registro: 2024-10-05
+Nombre: ana martinez
+Edad: 31
+Profesion: enfermera
+Empresa: hospital civil oaxaca
+Salario: 14500
+Satisfaccion: muy buena
+Comentario: vocacion profesional cumplida, condiciones mejorables
+
+RESPUESTA 5:
+Fecha de Registro: 2024-12-01
+Nombre: luis gonzales
+Edad: 38
+Profesion: electricista
+Empresa: empresa constructora
+Salario: 13200
+Satisfaccion: buena
+Comentario: trabajo seguro, demanda constante en el mercado
+
+RESPUESTA 6:
+Fecha de Registro: 2024-09-28
+Nombre: elena sanchez
+Edad: 26
+Profesion: diseñadora grafica
+Empresa: agencia creativa
+Salario: 11500
+Satisfaccion: muy buena
+Comentario: trabajo creativo, pero mercado competitivo
+
+RESPUESTA 7:
+Fecha de Registro: 2024-11-12
+Nombre: pedro fernandez
+Edad: 45
+Profesion: agricultor
+Empresa: empresa familiar
+Salario: 9800
+Satisfaccion: regular
+Comentario: dependencia climatica, ingresos inestables
+
+RESPUESTA 8:
+Fecha de Registro: 2024-10-14
+Nombre: rosa jimenez
+Edad: 29
+Profesion: secretaria ejecutiva
+Empresa: firma legal
+Salario: 12800
+Satisfaccion: buena
+Comentario: horario predecible, oportunidades de crecimiento limitadas
+
+
+Notas de la Encuesta:
+- Realizada en municipios: Oaxaca de Oaxaca, Oaxaca de Juárez, Huajuapan, Tlacolula
+- Período de recolección: Septiembre a Diciembre 2024
+- Mayormente sector privado (75%) y público (25%)
+- Edad promedio: 34 años
+- Principales quejas: salarios bajos, falta de beneficios, reconocimiento limitado
+- Principales fortalezas: estabilidad laboral, ambiente de trabajo, oportunidades en sectores emergentes
+
+Conclusiones Preliminares:
+El mercado laboral en Oaxaca muestra demanda en sectores tecnológico, salud y educación.
+Los profesionales con educación técnica y superior tienen mejores perspectivas de empleo.
+Salarios están por debajo de la media nacional en la mayoría de sectores, rondando 12,000 MXN promedio.
+Tendencia observada: Crecimiento en tecnología e industrias creativas durante el período estudiado.

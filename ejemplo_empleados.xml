@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+    <empleado>
+        <id>1</id>
+        <profesion>ingeniero de sistemas</profesion>
+        <tasa_ocupacion>85.5</tasa_ocupacion>
+        <nivel_educativo>prof.univ.</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>oaxaca capital</municipio>
+    </empleado>
+    <empleado>
+        <id>2</id>
+        <profesion>profesor</profesion>
+        <tasa_ocupacion>78.2</tasa_ocupacion>
+        <nivel_educativo>Licenciatura Completa</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>huajuapan</municipio>
+    </empleado>
+    <empleado>
+        <id>3</id>
+        <profesion>tec. en electricidad</profesion>
+        <tasa_ocupacion>82.3</tasa_ocupacion>
+        <nivel_educativo>tecnico</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>juarez</municipio>
+    </empleado>
+    <empleado>
+        <id>4</id>
+        <profesion>contador</profesion>
+        <tasa_ocupacion>88.1</tasa_ocupacion>
+        <nivel_educativo>prof.univ.</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>oaxaca capital</municipio>
+    </empleado>
+    <empleado>
+        <id>5</id>
+        <profesion>mecanico</profesion>
+        <tasa_ocupacion>65.4</tasa_ocupacion>
+        <nivel_educativo>secundaria</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>lachixio</municipio>
+    </empleado>
+    <empleado>
+        <id>6</id>
+        <profesion>asistente administrativo</profesion>
+        <tasa_ocupacion>72.8</tasa_ocupacion>
+        <nivel_educativo>bachillerato</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>oaxaca capital</municipio>
+    </empleado>
+    <empleado>
+        <id>7</id>
+        <profesion>diseñador grafico</profesion>
+        <tasa_ocupacion>80.5</tasa_ocupacion>
+        <nivel_educativo>lic.completa</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>xoxocotlan</municipio>
+    </empleado>
+    <empleado>
+        <id>8</id>
+        <profesion>enfermero</profesion>
+        <tasa_ocupacion>91.2</tasa_ocupacion>
+        <nivel_educativo>licenciatura completa</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>huajuapan</municipio>
+    </empleado>
+    <empleado>
+        <id>9</id>
+        <profesion>dentista</profesion>
+        <tasa_ocupacion>86.7</tasa_ocupacion>
+        <nivel_educativo>prof.univ.</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>oaxaca capital</municipio>
+    </empleado>
+    <empleado>
+        <id>10</id>
+        <profesion>agricultor</profesion>
+        <tasa_ocupacion>55.3</tasa_ocupacion>
+        <nivel_educativo>primaria</nivel_educativo>
+        <fecha_registro>2025-01-15</fecha_registro>
+        <municipio>tlacolula</municipio>
+    </empleado>
+</empleados>

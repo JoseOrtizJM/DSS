@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test MongoDB - Data Lakehouse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            padding: 30px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .status {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        .status.connected {
+            background: #d4edda;
+            color: #155724;
+            border-left: 4px solid #28a745;
+        }
+
+        .status.disconnected {
+            background: #f8d7da;
+            color: #721c24;
+            border-left: 4px solid #f5c6cb;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .section h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        button {
+            padding: 10px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-danger {
+            background: #f44336;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #da190b;
+        }
+
+        .btn-success {
+            background: #4caf50;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #45a049;
+        }
+
+        .btn-disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .result {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 15px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-size: 0.9em;
+        }
+
+        .result-success {
+            border-left: 4px solid #4caf50;
+            background: #f1f8f6;
+        }
+
+        .result-error {
+            border-left: 4px solid #f44336;
+            background: #faf1f0;
+            color: #c62828;
+        }
+
+        .result pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: #667eea;
+            color: white;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .id-cell {
+            font-family: monospace;
+            font-size: 0.85em;
+            word-break: break-all;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Test MongoDB - Data Lakehouse</h1>
+        
+        <!-- Estado del backend -->
+        <div class="status" id="status">
+            <span id="status-text">Conectando con el servidor...</span>
+        </div>
+
+        <!-- Sección: Enviar datos de prueba -->
+        <div class="section">
+            <h2>📤 Enviar datos de prueba a MongoDB</h2>
+            <div class="form-group">
+                <label for="test-file-name">Nombre del archivo:</label>
+                <input type="text" id="test-file-name" placeholder="ej: test_data.csv" value="test_data.csv">
+            </div>
+            <div class="form-group">
+                <label for="test-data">Datos (JSON):</label>
+                <textarea id="test-data" placeholder="[{&quot;municipio&quot;: &quot;Oaxaca de Juárez&quot;, &quot;salario&quot;: &quot;15000&quot;}]">[
+  {
+    "municipio": "Oaxaca de Juárez",
+    "salario": "15000",
+    "profesion": "Ingeniero"
+  },
+  {
+    "municipio": "Huajuapan",
+    "salario": "12000",
+    "profesion": "Contador"
+  }
+]</textarea>
+            </div>
+            <button class="btn-primary" onclick="sendTestData()">💾 Guardar en MongoDB</button>
+            <div id="send-result"></div>
+        </div>
+
+        <!-- Sección: Ver datos guardados -->
+        <div class="section">
+            <h2>📋 Ver datos guardados en MongoDB</h2>
+            <button class="btn-success" onclick="loadAllData()">🔄 Cargar todos los datos</button>
+            <div id="data-result"></div>
+        </div>
+    </div>
+
+    <script>
+        // Verificar conexión con el servidor
+        window.addEventListener('load', () => {
+            checkServerStatus();
+        });
+
+        function checkServerStatus() {
+            fetch('http://localhost:5000/')
+                .then(response => response.json())
+                .then(data => {
+                    const statusEl = document.getElementById('status');
+                    const statusText = document.getElementById('status-text');
+                    
+                    statusEl.classList.remove('disconnected');
+                    statusEl.classList.add('connected');
+                    statusText.textContent = '✅ Servidor conectado: ' + data.message;
+                    
+                    console.log('Estado del servidor:', data);
+                })
+                .catch(error => {
+                    const statusEl = document.getElementById('status');
+                    const statusText = document.getElementById('status-text');
+                    
+                    statusEl.classList.remove('connected');
+                    statusEl.classList.add('disconnected');
+                    statusText.textContent = '❌ No se puede conectar al servidor en http://localhost:5000';
+                    
+                    console.error('Error:', error);
+                });
+        }
+
+        function sendTestData() {
+            const fileName = document.getElementById('test-file-name').value.trim();
+            const dataStr = document.getElementById('test-data').value.trim();
+            const resultDiv = document.getElementById('send-result');
+
+            if (!fileName) {
+                showResult(resultDiv, 'error', 'Por favor ingresa un nombre de archivo');
+                return;
+            }
+
+            let data;
+            try {
+                data = JSON.parse(dataStr);
+                if (!Array.isArray(data)) {
+                    throw new Error('Los datos deben ser un array');
+                }
+            } catch (e) {
+                showResult(resultDiv, 'error', 'Error en JSON: ' + e.message);
+                return;
+            }
+
+            resultDiv.innerHTML = '<div class="result"><p>⏳ Enviando datos...</p></div>';
+
+            fetch('http://localhost:5000/api/save-data', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    fileName: fileName,
+                    data: data,
+                    timestamp: new Date().toISOString()
+                })
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    showResult(resultDiv, 'success', 
+                        `✅ Datos guardados correctamente!\n\n` +
+                        `ID: ${result.insertedId}\n` +
+                        `Archivo: ${result.fileName}\n` +
+                        `Registros: ${result.recordCount}`
+                    );
+                    // Recargar datos después de 1 segundo
+                    setTimeout(loadAllData, 1000);
+                } else {
+                    showResult(resultDiv, 'error', result.error || 'Error desconocido');
+                }
+            })
+            .catch(error => {
+                showResult(resultDiv, 'error', 
+                    `Error de red: ${error.message}\n\n` +
+                    `¿Está el servidor corriendo? Ejecuta: npm start\n` +
+                    `¿Está MongoDB corriendo? Ejecuta: mongod`
+                );
+            });
+        }
+
+        function loadAllData() {
+            const resultDiv = document.getElementById('data-result');
+            resultDiv.innerHTML = '<div class="result"><p>⏳ Cargando datos...</p></div>';
+
+            fetch('http://localhost:5000/api/data')
+                .then(response => response.json())
+                .then(result => {
+                    if (result.success && result.data && result.data.length > 0) {
+                        let html = `<div class="result result-success"><p>✅ Se encontraron <strong>${result.count}</strong> guardadas:</p>`;
+                        html += '<table>';
+                        html += '<thead><tr><th>ID</th><th>Archivo</th><th>Registros</th><th>Fecha</th></tr></thead>';
+                        html += '<tbody>';
+                        
+                        result.data.forEach(item => {
+                            const fecha = new Date(item.processedAt).toLocaleString('es-ES');
+                            html += `<tr>
+                                <td class="id-cell">${item._id}</td>
+                                <td>${item.fileName}</td>
+                                <td>${item.totalRecords}</td>
+                                <td>${fecha}</td>
+                            </tr>`;
+                        });
+                        
+                        html += '</tbody></table></div>';
+                        resultDiv.innerHTML = html;
+                    } else if (result.success && result.count === 0) {
+                        showResult(resultDiv, 'success', 
+                            '📭 No hay datos guardados aún.\n\n' +
+                            'Prueba guardando datos con el formulario anterior.'
+                        );
+                    } else {
+                        showResult(resultDiv, 'error', result.error || 'Error al obtener datos');
+                    }
+                })
+                .catch(error => {
+                    showResult(resultDiv, 'error', 
+                        `Error de conexión: ${error.message}\n\n` +
+                        `Asegúrate que:\n` +
+                        `1. El servidor Node.js esté corriendo (npm start)\n` +
+                        `2. MongoDB esté disponible (mongod)\n` +
+                        `3. Estés usando http://localhost:5000`
+                    );
+                });
+        }
+
+        function showResult(element, type, message) {
+            const className = type === 'success' ? 'result-success' : 'result-error';
+            element.innerHTML = `<div class="result ${className}"><pre>${escapeHtml(message)}</pre></div>`;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>

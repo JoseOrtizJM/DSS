@@ -1,0 +1,21 @@
+id,profesion,tasa_ocupacion,nivel_educativo,fecha_registro,municipio
+1,ingeniero de sistemas,85.5,prof.univ.,2024-11-15,oaxaca capital
+2,profesor,78.2,Licenciatura Completa,2024-10-22,Huajuapan
+3,tec. en electricidad,82.3,tecnico,2024-12-03,juarez
+4,contador,88.1,prof.univ.,2024-11-27,oaxaca capital
+5,mecanico,65.4,secundaria,2024-09-18,Lachixio
+6,asistente administrativo,72.8,bachillerato,2024-10-09,oaxaca capital
+7,diseñador grafico,80.5,lic.completa,2024-12-11,Xoxocotlan
+8,enfermero,91.2,licenciatura completa,2024-11-05,Huajuapan
+9,dentista,86.7,prof.univ.,2024-10-30,oaxaca capital
+10,agricultor,55.3,primaria,2024-09-25,Tlacolula
+11,electricista,76.9,tecnico,2024-11-14,juarez
+12,abogado,83.4,prof.univ.,2024-12-02,oaxaca capital
+13,nutriologo,79.8,lic.completa,2024-10-16,Etla
+14,carpintero,68.2,primaria incompleta,2024-09-30,Lachixio
+15,chef,81.6,tecnico,2024-11-19,oaxaca capital
+16,psicólogo,84.3,prof.univ.,2024-10-12,Huajuapan
+17,plomero,64.7,secundaria,2024-12-07,Xoxocotlan
+18,vendedor,72.1,bachillerato,2024-09-29,oaxaca capital
+19,secretaria,75.4,Bachillerato,2024-11-06,Tlacolula
+20,docente investigador,87.9,prof.univ.,2024-10-21,oaxaca capital

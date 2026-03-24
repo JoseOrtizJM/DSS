@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Lakehouse - Arquitectura ETL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🏢 Data Lakehouse - Arquitectura ETL</h1>
+                <p class="breadcrumb" id="breadcrumb">Inicio</p>
+                <div class="backend-status" id="backend-status">
+                    <span class="status-dot" id="status-dot"></span>
+                    <span class="status-text" id="status-text">Conectando...</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Menu Principal -->
+            <section class="menu-section">
+                <button class="menu-btn active" id="extraccion-btn" data-menu="extraccion">
+                    <span class="btn-icon">📥</span>
+                    <span class="btn-text">EXTRACCIÓN</span>
+                </button>
+            </section>
+
+            <!-- Submenu Extracción -->
+            <section class="submenu-section" id="submenu-extraccion" style="display: block;">
+                <div class="submenu-buttons">
+                    <button class="submenu-btn" id="datos-internos-btn" data-type="internos">
+                        <span class="submenu-icon">�️</span>
+                        <span>Datos Internos (TXT, PDF)</span>
+                    </button>
+                    <button class="submenu-btn" id="datos-externos-btn" data-type="externos">
+                        <span class="submenu-icon">📈</span>
+                        <span>Datos Externos (CSV, XML)</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Área de carga de archivos -->
+            <section class="upload-section" id="upload-section">
+                <div class="upload-header">
+                    <h2>Gestor de Archivos</h2>
+                    <p id="upload-description">Selecciona una opción para comenzar</p>
+                </div>
+
+                <div class="upload-area" id="upload-area">
+                    <div class="upload-icon">+</div>
+                    <h3>Haz clic o arrastra un archivo</h3>
+                    <p id="file-types">Tipos soportados: CSV, XML, PDF, TXT (Máx 100MB)</p>
+                    <input type="file" id="file-input" accept=".csv,.xml,.pdf,.txt" hidden>
+                </div>
+
+                <!-- Información del archivo seleccionado -->
+                <div class="file-info" id="file-info" style="display: none;">
+                    <div class="file-details">
+                        <span class="file-icon">✅</span>
+                        <div>
+                            <p class="file-name" id="file-name"></p>
+                            <p class="file-size" id="file-size"></p>
+                            <p class="file-type" id="file-type"></p>
+                        </div>
+                    </div>
+                    <div class="file-actions">
+                        <button class="btn-action btn-transform" id="btn-transform" style="display: none;">🔧 Transformar</button>
+                        <button class="btn-action btn-cancel" id="btn-cancel">Cargar otro archivo</button>
+                    </div>
+                </div>
+
+                <!-- Previsualización de archivo -->
+                <div class="preview-section" id="preview-section" style="display: none;">
+                    <div class="preview-header">
+                        <h3>📋 Previsualización del archivo</h3>
+                        <button class="btn-close-preview" id="btn-close-preview">✕</button>
+                    </div>
+                    <div class="preview-container" id="preview-container">
+                        <!-- El contenido de previsualización se inyectará aquí -->
+                    </div>
+                </div>
+
+                <!-- Archivo esperado -->
+                <div class="expected-format" id="expected-format" style="display: none;">
+                    <p class="format-label">Formato esperado:</p>
+                    <p class="format-description" id="format-description"></p>
+                </div>
+
+
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Data Lakehouse - Sistema ETL</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+id,fecha_registro,sector_laboral,salario_promedio_mensual,empleabilidad,municipio,observaciones
+1,2024-11-08,TecnologÍa,18500.50,alto,oaxaca capital,muy demandado
+2,2024-10-14,salud,15320.75,alto,Huajuapan,profesionales requeridos
+3,2024-12-01,educacion,13450.00,medio,oaxaca capital,sector regulado
+4,2024-09-20,turismo,10200.25,medio,Ixtlan,estacional
+5,2024-11-25,construccion,12800.50,bajo,juarez,cyclico
+6,2024-10-05,Agricultura,8950.00,bajo,Tlacolula,dependencia climatica
+7,2024-11-30,servicios,9800.75,medio,oaxaca capital,variable
+8,2024-10-28,finanzas,16700.50,alto,oaxaca capital,en desarrollo
+9,2024-12-09,manufactura,11500.00,medio,Xoxocotlan,competencia internacional
+10,2024-11-12,transportes,13200.25,bajo,Etla,saturado
+11,2024-09-17,gastronomia,10500.50,medio,oaxaca capital,post-pandemia recuperacion
+12,2024-10-31,comercio,11200.00,medio,Huajuapan,estable
+13,2024-11-19,ingenieria,17800.75,alto,oaxaca capital,muy cotizado
+14,2024-09-26,Administracion,12300.50,medio,juarez,demanda permanente
+15,2024-12-04,medio ambiente,14500.00,bajo,Lachixio,nichos emergentes
