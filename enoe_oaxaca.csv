@@ -19,3 +19,3003 @@ id,profesion,tasa_ocupacion,nivel_educativo,fecha_registro,municipio
 18,vendedor,72.1,bachillerato,2024-09-29,oaxaca capital
 19,secretaria,75.4,Bachillerato,2024-11-06,Tlacolula
 20,docente investigador,87.9,prof.univ.,2024-10-21,oaxaca capital
+21,economista,55.8,especialidad,2024-12-08,Crucecita
+22,soldador,60.4,maestria,2024-10-05,Santa Catarina
+23,ingeniero de sistemas,87.4,maestria,2024-02-16,juarez
+24,mecanico,42.2,doctorado,2024-09-21,Huatulco
+25,técnico en telecomunicaciones,46.9,secundaria,2024-04-01,oaxaca capital
+26,economista,75.0,prof.univ.,2024-02-20,Pochutla
+27,arquitecto,50.5,tecnico,2024-05-19,Tlacolula
+28,consultor,67.7,especialidad,2024-03-25,Xoxocotlan
+29,auditor,72.6,primaria,2024-05-15,Huatulco
+30,ingeniero de sistemas,54.6,bachillerato,2024-06-27,Huajuapan
+31,abogado,52.8,doctorado,2024-03-10,Salina Cruz
+32,carpintero,75.4,tecnico,2024-06-24,San Pablo Etla
+33,asistente administrativo,53.5,primaria,2024-04-18,Puerto Escondido
+34,profesor,72.1,primaria,2024-07-16,San Juan
+35,asistente administrativo,74.0,primaria,2024-11-20,Santiago
+36,analista,42.1,bachillerato,2024-11-28,Huatulco
+37,soldador,63.9,prof.univ.,2024-04-02,Ixtlan
+38,técnico en electrónica,73.6,primaria,2024-09-22,Tututepec
+39,abogado,74.5,secundaria,2024-07-15,Xoxocotlan
+40,consultor,63.4,doctorado,2024-10-21,Pochutla
+41,electricista,78.3,secundaria,2024-03-29,Ixtlan
+42,cocinero,52.5,tecnico,2024-06-11,Tlacolula
+43,maestro de obra,45.4,lic.incompleta,2024-02-26,Etla
+44,coordinador,74.2,maestria,2024-08-05,Huajuapan
+45,contador,77.2,bachillerato,2024-07-18,San Pablo Etla
+46,ejecutivo de ventas,79.0,especialidad,2024-04-04,San Juan
+47,abogado,85.0,bachillerato,2024-08-02,Salina Cruz
+48,dentista,48.8,tecnico,2024-11-22,Santiago
+49,ejecutivo de ventas,85.5,bachillerato,2024-02-07,Xoxocotlan
+50,representante comercial,44.4,especialidad,2024-01-09,Ixtlan
+51,conductor,87.5,tecnico,2024-03-17,San Pablo Etla
+52,camarero,56.3,lic.incompleta,2024-07-19,Lachixio
+53,maestro de obra,93.1,prof.univ.,2024-05-08,San Pablo Etla
+54,asistente administrativo,73.0,primaria,2024-12-17,Santa Catarina
+55,tec. en electricidad,74.1,maestria,2024-03-20,Etla
+56,enfermero,89.9,lic.incompleta,2024-03-24,Tlacolula
+57,plomero,56.1,licenciatura completa,2024-10-20,Etla
+58,técnico en electrónica,80.1,maestria,2024-11-07,Xoxocotlan
+59,consultor,87.1,prof.univ.,2024-10-24,Macuiltianguis
+60,soldador,77.7,tecnico,2024-01-04,Huatulco
+61,dentista,83.1,licenciatura completa,2024-03-13,Huatulco
+62,auditor,48.6,primaria,2024-03-30,Salina Cruz
+63,conductor,68.6,especialidad,2024-07-20,San Juan
+64,electricista,46.8,maestria,2024-04-17,Pochutla
+65,asistente administrativo,51.4,maestria,2024-04-04,Santiago
+66,mecanico,67.5,primaria,2024-10-06,Santa Catarina
+67,camarero,55.9,lic.incompleta,2024-05-04,Xoxocotlan
+68,transportista,66.6,doctorado,2024-09-24,Puerto Escondido
+69,economista,71.6,tecnico,2024-02-18,Puerto Escondido
+70,mecanico,73.4,primaria,2024-03-20,Tututepec
+71,guardia de seguridad,40.3,especialidad,2024-01-06,Lachixio
+72,técnico en telecomunicaciones,44.1,tecnico,2024-06-05,San Juan
+73,investigador,50.4,primaria,2024-03-22,Puerto Escondido
+74,técnico en telecomunicaciones,51.1,licenciatura completa,2024-04-20,Huajuapan
+75,técnico en telecomunicaciones,67.6,tecnico,2024-01-14,Tlacolula
+76,técnico en telecomunicaciones,55.4,licenciatura completa,2024-12-22,San Pablo Etla
+77,técnico en electrónica,65.4,especialidad,2024-11-14,Ocotlan
+78,jardinero,45.4,licenciatura completa,2024-07-14,Huajuapan
+79,transportista,92.0,secundaria,2024-12-28,Puerto Escondido
+80,chef,48.0,primaria,2024-02-29,Lachixio
+81,analista,77.8,maestria,2024-06-09,Huajuapan
+82,programador,40.7,tecnico,2024-12-02,Tututepec
+83,coordinador,87.5,prof.univ.,2024-04-18,San Pablo Etla
+84,enfermero,86.1,licenciatura completa,2024-08-24,Tlacolula
+85,profesor,53.1,especialidad,2024-02-18,Ocotlan
+86,dentista,83.4,tecnico,2024-07-02,Ocotlan
+87,vendedor,40.9,secundaria,2024-11-16,Etla
+88,vendedor,44.0,secundaria,2024-04-11,oaxaca capital
+89,asistente administrativo,65.8,secundaria,2024-01-27,oaxaca capital
+90,investigador,67.9,prof.univ.,2024-07-20,San Juan
+91,auditor,82.7,tecnico,2024-10-31,Santa Catarina
+92,contador,58.6,doctorado,2024-03-16,Santiago
+93,transportista,48.1,primaria,2024-08-18,Santa Catarina
+94,arquitecto,80.4,secundaria,2024-11-13,Pochutla
+95,docente,53.3,doctorado,2024-04-29,Macuiltianguis
+96,técnico en electrónica,41.3,bachillerato,2024-12-03,Lachixio
+97,académico,71.4,primaria,2024-05-10,Crucecita
+98,consultor,76.5,maestria,2024-07-06,Ocotlan
+99,diseñador grafico,49.7,tecnico,2024-01-01,Pochutla
+100,plomero,72.6,bachillerato,2024-03-24,Santiago
+101,supervisor,88.4,lic.incompleta,2024-09-17,San Pablo Etla
+102,arquitecto,55.1,secundaria,2024-09-07,San Pablo Etla
+103,chef,62.6,lic.incompleta,2024-04-26,Etla
+104,enfermero,54.4,doctorado,2024-05-22,Huajuapan
+105,abogado,85.4,primaria,2024-11-05,Santa Catarina
+106,ejecutivo de ventas,93.1,lic.incompleta,2024-09-21,Etla
+107,asistente administrativo,74.2,licenciatura completa,2024-12-24,Xoxocotlan
+108,tec. en electricidad,77.1,lic.incompleta,2024-08-18,Puerto Escondido
+109,guardia de seguridad,59.8,maestria,2024-12-10,Lachixio
+110,capacitador,61.7,prof.univ.,2024-10-19,San Juan
+111,académico,68.5,bachillerato,2024-10-16,Huajuapan
+112,cocinero,63.7,primaria,2024-11-06,San Juan
+113,mecanico,60.5,maestria,2024-09-28,Puerto Escondido
+114,analista,84.6,prof.univ.,2024-11-22,Macuiltianguis
+115,camarero,48.0,maestria,2024-04-14,Etla
+116,analista,65.0,bachillerato,2024-06-10,Santa Catarina
+117,capacitador,66.7,tecnico,2024-08-30,Huajuapan
+118,técnico en telecomunicaciones,92.9,tecnico,2024-05-30,Etla
+119,maestro de obra,78.5,prof.univ.,2024-08-25,Tlacolula
+120,carpintero,90.6,especialidad,2024-08-27,Tlacolula
+121,psicólogo,58.1,doctorado,2024-11-14,Huatulco
+122,jardinero,41.0,lic.incompleta,2024-09-20,Santa Catarina
+123,jardinero,51.0,doctorado,2024-10-15,Tlacolula
+124,chef,54.1,lic.incompleta,2024-08-12,Huatulco
+125,maestro de obra,47.3,lic.incompleta,2024-08-24,Macuiltianguis
+126,académico,52.6,lic.incompleta,2024-10-25,juarez
+127,auditor,74.4,especialidad,2024-09-18,Santa Catarina
+128,consultor,55.7,tecnico,2024-10-31,Santiago
+129,psicólogo,56.0,tecnico,2024-01-06,Ixtlan
+130,psicólogo,89.0,prof.univ.,2024-10-13,Ixtlan
+131,economista,78.2,especialidad,2024-11-16,Santiago
+132,académico,93.0,bachillerato,2024-07-12,Ocotlan
+133,maestro de obra,92.3,prof.univ.,2024-09-05,Salina Cruz
+134,electricista,90.6,prof.univ.,2024-11-03,San Pablo Etla
+135,psicólogo,43.2,maestria,2024-01-30,Lachixio
+136,académico,71.2,especialidad,2024-01-03,Pochutla
+137,analista,88.5,licenciatura completa,2024-01-12,oaxaca capital
+138,cocinero,68.8,licenciatura completa,2024-09-21,Etla
+139,plomero,60.9,prof.univ.,2024-01-28,Ixtlan
+140,mecanico,58.6,lic.incompleta,2024-09-21,Santiago
+141,diseñador grafico,87.3,bachillerato,2024-08-28,Salina Cruz
+142,plomero,58.6,prof.univ.,2024-02-12,Santiago
+143,camarero,92.8,maestria,2024-07-20,Huatulco
+144,pintor,82.8,bachillerato,2024-06-05,Santa Catarina
+145,vendedor,86.0,licenciatura completa,2024-04-21,Puerto Escondido
+146,soldador,42.1,lic.incompleta,2024-08-31,Salina Cruz
+147,diseñador grafico,59.4,bachillerato,2024-01-03,Tlacolula
+148,técnico de mantenimiento,80.2,bachillerato,2024-04-06,Santiago
+149,programador,79.2,licenciatura completa,2024-10-04,Tututepec
+150,ejecutivo de ventas,47.0,secundaria,2024-01-29,Salina Cruz
+151,ejecutivo de ventas,83.9,tecnico,2024-09-03,Santa Catarina
+152,académico,81.9,lic.incompleta,2024-10-04,Macuiltianguis
+153,tec. en electricidad,82.6,especialidad,2024-05-25,Ocotlan
+154,técnico de mantenimiento,91.7,lic.incompleta,2024-05-16,Tlacolula
+155,coordinador,54.8,lic.incompleta,2024-11-15,Puerto Escondido
+156,pintor,59.0,especialidad,2024-09-24,Lachixio
+157,mecanico,90.6,lic.incompleta,2024-10-25,Macuiltianguis
+158,cocinero,87.1,bachillerato,2024-09-10,Puerto Escondido
+159,contador,61.4,lic.incompleta,2024-11-09,Etla
+160,electricista,57.5,primaria,2024-05-27,Puerto Escondido
+161,mecanico,86.6,primaria,2024-12-19,Ocotlan
+162,chef,40.3,doctorado,2024-04-28,Huajuapan
+163,docente,44.1,especialidad,2024-10-02,Huatulco
+164,vendedor,52.8,especialidad,2024-03-19,Huajuapan
+165,guardia de seguridad,77.3,secundaria,2024-12-15,Xoxocotlan
+166,profesor,85.6,especialidad,2024-01-04,Salina Cruz
+167,gerente,70.2,bachillerato,2024-11-22,Pochutla
+168,investigador,67.7,especialidad,2024-12-07,Lachixio
+169,camarero,74.3,maestria,2024-12-08,Crucecita
+170,jardinero,40.1,bachillerato,2024-02-07,Salina Cruz
+171,chef,58.1,maestria,2024-01-13,Santa Catarina
+172,técnico de mantenimiento,41.4,especialidad,2024-06-07,Ixtlan
+173,técnico en electrónica,60.2,especialidad,2024-07-13,Huatulco
+174,vendedor,80.4,primaria,2024-05-16,Crucecita
+175,maestro de obra,77.6,especialidad,2024-06-12,Puerto Escondido
+176,soldador,82.8,prof.univ.,2024-05-09,Lachixio
+177,arquitecto,64.6,licenciatura completa,2024-12-07,Santa Catarina
+178,guardia de seguridad,92.2,maestria,2024-09-20,Ocotlan
+179,investigador,92.5,tecnico,2024-11-25,Tututepec
+180,psicólogo,40.3,bachillerato,2024-01-15,Puerto Escondido
+181,investigador,72.9,bachillerato,2024-12-12,Santiago
+182,tec. en electricidad,84.7,licenciatura completa,2024-05-03,Santiago
+183,auditor,74.5,primaria,2024-07-25,Crucecita
+184,ejecutivo de ventas,45.8,doctorado,2024-08-31,Tlacolula
+185,arquitecto,44.0,lic.incompleta,2024-05-03,Etla
+186,soldador,82.8,bachillerato,2024-11-17,juarez
+187,conductor,92.6,lic.incompleta,2024-10-07,Huajuapan
+188,plomero,48.6,bachillerato,2024-10-21,juarez
+189,maestro de obra,84.8,maestria,2024-03-10,Huatulco
+190,chef,69.2,lic.incompleta,2024-12-16,Lachixio
+191,ejecutivo de ventas,79.2,secundaria,2024-05-29,San Pablo Etla
+192,coordinador,90.9,maestria,2024-04-02,Tututepec
+193,electricista,78.6,tecnico,2024-08-07,Tlacolula
+194,conductor,70.1,lic.incompleta,2024-07-17,Santa Catarina
+195,soldador,62.6,lic.incompleta,2024-06-17,Huajuapan
+196,gerente,83.7,secundaria,2024-11-08,Crucecita
+197,mecanico,70.3,secundaria,2024-02-16,Tlacolula
+198,soldador,94.0,doctorado,2024-03-03,Huatulco
+199,pintor,92.7,especialidad,2024-09-24,Xoxocotlan
+200,consultor,47.8,maestria,2024-08-02,San Pablo Etla
+201,psicólogo,60.2,licenciatura completa,2024-03-29,oaxaca capital
+202,abogado,47.1,prof.univ.,2024-11-16,Huatulco
+203,enfermero,58.4,secundaria,2024-09-07,Ocotlan
+204,supervisor,67.9,doctorado,2024-03-28,Tlacolula
+205,supervisor,45.6,maestria,2024-03-13,Tututepec
+206,programador,90.9,tecnico,2024-03-05,juarez
+207,camarero,47.7,secundaria,2024-10-31,Ixtlan
+208,jardinero,69.7,primaria,2024-08-05,San Juan
+209,abogado,71.2,prof.univ.,2024-07-01,Huajuapan
+210,pintor,88.1,bachillerato,2024-04-13,Huajuapan
+211,profesor,41.4,lic.incompleta,2024-01-01,Ixtlan
+212,tec. en electricidad,91.9,primaria,2024-08-29,San Juan
+213,arquitecto,68.6,maestria,2024-03-16,Etla
+214,conductor,72.3,licenciatura completa,2024-05-22,Macuiltianguis
+215,ejecutivo de ventas,40.8,especialidad,2024-07-14,Tlacolula
+216,técnico de mantenimiento,82.5,bachillerato,2024-09-12,Huajuapan
+217,representante comercial,76.5,lic.incompleta,2024-09-05,Xoxocotlan
+218,docente,86.2,licenciatura completa,2024-10-29,Tlacolula
+219,arquitecto,49.9,maestria,2024-01-30,Macuiltianguis
+220,contador,45.7,licenciatura completa,2024-09-22,Pochutla
+221,profesor,67.2,secundaria,2024-04-30,Puerto Escondido
+222,transportista,59.9,doctorado,2024-12-05,Crucecita
+223,tec. en electricidad,86.1,doctorado,2024-08-13,San Juan
+224,dentista,68.0,especialidad,2024-11-09,Ixtlan
+225,abogado,50.6,prof.univ.,2024-05-07,oaxaca capital
+226,soldador,45.5,prof.univ.,2024-04-04,oaxaca capital
+227,transportista,74.3,secundaria,2024-04-25,Huajuapan
+228,tec. en electricidad,91.8,prof.univ.,2024-05-11,Lachixio
+229,guardia de seguridad,57.3,tecnico,2024-01-19,San Pablo Etla
+230,auditor,88.4,bachillerato,2024-04-09,Macuiltianguis
+231,gerente,67.5,prof.univ.,2024-08-07,Santa Catarina
+232,carpintero,46.3,prof.univ.,2024-03-22,Santa Catarina
+233,vendedor,82.0,primaria,2024-03-12,Crucecita
+234,profesor,69.3,secundaria,2024-11-17,Santiago
+235,economista,78.8,prof.univ.,2024-08-11,Ocotlan
+236,cocinero,79.5,secundaria,2024-12-14,Crucecita
+237,asistente administrativo,86.0,primaria,2024-09-23,Tlacolula
+238,investigador,46.3,prof.univ.,2024-11-28,Tututepec
+239,mecanico,70.2,primaria,2024-02-12,Huajuapan
+240,ejecutivo de ventas,93.7,bachillerato,2024-08-31,Puerto Escondido
+241,programador,94.9,licenciatura completa,2024-09-23,Xoxocotlan
+242,técnico de mantenimiento,82.9,lic.incompleta,2024-03-03,Huajuapan
+243,economista,49.7,prof.univ.,2024-03-15,Tututepec
+244,técnico en electrónica,56.2,licenciatura completa,2024-09-26,Tututepec
+245,diseñador grafico,43.9,tecnico,2024-01-14,San Juan
+246,camarero,41.6,maestria,2024-04-18,Huajuapan
+247,docente,63.4,licenciatura completa,2024-01-08,Puerto Escondido
+248,arquitecto,74.8,licenciatura completa,2024-01-10,Ixtlan
+249,docente,45.2,doctorado,2024-06-01,Huajuapan
+250,abogado,61.5,lic.incompleta,2024-01-02,Salina Cruz
+251,cocinero,69.1,tecnico,2024-09-30,San Juan
+252,contador,62.0,secundaria,2024-08-24,Santiago
+253,carpintero,45.8,doctorado,2024-02-22,San Pablo Etla
+254,psicólogo,41.4,maestria,2024-05-19,Ixtlan
+255,académico,65.3,bachillerato,2024-01-02,San Pablo Etla
+256,enfermero,42.8,licenciatura completa,2024-08-09,Huatulco
+257,gerente,83.6,maestria,2024-09-12,Huatulco
+258,diseñador grafico,76.3,primaria,2024-12-01,Ocotlan
+259,académico,59.0,lic.incompleta,2024-08-01,Macuiltianguis
+260,abogado,53.1,primaria,2024-08-22,Pochutla
+261,técnico en telecomunicaciones,67.8,secundaria,2024-08-21,Ocotlan
+262,contador,87.1,primaria,2024-02-09,Macuiltianguis
+263,capacitador,56.5,doctorado,2024-05-04,Lachixio
+264,diseñador grafico,75.1,tecnico,2024-07-29,Huatulco
+265,profesor,69.3,tecnico,2024-10-31,Puerto Escondido
+266,ejecutivo de ventas,51.5,primaria,2024-09-01,Ocotlan
+267,analista,77.0,lic.incompleta,2024-03-09,Tlacolula
+268,analista,81.2,secundaria,2024-04-02,oaxaca capital
+269,técnico en telecomunicaciones,49.1,maestria,2024-10-07,Ixtlan
+270,representante comercial,73.3,maestria,2024-10-08,Etla
+271,dentista,75.7,lic.incompleta,2024-09-24,Pochutla
+272,maestro de obra,68.5,lic.incompleta,2024-04-09,Macuiltianguis
+273,representante comercial,66.7,tecnico,2024-06-13,Puerto Escondido
+274,capacitador,79.0,prof.univ.,2024-04-25,Xoxocotlan
+275,representante comercial,67.8,primaria,2024-03-28,juarez
+276,diseñador grafico,87.7,bachillerato,2024-12-08,Macuiltianguis
+277,técnico en telecomunicaciones,40.4,especialidad,2024-07-15,oaxaca capital
+278,chef,81.7,maestria,2024-06-25,Tlacolula
+279,mecanico,90.7,doctorado,2024-11-02,Etla
+280,coordinador,55.5,primaria,2024-07-09,Pochutla
+281,analista,64.3,licenciatura completa,2024-01-30,Huajuapan
+282,jardinero,91.1,prof.univ.,2024-06-01,oaxaca capital
+283,coordinador,84.7,especialidad,2024-07-23,Crucecita
+284,transportista,48.3,tecnico,2024-01-20,Tututepec
+285,mecanico,66.4,maestria,2024-10-23,Huatulco
+286,profesor,70.5,lic.incompleta,2024-01-05,Ocotlan
+287,investigador,87.5,especialidad,2024-08-20,Tututepec
+288,maestro de obra,79.0,lic.incompleta,2024-01-02,San Juan
+289,plomero,88.4,lic.incompleta,2024-01-10,San Juan
+290,cocinero,71.8,especialidad,2024-05-22,Xoxocotlan
+291,supervisor,68.0,especialidad,2024-08-24,San Pablo Etla
+292,asistente administrativo,44.6,primaria,2024-04-12,Xoxocotlan
+293,contador,62.2,bachillerato,2024-10-14,juarez
+294,camarero,89.7,licenciatura completa,2024-12-13,Ocotlan
+295,pintor,51.9,primaria,2024-10-31,juarez
+296,dentista,41.5,prof.univ.,2024-01-19,San Pablo Etla
+297,dentista,52.4,lic.incompleta,2024-09-30,San Pablo Etla
+298,mecanico,81.7,tecnico,2024-05-09,Salina Cruz
+299,maestro de obra,75.5,secundaria,2024-01-11,Puerto Escondido
+300,enfermero,90.9,prof.univ.,2024-05-29,Puerto Escondido
+301,dentista,75.9,doctorado,2024-09-07,San Pablo Etla
+302,carpintero,59.4,bachillerato,2024-07-21,Tututepec
+303,ejecutivo de ventas,53.8,lic.incompleta,2024-03-22,Xoxocotlan
+304,coordinador,64.1,lic.incompleta,2024-08-23,San Pablo Etla
+305,coordinador,94.0,licenciatura completa,2024-06-19,juarez
+306,mecanico,91.7,primaria,2024-12-28,Ocotlan
+307,soldador,57.9,primaria,2024-06-14,Huajuapan
+308,abogado,48.3,bachillerato,2024-07-02,Huatulco
+309,contador,56.8,maestria,2024-05-18,San Juan
+310,arquitecto,59.6,bachillerato,2024-10-10,Huajuapan
+311,plomero,93.0,bachillerato,2024-11-28,Santa Catarina
+312,contador,77.8,primaria,2024-08-09,Huatulco
+313,investigador,40.3,licenciatura completa,2024-01-04,Xoxocotlan
+314,mecanico,83.5,tecnico,2024-02-29,Tlacolula
+315,camarero,46.7,tecnico,2024-01-30,Xoxocotlan
+316,camarero,76.6,primaria,2024-10-01,juarez
+317,plomero,64.3,maestria,2024-07-29,San Pablo Etla
+318,plomero,70.9,especialidad,2024-07-25,Santa Catarina
+319,diseñador grafico,88.5,prof.univ.,2024-02-22,Santiago
+320,cocinero,67.5,primaria,2024-04-26,juarez
+321,auditor,73.4,lic.incompleta,2024-05-08,Santiago
+322,contador,83.3,maestria,2024-12-15,Xoxocotlan
+323,maestro de obra,67.7,doctorado,2024-11-12,Santiago
+324,tec. en electricidad,86.3,secundaria,2024-01-08,oaxaca capital
+325,psicólogo,72.4,especialidad,2024-04-16,Puerto Escondido
+326,psicólogo,57.9,doctorado,2024-01-12,Puerto Escondido
+327,electricista,94.3,especialidad,2024-05-08,Huajuapan
+328,programador,54.7,maestria,2024-11-02,Santa Catarina
+329,psicólogo,79.0,primaria,2024-03-06,Tlacolula
+330,plomero,43.5,licenciatura completa,2024-08-31,Crucecita
+331,ingeniero de sistemas,82.6,especialidad,2024-01-01,Puerto Escondido
+332,investigador,87.1,secundaria,2024-07-16,Puerto Escondido
+333,técnico en telecomunicaciones,42.4,prof.univ.,2024-08-13,Huajuapan
+334,asistente administrativo,84.5,prof.univ.,2024-03-04,Puerto Escondido
+335,conductor,60.4,especialidad,2024-07-05,Ixtlan
+336,abogado,89.8,bachillerato,2024-12-28,San Pablo Etla
+337,consultor,46.6,tecnico,2024-07-04,Pochutla
+338,carpintero,88.2,doctorado,2024-06-26,San Pablo Etla
+339,transportista,81.9,doctorado,2024-12-11,Tututepec
+340,arquitecto,87.4,licenciatura completa,2024-08-10,Santiago
+341,ejecutivo de ventas,81.4,primaria,2024-05-21,oaxaca capital
+342,pintor,50.4,especialidad,2024-11-13,Crucecita
+343,dentista,90.0,especialidad,2024-07-20,Santa Catarina
+344,psicólogo,77.1,licenciatura completa,2024-05-04,Ixtlan
+345,chef,75.6,secundaria,2024-06-30,juarez
+346,supervisor,88.2,maestria,2024-12-14,Salina Cruz
+347,consultor,79.7,prof.univ.,2024-06-21,Ixtlan
+348,enfermero,77.1,secundaria,2024-11-12,Xoxocotlan
+349,consultor,70.9,secundaria,2024-01-01,San Pablo Etla
+350,soldador,45.9,lic.incompleta,2024-10-10,Tututepec
+351,electricista,50.3,secundaria,2024-12-24,San Pablo Etla
+352,diseñador grafico,73.6,maestria,2024-03-06,Lachixio
+353,enfermero,94.3,bachillerato,2024-02-02,Ixtlan
+354,vendedor,64.6,doctorado,2024-09-28,Xoxocotlan
+355,investigador,47.2,especialidad,2024-08-23,juarez
+356,chef,42.1,especialidad,2024-06-17,Ocotlan
+357,electricista,49.4,bachillerato,2024-11-29,Puerto Escondido
+358,supervisor,50.6,tecnico,2024-09-23,Tututepec
+359,técnico de mantenimiento,40.8,lic.incompleta,2024-11-05,Huajuapan
+360,soldador,63.2,secundaria,2024-02-18,Huatulco
+361,investigador,93.6,tecnico,2024-04-21,oaxaca capital
+362,cocinero,69.3,especialidad,2024-06-18,Tututepec
+363,técnico en telecomunicaciones,62.3,secundaria,2024-03-10,Xoxocotlan
+364,técnico en electrónica,61.9,lic.incompleta,2024-01-08,Santa Catarina
+365,profesor,61.5,doctorado,2024-02-24,Tututepec
+366,técnico en telecomunicaciones,52.0,bachillerato,2024-12-03,San Pablo Etla
+367,programador,93.8,prof.univ.,2024-05-27,Tlacolula
+368,analista,75.8,maestria,2024-04-06,Crucecita
+369,gerente,57.5,bachillerato,2024-07-10,Pochutla
+370,diseñador grafico,52.0,lic.incompleta,2024-04-28,Ixtlan
+371,maestro de obra,79.5,prof.univ.,2024-02-13,Lachixio
+372,soldador,76.8,secundaria,2024-01-12,Puerto Escondido
+373,auditor,79.6,bachillerato,2024-06-24,Santiago
+374,consultor,70.7,tecnico,2024-02-14,Xoxocotlan
+375,contador,71.3,lic.incompleta,2024-12-12,Huajuapan
+376,ejecutivo de ventas,72.0,licenciatura completa,2024-06-02,Puerto Escondido
+377,conductor,92.3,prof.univ.,2024-06-26,Lachixio
+378,vendedor,70.8,bachillerato,2024-10-30,Pochutla
+379,contador,95.0,lic.incompleta,2024-09-18,Etla
+380,camarero,64.7,lic.incompleta,2024-06-10,Tututepec
+381,capacitador,40.6,lic.incompleta,2024-08-22,San Juan
+382,vendedor,75.6,especialidad,2024-03-19,Puerto Escondido
+383,diseñador grafico,84.5,primaria,2024-06-24,Salina Cruz
+384,representante comercial,88.1,tecnico,2024-03-20,Puerto Escondido
+385,enfermero,41.4,tecnico,2024-05-04,Santiago
+386,jardinero,76.9,licenciatura completa,2024-11-12,Etla
+387,técnico en electrónica,63.1,licenciatura completa,2024-04-23,Tlacolula
+388,enfermero,44.1,tecnico,2024-04-09,Santa Catarina
+389,dentista,51.7,bachillerato,2024-01-01,Huatulco
+390,gerente,55.7,lic.incompleta,2024-12-31,Santa Catarina
+391,programador,67.2,lic.incompleta,2024-06-30,Tututepec
+392,consultor,74.0,bachillerato,2024-08-09,Ocotlan
+393,programador,85.3,especialidad,2024-04-10,Pochutla
+394,arquitecto,41.4,maestria,2024-02-03,Salina Cruz
+395,técnico de mantenimiento,69.6,tecnico,2024-09-29,Salina Cruz
+396,diseñador grafico,65.5,maestria,2024-07-05,Lachixio
+397,consultor,73.0,lic.incompleta,2024-04-07,Xoxocotlan
+398,contador,71.4,tecnico,2024-10-13,San Pablo Etla
+399,camarero,74.8,lic.incompleta,2024-08-09,Huajuapan
+400,camarero,70.0,doctorado,2024-06-07,Xoxocotlan
+401,ingeniero de sistemas,66.6,especialidad,2024-12-11,Macuiltianguis
+402,tec. en electricidad,46.9,doctorado,2024-10-20,Puerto Escondido
+403,técnico de mantenimiento,78.1,secundaria,2024-07-03,Puerto Escondido
+404,diseñador grafico,72.7,primaria,2024-04-16,Tututepec
+405,jardinero,47.4,especialidad,2024-03-23,juarez
+406,conductor,69.6,primaria,2024-03-06,Salina Cruz
+407,contador,89.3,doctorado,2024-09-28,San Juan
+408,técnico en electrónica,89.3,maestria,2024-01-05,Crucecita
+409,programador,92.4,prof.univ.,2024-11-29,juarez
+410,docente,76.1,licenciatura completa,2024-02-24,Tututepec
+411,mecanico,84.1,licenciatura completa,2024-05-27,San Pablo Etla
+412,tec. en electricidad,54.0,especialidad,2024-09-17,Ixtlan
+413,carpintero,78.4,bachillerato,2024-11-26,Huatulco
+414,carpintero,91.8,licenciatura completa,2024-08-03,Puerto Escondido
+415,capacitador,61.3,primaria,2024-03-16,Ixtlan
+416,consultor,67.9,licenciatura completa,2024-04-22,Etla
+417,auditor,45.5,prof.univ.,2024-09-11,San Juan
+418,contador,87.8,licenciatura completa,2024-01-07,juarez
+419,docente,85.0,especialidad,2024-08-02,Ixtlan
+420,tec. en electricidad,67.6,secundaria,2024-01-24,juarez
+421,docente,92.2,lic.incompleta,2024-06-05,San Pablo Etla
+422,plomero,73.2,licenciatura completa,2024-03-22,Huajuapan
+423,auditor,59.2,doctorado,2024-07-24,Ocotlan
+424,tec. en electricidad,84.2,bachillerato,2024-11-06,San Juan
+425,economista,77.7,prof.univ.,2024-02-05,Santa Catarina
+426,conductor,52.3,tecnico,2024-07-22,Puerto Escondido
+427,carpintero,87.0,especialidad,2024-10-12,Puerto Escondido
+428,soldador,82.7,licenciatura completa,2024-10-03,juarez
+429,guardia de seguridad,59.6,especialidad,2024-02-08,Pochutla
+430,soldador,84.7,licenciatura completa,2024-02-04,Xoxocotlan
+431,ingeniero de sistemas,44.6,lic.incompleta,2024-11-19,Huajuapan
+432,abogado,73.8,lic.incompleta,2024-01-25,Huatulco
+433,consultor,62.0,doctorado,2024-12-13,Ocotlan
+434,analista,74.4,secundaria,2024-09-01,Crucecita
+435,plomero,84.1,especialidad,2024-01-26,Lachixio
+436,tec. en electricidad,73.1,bachillerato,2024-04-12,Macuiltianguis
+437,electricista,50.3,prof.univ.,2024-07-30,Tlacolula
+438,analista,53.4,primaria,2024-07-14,juarez
+439,plomero,92.6,primaria,2024-07-28,oaxaca capital
+440,conductor,49.4,tecnico,2024-05-06,Santa Catarina
+441,enfermero,87.9,doctorado,2024-10-29,Crucecita
+442,coordinador,80.5,primaria,2024-02-13,Pochutla
+443,docente,91.0,lic.incompleta,2024-09-25,Puerto Escondido
+444,académico,69.6,primaria,2024-02-11,Huatulco
+445,académico,50.1,tecnico,2024-01-20,Huatulco
+446,coordinador,80.9,primaria,2024-01-22,Tututepec
+447,conductor,50.2,lic.incompleta,2024-01-04,Santa Catarina
+448,consultor,87.7,doctorado,2024-06-04,Santa Catarina
+449,camarero,58.4,bachillerato,2024-08-27,oaxaca capital
+450,contador,80.7,maestria,2024-12-14,Pochutla
+451,cocinero,57.8,maestria,2024-09-23,Huatulco
+452,tec. en electricidad,42.8,tecnico,2024-09-16,juarez
+453,jardinero,79.1,primaria,2024-05-03,Ixtlan
+454,dentista,84.2,maestria,2024-07-11,Puerto Escondido
+455,analista,88.6,bachillerato,2024-07-11,Macuiltianguis
+456,camarero,81.8,tecnico,2024-05-10,Puerto Escondido
+457,técnico en telecomunicaciones,54.4,prof.univ.,2024-04-01,Pochutla
+458,vendedor,46.0,bachillerato,2024-11-13,San Pablo Etla
+459,electricista,78.0,lic.incompleta,2024-06-06,Huatulco
+460,electricista,42.4,licenciatura completa,2024-12-05,Tututepec
+461,arquitecto,73.9,licenciatura completa,2024-01-03,Ixtlan
+462,tec. en electricidad,58.1,primaria,2024-08-30,Crucecita
+463,enfermero,45.7,bachillerato,2024-12-27,Puerto Escondido
+464,contador,90.9,secundaria,2024-03-02,Huatulco
+465,psicólogo,86.1,secundaria,2024-04-30,Tututepec
+466,representante comercial,66.0,licenciatura completa,2024-11-01,Puerto Escondido
+467,jardinero,93.4,prof.univ.,2024-10-20,Lachixio
+468,profesor,51.9,doctorado,2024-12-02,Ocotlan
+469,guardia de seguridad,50.7,licenciatura completa,2024-06-22,Lachixio
+470,chef,49.7,maestria,2024-07-01,juarez
+471,supervisor,94.5,licenciatura completa,2024-09-20,Ixtlan
+472,supervisor,60.3,tecnico,2024-02-03,Santiago
+473,técnico en electrónica,47.8,maestria,2024-11-21,Huajuapan
+474,profesor,86.6,licenciatura completa,2024-03-19,Pochutla
+475,enfermero,79.3,licenciatura completa,2024-08-04,oaxaca capital
+476,vendedor,66.4,maestria,2024-02-12,Macuiltianguis
+477,tec. en electricidad,83.1,licenciatura completa,2024-04-03,Tututepec
+478,camarero,81.6,tecnico,2024-06-05,juarez
+479,ingeniero de sistemas,42.2,bachillerato,2024-05-01,Crucecita
+480,gerente,49.1,primaria,2024-05-02,San Juan
+481,consultor,71.8,prof.univ.,2024-08-12,Lachixio
+482,pintor,74.9,prof.univ.,2024-03-24,Lachixio
+483,diseñador grafico,49.2,doctorado,2024-12-31,Santiago
+484,gerente,52.8,prof.univ.,2024-03-14,Tlacolula
+485,académico,64.4,primaria,2024-01-03,Crucecita
+486,ingeniero de sistemas,41.2,maestria,2024-02-13,Huajuapan
+487,contador,49.2,maestria,2024-10-17,Lachixio
+488,electricista,49.5,especialidad,2024-04-15,Tututepec
+489,investigador,51.2,lic.incompleta,2024-10-21,Santa Catarina
+490,cocinero,79.6,tecnico,2024-03-28,Puerto Escondido
+491,capacitador,94.6,bachillerato,2024-10-02,Tututepec
+492,tec. en electricidad,65.5,lic.incompleta,2024-09-22,juarez
+493,camarero,88.0,lic.incompleta,2024-02-08,Tututepec
+494,soldador,65.0,bachillerato,2024-11-04,Lachixio
+495,técnico de mantenimiento,52.2,especialidad,2024-10-16,Ocotlan
+496,arquitecto,73.8,bachillerato,2024-07-12,Huatulco
+497,guardia de seguridad,93.0,especialidad,2024-06-24,Lachixio
+498,docente,73.3,primaria,2024-03-01,San Pablo Etla
+499,técnico en telecomunicaciones,49.1,secundaria,2024-12-14,Xoxocotlan
+500,investigador,62.8,doctorado,2024-04-26,Huajuapan
+501,docente,56.9,secundaria,2024-12-12,oaxaca capital
+502,técnico en electrónica,54.4,tecnico,2024-07-03,Crucecita
+503,académico,53.1,lic.incompleta,2024-01-04,San Pablo Etla
+504,dentista,43.3,maestria,2024-10-10,juarez
+505,guardia de seguridad,69.5,especialidad,2024-11-14,Lachixio
+506,cocinero,45.6,prof.univ.,2024-09-16,Lachixio
+507,mecanico,92.3,secundaria,2024-02-20,Tututepec
+508,coordinador,67.1,bachillerato,2024-12-17,Santa Catarina
+509,contador,81.3,licenciatura completa,2024-01-27,Huatulco
+510,coordinador,64.1,primaria,2024-10-18,Puerto Escondido
+511,diseñador grafico,56.8,lic.incompleta,2024-08-19,oaxaca capital
+512,psicólogo,52.9,tecnico,2024-11-30,juarez
+513,coordinador,46.2,tecnico,2024-05-12,San Pablo Etla
+514,chef,63.8,prof.univ.,2024-04-19,Puerto Escondido
+515,técnico en telecomunicaciones,41.1,bachillerato,2024-09-28,San Pablo Etla
+516,técnico de mantenimiento,46.2,bachillerato,2024-11-20,Macuiltianguis
+517,investigador,94.3,maestria,2024-04-07,Tlacolula
+518,arquitecto,66.1,secundaria,2024-07-16,Macuiltianguis
+519,técnico en telecomunicaciones,44.4,secundaria,2024-06-15,San Pablo Etla
+520,técnico en electrónica,56.2,maestria,2024-01-16,San Pablo Etla
+521,técnico en electrónica,61.1,prof.univ.,2024-01-01,San Pablo Etla
+522,pintor,45.9,primaria,2024-04-23,Crucecita
+523,auditor,81.6,doctorado,2024-04-05,Santiago
+524,vendedor,50.8,especialidad,2024-04-14,Tlacolula
+525,camarero,88.6,licenciatura completa,2024-10-02,San Juan
+526,técnico en electrónica,62.7,doctorado,2024-01-08,Crucecita
+527,jardinero,68.5,primaria,2024-09-16,Lachixio
+528,diseñador grafico,87.6,doctorado,2024-03-07,San Pablo Etla
+529,plomero,55.4,doctorado,2024-03-30,Etla
+530,camarero,47.7,primaria,2024-08-15,Ixtlan
+531,profesor,48.7,licenciatura completa,2024-01-17,Tututepec
+532,vendedor,74.6,tecnico,2024-07-15,Puerto Escondido
+533,carpintero,89.3,especialidad,2024-11-05,San Pablo Etla
+534,auditor,49.9,lic.incompleta,2024-08-29,Tututepec
+535,electricista,91.3,doctorado,2024-03-04,Puerto Escondido
+536,soldador,60.8,secundaria,2024-05-13,Ixtlan
+537,técnico en electrónica,90.1,maestria,2024-06-17,San Pablo Etla
+538,ingeniero de sistemas,94.5,doctorado,2024-05-04,San Juan
+539,pintor,59.1,maestria,2024-09-14,San Pablo Etla
+540,supervisor,71.1,maestria,2024-08-17,Ocotlan
+541,representante comercial,85.1,doctorado,2024-03-31,Etla
+542,jardinero,60.5,especialidad,2024-03-18,oaxaca capital
+543,maestro de obra,73.4,doctorado,2024-02-06,Huatulco
+544,capacitador,52.6,maestria,2024-10-25,Xoxocotlan
+545,enfermero,51.2,prof.univ.,2024-05-07,juarez
+546,cocinero,90.8,secundaria,2024-05-06,Ocotlan
+547,soldador,82.2,bachillerato,2024-11-23,Crucecita
+548,coordinador,76.3,maestria,2024-05-04,Tututepec
+549,guardia de seguridad,73.6,bachillerato,2024-12-25,Santa Catarina
+550,auditor,65.9,bachillerato,2024-07-30,Etla
+551,conductor,58.7,primaria,2024-05-05,oaxaca capital
+552,maestro de obra,72.9,maestria,2024-01-06,Santiago
+553,investigador,83.3,prof.univ.,2024-11-15,San Juan
+554,chef,68.5,lic.incompleta,2024-04-20,Ixtlan
+555,dentista,54.0,bachillerato,2024-03-08,Ixtlan
+556,diseñador grafico,91.9,secundaria,2024-04-19,Santiago
+557,mecanico,49.3,secundaria,2024-07-28,Huatulco
+558,vendedor,52.0,secundaria,2024-06-12,Lachixio
+559,capacitador,48.9,maestria,2024-10-25,Tlacolula
+560,abogado,66.9,lic.incompleta,2024-02-02,Etla
+561,contador,58.1,licenciatura completa,2024-11-09,Crucecita
+562,auditor,50.2,prof.univ.,2024-05-27,Macuiltianguis
+563,tec. en electricidad,42.6,maestria,2024-03-31,Pochutla
+564,chef,84.2,lic.incompleta,2024-12-25,San Pablo Etla
+565,chef,90.8,lic.incompleta,2024-10-10,Macuiltianguis
+566,académico,92.5,licenciatura completa,2024-06-14,Pochutla
+567,ejecutivo de ventas,82.4,primaria,2024-08-14,Crucecita
+568,carpintero,94.4,especialidad,2024-11-24,San Juan
+569,transportista,77.4,bachillerato,2024-02-24,San Juan
+570,coordinador,75.6,secundaria,2024-03-13,Huatulco
+571,transportista,71.3,secundaria,2024-02-25,San Pablo Etla
+572,vendedor,86.9,especialidad,2024-08-06,San Juan
+573,ejecutivo de ventas,92.6,secundaria,2024-01-21,Ixtlan
+574,enfermero,49.7,secundaria,2024-03-26,Tututepec
+575,abogado,83.3,maestria,2024-08-09,Lachixio
+576,docente,62.6,maestria,2024-05-20,Huajuapan
+577,contador,83.6,licenciatura completa,2024-03-31,Lachixio
+578,coordinador,41.9,especialidad,2024-11-29,Lachixio
+579,pintor,52.4,bachillerato,2024-04-24,Etla
+580,contador,74.1,doctorado,2024-09-21,Salina Cruz
+581,maestro de obra,52.1,licenciatura completa,2024-01-22,Lachixio
+582,soldador,75.5,prof.univ.,2024-06-17,Santa Catarina
+583,consultor,71.4,prof.univ.,2024-08-18,Crucecita
+584,conductor,59.0,especialidad,2024-03-06,Etla
+585,transportista,41.2,doctorado,2024-03-24,Santa Catarina
+586,técnico en electrónica,73.9,secundaria,2024-06-15,Macuiltianguis
+587,técnico en electrónica,55.2,licenciatura completa,2024-11-23,Huajuapan
+588,académico,68.7,prof.univ.,2024-07-04,Ixtlan
+589,soldador,66.9,maestria,2024-10-22,Etla
+590,capacitador,46.3,bachillerato,2024-12-15,Xoxocotlan
+591,programador,72.1,maestria,2024-03-30,Santa Catarina
+592,coordinador,77.4,doctorado,2024-02-19,oaxaca capital
+593,consultor,59.1,maestria,2024-02-09,Santiago
+594,electricista,86.6,bachillerato,2024-09-02,oaxaca capital
+595,transportista,88.2,secundaria,2024-12-04,Huatulco
+596,ejecutivo de ventas,93.7,secundaria,2024-10-31,Pochutla
+597,carpintero,41.3,secundaria,2024-12-03,oaxaca capital
+598,soldador,63.4,maestria,2024-08-23,Ocotlan
+599,gerente,79.4,bachillerato,2024-06-12,Santiago
+600,camarero,62.8,secundaria,2024-08-26,oaxaca capital
+601,economista,54.6,bachillerato,2024-04-22,Tlacolula
+602,electricista,84.9,maestria,2024-03-29,Ocotlan
+603,economista,86.1,lic.incompleta,2024-08-14,Huatulco
+604,cocinero,57.6,secundaria,2024-05-18,Pochutla
+605,conductor,74.7,especialidad,2024-03-20,Ocotlan
+606,diseñador grafico,92.0,primaria,2024-01-19,Puerto Escondido
+607,técnico en electrónica,93.3,maestria,2024-04-19,Tututepec
+608,ingeniero de sistemas,90.8,primaria,2024-01-31,Huajuapan
+609,técnico en telecomunicaciones,77.5,tecnico,2024-01-03,Etla
+610,contador,64.8,primaria,2024-12-09,Crucecita
+611,programador,65.6,tecnico,2024-08-08,Xoxocotlan
+612,académico,44.9,maestria,2024-07-25,Ixtlan
+613,gerente,48.8,doctorado,2024-01-05,Santiago
+614,abogado,47.7,primaria,2024-09-29,Etla
+615,electricista,74.8,secundaria,2024-11-05,Salina Cruz
+616,tec. en electricidad,82.1,especialidad,2024-11-25,Ocotlan
+617,transportista,90.2,doctorado,2024-08-10,Puerto Escondido
+618,abogado,43.6,doctorado,2024-06-21,Etla
+619,chef,82.9,tecnico,2024-05-10,Pochutla
+620,analista,70.4,lic.incompleta,2024-12-20,Crucecita
+621,capacitador,49.7,especialidad,2024-07-01,Xoxocotlan
+622,enfermero,90.5,doctorado,2024-06-29,Xoxocotlan
+623,chef,76.3,prof.univ.,2024-08-06,Huatulco
+624,conductor,50.3,bachillerato,2024-08-21,Santiago
+625,vendedor,84.7,especialidad,2024-02-24,Santa Catarina
+626,asistente administrativo,80.8,prof.univ.,2024-02-10,Puerto Escondido
+627,representante comercial,51.1,especialidad,2024-06-20,Salina Cruz
+628,gerente,81.1,maestria,2024-11-21,Tututepec
+629,plomero,93.1,doctorado,2024-05-21,oaxaca capital
+630,coordinador,62.4,lic.incompleta,2024-01-04,Santa Catarina
+631,coordinador,60.9,primaria,2024-05-09,Huajuapan
+632,psicólogo,91.5,doctorado,2024-11-02,San Juan
+633,abogado,52.2,prof.univ.,2024-07-06,Huatulco
+634,gerente,41.6,prof.univ.,2024-11-12,Crucecita
+635,guardia de seguridad,84.2,primaria,2024-07-24,Tututepec
+636,docente,84.1,doctorado,2024-12-30,oaxaca capital
+637,asistente administrativo,49.2,lic.incompleta,2024-10-16,oaxaca capital
+638,diseñador grafico,82.8,lic.incompleta,2024-12-28,Crucecita
+639,cocinero,76.2,licenciatura completa,2024-01-30,Huatulco
+640,consultor,72.5,lic.incompleta,2024-11-16,San Juan
+641,académico,78.4,bachillerato,2024-03-08,Huajuapan
+642,pintor,69.0,bachillerato,2024-04-19,Tututepec
+643,guardia de seguridad,62.7,primaria,2024-06-08,Xoxocotlan
+644,investigador,76.7,especialidad,2024-01-08,Puerto Escondido
+645,técnico en telecomunicaciones,68.4,lic.incompleta,2024-01-21,San Pablo Etla
+646,arquitecto,75.5,licenciatura completa,2024-01-26,Huajuapan
+647,maestro de obra,89.0,prof.univ.,2024-06-20,Huajuapan
+648,gerente,89.3,prof.univ.,2024-07-01,Santiago
+649,dentista,79.8,maestria,2024-04-01,Pochutla
+650,electricista,94.7,secundaria,2024-04-09,Lachixio
+651,economista,68.4,secundaria,2024-10-12,Tututepec
+652,jardinero,55.7,maestria,2024-10-05,juarez
+653,soldador,52.0,bachillerato,2024-11-24,Ixtlan
+654,ejecutivo de ventas,70.9,doctorado,2024-07-19,Santa Catarina
+655,transportista,52.6,secundaria,2024-04-26,San Juan
+656,coordinador,77.0,tecnico,2024-08-13,Ocotlan
+657,contador,58.3,prof.univ.,2024-01-12,Xoxocotlan
+658,supervisor,75.1,primaria,2024-06-11,Lachixio
+659,técnico en telecomunicaciones,55.9,tecnico,2024-08-21,Crucecita
+660,cocinero,84.7,tecnico,2024-03-17,Ocotlan
+661,abogado,40.5,especialidad,2024-11-27,San Pablo Etla
+662,profesor,74.7,lic.incompleta,2024-03-19,San Juan
+663,supervisor,42.1,licenciatura completa,2024-12-24,Xoxocotlan
+664,representante comercial,49.6,licenciatura completa,2024-05-18,Etla
+665,transportista,83.8,licenciatura completa,2024-11-09,Santa Catarina
+666,técnico en telecomunicaciones,75.8,lic.incompleta,2024-11-15,Salina Cruz
+667,pintor,58.6,bachillerato,2024-08-18,Ocotlan
+668,académico,85.8,lic.incompleta,2024-02-10,Ocotlan
+669,coordinador,91.2,licenciatura completa,2024-09-25,oaxaca capital
+670,profesor,87.9,doctorado,2024-09-15,juarez
+671,académico,47.4,primaria,2024-02-04,Santa Catarina
+672,electricista,72.7,tecnico,2024-03-22,Ixtlan
+673,asistente administrativo,77.1,prof.univ.,2024-06-10,Huajuapan
+674,representante comercial,64.3,doctorado,2024-01-09,Pochutla
+675,profesor,59.6,licenciatura completa,2024-10-10,Santa Catarina
+676,investigador,67.0,tecnico,2024-09-24,oaxaca capital
+677,carpintero,66.6,bachillerato,2024-08-30,Ocotlan
+678,ingeniero de sistemas,69.9,primaria,2024-08-20,Ocotlan
+679,técnico en electrónica,83.7,especialidad,2024-12-26,Ocotlan
+680,representante comercial,75.3,lic.incompleta,2024-02-12,Huajuapan
+681,mecanico,61.0,doctorado,2024-01-15,San Juan
+682,economista,55.2,primaria,2024-06-30,Crucecita
+683,dentista,71.2,maestria,2024-03-07,San Juan
+684,ingeniero de sistemas,72.7,bachillerato,2024-04-23,Huajuapan
+685,programador,70.6,especialidad,2024-01-09,Huatulco
+686,jardinero,81.5,bachillerato,2024-05-27,Ocotlan
+687,chef,79.5,especialidad,2024-01-10,Santa Catarina
+688,carpintero,46.1,secundaria,2024-12-06,Huatulco
+689,técnico de mantenimiento,60.8,licenciatura completa,2024-10-16,Xoxocotlan
+690,abogado,82.9,tecnico,2024-05-02,Ocotlan
+691,economista,62.5,primaria,2024-04-28,Huatulco
+692,programador,73.9,doctorado,2024-12-06,Macuiltianguis
+693,vendedor,46.9,doctorado,2024-04-05,Crucecita
+694,técnico en telecomunicaciones,71.1,secundaria,2024-08-25,Macuiltianguis
+695,camarero,52.7,especialidad,2024-11-05,San Juan
+696,gerente,73.5,lic.incompleta,2024-09-09,Santiago
+697,capacitador,68.9,doctorado,2024-06-22,Salina Cruz
+698,investigador,43.1,bachillerato,2024-07-12,juarez
+699,contador,77.2,secundaria,2024-02-16,Santa Catarina
+700,vendedor,76.3,licenciatura completa,2024-07-27,Ocotlan
+701,soldador,62.7,lic.incompleta,2024-09-29,Pochutla
+702,consultor,47.3,licenciatura completa,2024-09-30,Huatulco
+703,técnico en electrónica,74.6,primaria,2024-07-02,juarez
+704,técnico en telecomunicaciones,41.9,secundaria,2024-01-26,Santiago
+705,conductor,63.8,lic.incompleta,2024-09-24,San Juan
+706,camarero,62.5,prof.univ.,2024-12-20,Tututepec
+707,técnico en telecomunicaciones,49.8,especialidad,2024-01-03,Santiago
+708,analista,83.4,primaria,2024-06-27,Tlacolula
+709,conductor,72.4,prof.univ.,2024-05-21,Pochutla
+710,pintor,46.0,primaria,2024-11-01,Macuiltianguis
+711,coordinador,49.9,especialidad,2024-07-30,Lachixio
+712,vendedor,54.2,lic.incompleta,2024-07-12,Pochutla
+713,académico,53.2,primaria,2024-05-19,Salina Cruz
+714,carpintero,71.2,especialidad,2024-12-12,San Pablo Etla
+715,capacitador,62.2,lic.incompleta,2024-12-07,Pochutla
+716,contador,87.1,maestria,2024-02-25,Ixtlan
+717,representante comercial,40.4,bachillerato,2024-02-22,Lachixio
+718,analista,77.6,secundaria,2024-01-18,Etla
+719,transportista,49.1,maestria,2024-03-04,Ixtlan
+720,académico,69.0,especialidad,2024-03-11,Etla
+721,ejecutivo de ventas,48.7,primaria,2024-04-09,Puerto Escondido
+722,docente,80.8,primaria,2024-04-20,Tututepec
+723,ejecutivo de ventas,50.7,prof.univ.,2024-06-02,Santiago
+724,consultor,61.5,maestria,2024-07-20,Ixtlan
+725,maestro de obra,75.9,bachillerato,2024-10-14,Macuiltianguis
+726,abogado,93.4,especialidad,2024-07-30,Lachixio
+727,técnico de mantenimiento,92.4,primaria,2024-01-19,San Juan
+728,guardia de seguridad,82.2,primaria,2024-07-08,San Pablo Etla
+729,vendedor,70.5,primaria,2024-02-27,Crucecita
+730,técnico en telecomunicaciones,83.4,especialidad,2024-02-17,Salina Cruz
+731,cocinero,42.4,lic.incompleta,2024-06-13,Macuiltianguis
+732,coordinador,62.8,especialidad,2024-09-18,Xoxocotlan
+733,gerente,84.5,licenciatura completa,2024-03-05,Crucecita
+734,chef,95.0,especialidad,2024-03-19,Ocotlan
+735,investigador,62.6,bachillerato,2024-06-27,San Pablo Etla
+736,transportista,69.4,secundaria,2024-09-25,oaxaca capital
+737,transportista,50.5,bachillerato,2024-07-23,Ocotlan
+738,camarero,79.9,bachillerato,2024-07-31,Huatulco
+739,programador,83.8,doctorado,2024-01-24,juarez
+740,cocinero,76.5,tecnico,2024-12-04,Etla
+741,conductor,45.1,secundaria,2024-07-19,Crucecita
+742,diseñador grafico,87.3,tecnico,2024-04-11,Tututepec
+743,vendedor,63.9,doctorado,2024-09-16,Santiago
+744,supervisor,90.4,lic.incompleta,2024-01-02,oaxaca capital
+745,ingeniero de sistemas,68.7,maestria,2024-12-16,Puerto Escondido
+746,vendedor,68.6,lic.incompleta,2024-11-16,Ixtlan
+747,abogado,59.2,bachillerato,2024-06-05,Santa Catarina
+748,gerente,88.1,maestria,2024-04-30,Crucecita
+749,supervisor,56.7,maestria,2024-11-18,San Juan
+750,investigador,88.6,bachillerato,2024-05-14,Lachixio
+751,representante comercial,78.0,prof.univ.,2024-04-03,juarez
+752,ingeniero de sistemas,81.7,prof.univ.,2024-05-13,Salina Cruz
+753,asistente administrativo,43.7,secundaria,2024-10-01,San Juan
+754,contador,90.2,lic.incompleta,2024-01-09,Santa Catarina
+755,jardinero,90.1,licenciatura completa,2024-03-10,Puerto Escondido
+756,contador,66.7,prof.univ.,2024-07-16,Xoxocotlan
+757,pintor,45.4,prof.univ.,2024-08-13,Tututepec
+758,guardia de seguridad,88.7,lic.incompleta,2024-06-04,San Juan
+759,contador,61.8,secundaria,2024-12-05,Salina Cruz
+760,coordinador,93.2,tecnico,2024-11-10,Santa Catarina
+761,ingeniero de sistemas,44.6,secundaria,2024-08-20,Puerto Escondido
+762,ingeniero de sistemas,40.3,maestria,2024-09-16,San Pablo Etla
+763,dentista,60.9,primaria,2024-08-08,Ixtlan
+764,supervisor,42.6,prof.univ.,2024-10-12,oaxaca capital
+765,enfermero,45.6,licenciatura completa,2024-06-17,San Juan
+766,conductor,79.0,primaria,2024-10-09,San Juan
+767,académico,67.9,secundaria,2024-07-11,Tututepec
+768,profesor,86.0,especialidad,2024-06-16,Macuiltianguis
+769,técnico en telecomunicaciones,70.8,especialidad,2024-04-25,juarez
+770,consultor,52.5,primaria,2024-05-21,Tututepec
+771,enfermero,78.0,maestria,2024-10-23,Tututepec
+772,diseñador grafico,72.0,primaria,2024-12-05,Tlacolula
+773,supervisor,76.7,secundaria,2024-10-12,Etla
+774,diseñador grafico,54.7,secundaria,2024-04-02,San Juan
+775,auditor,69.7,especialidad,2024-08-30,Ocotlan
+776,gerente,59.7,especialidad,2024-03-01,Salina Cruz
+777,contador,71.3,especialidad,2024-07-27,Lachixio
+778,gerente,62.4,bachillerato,2024-08-15,Lachixio
+779,conductor,83.7,maestria,2024-09-24,Salina Cruz
+780,técnico de mantenimiento,94.1,doctorado,2024-03-16,Crucecita
+781,investigador,90.9,licenciatura completa,2024-01-29,Crucecita
+782,contador,56.6,secundaria,2024-12-11,Ocotlan
+783,contador,94.5,doctorado,2024-10-02,Huatulco
+784,capacitador,94.0,lic.incompleta,2024-08-03,San Juan
+785,técnico en telecomunicaciones,88.6,maestria,2024-11-22,Huatulco
+786,profesor,70.1,especialidad,2024-10-23,San Pablo Etla
+787,técnico de mantenimiento,92.8,primaria,2024-11-24,Puerto Escondido
+788,plomero,80.8,maestria,2024-06-30,San Pablo Etla
+789,soldador,53.6,lic.incompleta,2024-08-28,Santiago
+790,supervisor,47.7,secundaria,2024-10-26,Lachixio
+791,diseñador grafico,74.6,doctorado,2024-09-25,Crucecita
+792,conductor,62.5,tecnico,2024-09-28,San Juan
+793,contador,63.4,bachillerato,2024-07-01,Ocotlan
+794,consultor,78.1,primaria,2024-12-14,Huatulco
+795,técnico en telecomunicaciones,70.6,especialidad,2024-09-13,Tlacolula
+796,economista,75.0,bachillerato,2024-04-17,Tututepec
+797,abogado,83.0,lic.incompleta,2024-06-19,Tututepec
+798,académico,78.1,especialidad,2024-01-30,Pochutla
+799,ejecutivo de ventas,93.0,maestria,2024-08-24,San Juan
+800,tec. en electricidad,44.8,doctorado,2024-09-15,Etla
+801,consultor,68.1,doctorado,2024-02-09,Puerto Escondido
+802,enfermero,46.4,especialidad,2024-07-21,oaxaca capital
+803,académico,52.0,doctorado,2024-03-09,San Juan
+804,auditor,66.3,secundaria,2024-01-10,Lachixio
+805,chef,65.5,primaria,2024-03-01,Santa Catarina
+806,contador,56.7,tecnico,2024-11-28,Salina Cruz
+807,chef,64.8,tecnico,2024-04-10,Santa Catarina
+808,coordinador,84.6,prof.univ.,2024-07-28,oaxaca capital
+809,dentista,44.5,tecnico,2024-04-11,Santiago
+810,camarero,45.0,maestria,2024-01-13,Ixtlan
+811,asistente administrativo,55.6,primaria,2024-09-10,San Pablo Etla
+812,guardia de seguridad,77.2,bachillerato,2024-07-31,Macuiltianguis
+813,académico,55.6,prof.univ.,2024-11-14,Santa Catarina
+814,técnico de mantenimiento,75.0,licenciatura completa,2024-01-13,Tlacolula
+815,transportista,65.7,tecnico,2024-11-02,San Pablo Etla
+816,consultor,86.9,maestria,2024-07-18,Tututepec
+817,chef,50.0,especialidad,2024-11-14,oaxaca capital
+818,profesor,79.4,lic.incompleta,2024-06-05,San Juan
+819,investigador,66.3,secundaria,2024-02-05,Huatulco
+820,representante comercial,88.5,bachillerato,2024-02-15,Xoxocotlan
+821,representante comercial,64.9,lic.incompleta,2024-01-10,Pochutla
+822,conductor,43.0,tecnico,2024-02-27,Tlacolula
+823,gerente,45.7,especialidad,2024-04-26,Macuiltianguis
+824,pintor,79.7,tecnico,2024-04-06,Lachixio
+825,tec. en electricidad,65.4,prof.univ.,2024-12-18,Etla
+826,capacitador,72.3,secundaria,2024-11-04,Etla
+827,electricista,92.6,tecnico,2024-11-13,Macuiltianguis
+828,docente,53.2,bachillerato,2024-02-15,Huatulco
+829,abogado,79.7,tecnico,2024-10-28,Ixtlan
+830,abogado,70.9,primaria,2024-07-26,Etla
+831,asistente administrativo,47.3,primaria,2024-01-05,Pochutla
+832,economista,66.5,primaria,2024-10-27,San Juan
+833,técnico en electrónica,76.5,secundaria,2024-10-29,oaxaca capital
+834,plomero,93.8,maestria,2024-04-24,Crucecita
+835,diseñador grafico,40.7,tecnico,2024-12-07,San Pablo Etla
+836,abogado,58.1,licenciatura completa,2024-10-19,Xoxocotlan
+837,tec. en electricidad,56.8,secundaria,2024-11-07,Huajuapan
+838,carpintero,61.4,bachillerato,2024-11-27,Tututepec
+839,técnico en telecomunicaciones,53.1,especialidad,2024-03-25,Crucecita
+840,investigador,85.5,maestria,2024-05-18,Lachixio
+841,electricista,77.9,prof.univ.,2024-08-17,Xoxocotlan
+842,vendedor,92.1,prof.univ.,2024-08-12,Pochutla
+843,soldador,88.5,lic.incompleta,2024-12-27,Ocotlan
+844,electricista,73.9,lic.incompleta,2024-08-24,San Pablo Etla
+845,maestro de obra,46.2,bachillerato,2024-05-14,oaxaca capital
+846,contador,67.9,maestria,2024-05-20,Puerto Escondido
+847,soldador,90.9,doctorado,2024-03-02,Salina Cruz
+848,contador,44.9,prof.univ.,2024-09-14,Crucecita
+849,tec. en electricidad,57.2,maestria,2024-05-11,Lachixio
+850,técnico en telecomunicaciones,93.0,licenciatura completa,2024-06-07,Pochutla
+851,soldador,53.0,lic.incompleta,2024-03-10,juarez
+852,vendedor,73.2,lic.incompleta,2024-08-24,Pochutla
+853,tec. en electricidad,48.0,secundaria,2024-11-14,Ocotlan
+854,técnico en electrónica,59.4,bachillerato,2024-08-18,Salina Cruz
+855,ejecutivo de ventas,45.4,bachillerato,2024-01-10,Pochutla
+856,ingeniero de sistemas,78.7,especialidad,2024-02-26,Macuiltianguis
+857,camarero,46.7,secundaria,2024-07-24,Ixtlan
+858,programador,44.7,bachillerato,2024-04-15,Crucecita
+859,abogado,82.8,maestria,2024-06-30,Santa Catarina
+860,técnico de mantenimiento,76.9,maestria,2024-08-13,Macuiltianguis
+861,maestro de obra,78.8,lic.incompleta,2024-11-17,Macuiltianguis
+862,docente,65.2,prof.univ.,2024-02-18,Tlacolula
+863,supervisor,73.4,lic.incompleta,2024-10-26,Salina Cruz
+864,soldador,45.6,doctorado,2024-05-16,Santa Catarina
+865,auditor,81.5,bachillerato,2024-12-07,San Pablo Etla
+866,académico,93.9,maestria,2024-04-18,oaxaca capital
+867,académico,56.2,prof.univ.,2024-02-22,San Juan
+868,técnico en electrónica,68.9,primaria,2024-09-19,Macuiltianguis
+869,asistente administrativo,84.8,bachillerato,2024-08-14,Lachixio
+870,ingeniero de sistemas,56.5,doctorado,2024-07-03,Salina Cruz
+871,electricista,77.3,bachillerato,2024-03-26,Xoxocotlan
+872,cocinero,93.7,doctorado,2024-10-17,Santa Catarina
+873,dentista,61.6,maestria,2024-06-09,Tlacolula
+874,dentista,42.0,prof.univ.,2024-09-18,Ixtlan
+875,investigador,44.3,lic.incompleta,2024-10-11,Tlacolula
+876,representante comercial,78.2,doctorado,2024-06-19,juarez
+877,conductor,67.7,bachillerato,2024-04-21,Macuiltianguis
+878,contador,64.6,licenciatura completa,2024-05-21,Pochutla
+879,mecanico,81.1,especialidad,2024-07-29,Huajuapan
+880,técnico en telecomunicaciones,82.7,primaria,2024-12-18,Crucecita
+881,cocinero,86.7,doctorado,2024-01-07,Etla
+882,capacitador,92.2,secundaria,2024-12-26,Santiago
+883,profesor,71.1,doctorado,2024-10-03,Tututepec
+884,programador,77.1,lic.incompleta,2024-04-19,Salina Cruz
+885,chef,76.2,primaria,2024-10-11,Santiago
+886,camarero,56.5,licenciatura completa,2024-03-26,Huajuapan
+887,pintor,62.8,especialidad,2024-03-14,San Pablo Etla
+888,mecanico,43.9,maestria,2024-10-23,Tlacolula
+889,asistente administrativo,91.8,secundaria,2024-10-19,Tlacolula
+890,consultor,70.3,doctorado,2024-12-06,Ixtlan
+891,carpintero,90.7,prof.univ.,2024-08-03,Salina Cruz
+892,jardinero,66.0,especialidad,2024-10-07,Xoxocotlan
+893,conductor,67.5,especialidad,2024-08-24,oaxaca capital
+894,investigador,51.9,primaria,2024-10-27,San Pablo Etla
+895,académico,51.9,especialidad,2024-04-26,San Pablo Etla
+896,jardinero,78.6,secundaria,2024-12-16,Pochutla
+897,gerente,94.1,tecnico,2024-07-16,Huatulco
+898,técnico en telecomunicaciones,70.4,prof.univ.,2024-01-25,Huajuapan
+899,maestro de obra,45.8,bachillerato,2024-11-25,Salina Cruz
+900,abogado,78.1,licenciatura completa,2024-12-08,San Juan
+901,jardinero,69.4,doctorado,2024-07-13,Santiago
+902,guardia de seguridad,75.4,maestria,2024-06-09,Etla
+903,tec. en electricidad,60.6,primaria,2024-02-23,Ocotlan
+904,cocinero,94.7,prof.univ.,2024-09-15,Puerto Escondido
+905,programador,67.9,maestria,2024-08-07,Crucecita
+906,abogado,82.3,especialidad,2024-02-06,Huatulco
+907,soldador,75.0,especialidad,2024-06-27,Huajuapan
+908,técnico en telecomunicaciones,51.2,tecnico,2024-02-22,Santiago
+909,plomero,70.7,primaria,2024-12-14,Huajuapan
+910,carpintero,58.0,tecnico,2024-09-07,Santiago
+911,economista,42.4,bachillerato,2024-08-05,Tututepec
+912,académico,44.8,bachillerato,2024-06-14,juarez
+913,técnico en electrónica,75.0,especialidad,2024-12-16,Tlacolula
+914,programador,75.7,doctorado,2024-12-12,Macuiltianguis
+915,vendedor,85.7,tecnico,2024-09-29,San Juan
+916,cocinero,78.8,lic.incompleta,2024-09-10,oaxaca capital
+917,cocinero,76.3,lic.incompleta,2024-04-03,Xoxocotlan
+918,consultor,65.3,tecnico,2024-11-06,Pochutla
+919,tec. en electricidad,84.0,bachillerato,2024-11-19,Tlacolula
+920,ejecutivo de ventas,47.5,prof.univ.,2024-09-09,Puerto Escondido
+921,docente,47.9,bachillerato,2024-08-05,Huajuapan
+922,analista,85.4,especialidad,2024-12-19,Pochutla
+923,docente,86.3,bachillerato,2024-10-27,San Juan
+924,representante comercial,45.3,secundaria,2024-01-26,Santa Catarina
+925,académico,93.1,bachillerato,2024-12-13,Macuiltianguis
+926,transportista,87.0,primaria,2024-02-24,oaxaca capital
+927,soldador,56.0,prof.univ.,2024-05-16,Huajuapan
+928,psicólogo,64.4,especialidad,2024-05-23,juarez
+929,cocinero,72.7,secundaria,2024-02-07,Macuiltianguis
+930,técnico de mantenimiento,82.0,licenciatura completa,2024-04-09,Crucecita
+931,dentista,91.7,doctorado,2024-04-03,Xoxocotlan
+932,arquitecto,83.5,especialidad,2024-02-27,San Pablo Etla
+933,contador,49.6,bachillerato,2024-08-21,Huatulco
+934,contador,58.0,tecnico,2024-05-09,Macuiltianguis
+935,profesor,58.3,tecnico,2024-10-26,Santa Catarina
+936,técnico de mantenimiento,86.3,especialidad,2024-07-29,Puerto Escondido
+937,guardia de seguridad,55.5,lic.incompleta,2024-01-01,juarez
+938,soldador,74.8,especialidad,2024-07-10,Ixtlan
+939,auditor,83.9,tecnico,2024-11-17,Ocotlan
+940,consultor,65.3,tecnico,2024-05-10,Puerto Escondido
+941,diseñador grafico,61.3,primaria,2024-05-21,Huatulco
+942,investigador,56.5,licenciatura completa,2024-01-14,juarez
+943,técnico en electrónica,68.3,tecnico,2024-08-19,Macuiltianguis
+944,psicólogo,58.6,prof.univ.,2024-05-18,Ixtlan
+945,carpintero,45.1,doctorado,2024-08-24,Crucecita
+946,contador,86.0,tecnico,2024-07-21,Ocotlan
+947,contador,46.9,secundaria,2024-05-10,juarez
+948,profesor,47.8,maestria,2024-07-09,Tututepec
+949,asistente administrativo,88.4,secundaria,2024-04-12,Santiago
+950,tec. en electricidad,70.0,doctorado,2024-02-22,San Pablo Etla
+951,pintor,82.3,prof.univ.,2024-04-12,oaxaca capital
+952,maestro de obra,50.5,bachillerato,2024-03-04,Xoxocotlan
+953,abogado,41.6,tecnico,2024-11-24,Santiago
+954,ejecutivo de ventas,90.5,especialidad,2024-02-28,Huatulco
+955,auditor,54.4,lic.incompleta,2024-10-25,Tututepec
+956,técnico de mantenimiento,51.3,maestria,2024-05-14,Macuiltianguis
+957,capacitador,77.6,especialidad,2024-12-09,Santiago
+958,cocinero,88.9,especialidad,2024-09-22,Pochutla
+959,coordinador,45.9,doctorado,2024-06-26,San Pablo Etla
+960,cocinero,42.9,tecnico,2024-08-31,Tututepec
+961,pintor,82.4,primaria,2024-05-29,Pochutla
+962,auditor,41.4,doctorado,2024-01-18,Huajuapan
+963,contador,46.6,primaria,2024-02-03,Puerto Escondido
+964,carpintero,72.4,lic.incompleta,2024-07-06,Lachixio
+965,gerente,81.1,secundaria,2024-08-22,Macuiltianguis
+966,auditor,48.2,bachillerato,2024-06-16,juarez
+967,electricista,84.5,especialidad,2024-01-13,Santiago
+968,carpintero,88.4,lic.incompleta,2024-05-18,Santa Catarina
+969,economista,79.1,bachillerato,2024-05-12,juarez
+970,representante comercial,79.3,prof.univ.,2024-08-25,Santa Catarina
+971,arquitecto,50.1,maestria,2024-07-09,Salina Cruz
+972,pintor,69.5,tecnico,2024-07-23,Xoxocotlan
+973,ingeniero de sistemas,49.0,especialidad,2024-05-19,Santa Catarina
+974,economista,55.8,primaria,2024-01-22,Tututepec
+975,cocinero,69.7,prof.univ.,2024-01-06,Lachixio
+976,docente,47.5,bachillerato,2024-01-20,Salina Cruz
+977,jardinero,42.1,tecnico,2024-01-09,San Pablo Etla
+978,psicólogo,54.4,licenciatura completa,2024-08-20,Huajuapan
+979,ejecutivo de ventas,81.8,prof.univ.,2024-09-11,Puerto Escondido
+980,vendedor,72.2,maestria,2024-07-05,Santiago
+981,supervisor,43.1,primaria,2024-04-09,Puerto Escondido
+982,abogado,78.4,tecnico,2024-08-27,oaxaca capital
+983,plomero,77.4,bachillerato,2024-10-27,oaxaca capital
+984,abogado,69.2,primaria,2024-06-16,juarez
+985,mecanico,83.8,bachillerato,2024-11-13,Santa Catarina
+986,capacitador,59.6,maestria,2024-02-13,Ixtlan
+987,contador,60.7,bachillerato,2024-08-01,Lachixio
+988,supervisor,70.2,maestria,2024-06-11,Huatulco
+989,enfermero,50.2,maestria,2024-07-12,Lachixio
+990,coordinador,46.6,prof.univ.,2024-09-25,Crucecita
+991,economista,77.4,especialidad,2024-05-08,Santa Catarina
+992,pintor,41.6,bachillerato,2024-06-26,Ocotlan
+993,asistente administrativo,51.7,bachillerato,2024-12-23,Santa Catarina
+994,auditor,75.5,bachillerato,2024-08-23,Pochutla
+995,analista,69.8,bachillerato,2024-09-26,Salina Cruz
+996,electricista,81.2,bachillerato,2024-02-05,Etla
+997,ingeniero de sistemas,64.8,prof.univ.,2024-05-07,Ocotlan
+998,maestro de obra,43.2,especialidad,2024-02-29,Pochutla
+999,capacitador,82.4,prof.univ.,2024-12-28,Tututepec
+1000,transportista,62.8,especialidad,2024-02-14,San Juan
+1001,maestro de obra,62.7,licenciatura completa,2024-12-04,Macuiltianguis
+1002,mecanico,86.6,lic.incompleta,2024-02-29,Salina Cruz
+1003,camarero,82.4,lic.incompleta,2024-06-29,Huatulco
+1004,programador,73.7,doctorado,2024-07-21,Santa Catarina
+1005,coordinador,78.9,licenciatura completa,2024-01-24,Crucecita
+1006,asistente administrativo,48.5,prof.univ.,2024-05-24,Lachixio
+1007,guardia de seguridad,87.6,bachillerato,2024-02-25,Salina Cruz
+1008,psicólogo,78.4,licenciatura completa,2024-11-09,Salina Cruz
+1009,pintor,53.9,especialidad,2024-12-07,juarez
+1010,chef,55.1,lic.incompleta,2024-02-01,San Pablo Etla
+1011,cocinero,65.0,lic.incompleta,2024-04-08,Ocotlan
+1012,profesor,82.0,secundaria,2024-05-12,Lachixio
+1013,auditor,45.2,doctorado,2024-06-02,Tlacolula
+1014,plomero,89.3,primaria,2024-01-18,Puerto Escondido
+1015,camarero,61.5,doctorado,2024-05-03,Lachixio
+1016,soldador,54.9,licenciatura completa,2024-07-08,Tututepec
+1017,coordinador,70.3,secundaria,2024-07-08,oaxaca capital
+1018,diseñador grafico,73.2,primaria,2024-09-03,Huatulco
+1019,carpintero,58.2,tecnico,2024-01-15,oaxaca capital
+1020,jardinero,51.5,maestria,2024-02-24,Crucecita
+1021,gerente,67.5,maestria,2024-10-03,Ixtlan
+1022,conductor,68.3,maestria,2024-05-13,juarez
+1023,asistente administrativo,54.6,bachillerato,2024-05-08,juarez
+1024,dentista,52.9,doctorado,2024-06-06,Salina Cruz
+1025,gerente,75.4,doctorado,2024-01-10,Puerto Escondido
+1026,enfermero,51.5,bachillerato,2024-09-21,Crucecita
+1027,arquitecto,91.0,prof.univ.,2024-10-19,Ocotlan
+1028,chef,81.3,prof.univ.,2024-03-19,Tlacolula
+1029,auditor,61.3,prof.univ.,2024-01-20,Macuiltianguis
+1030,camarero,51.7,maestria,2024-04-20,Ocotlan
+1031,mecanico,93.9,licenciatura completa,2024-07-03,Puerto Escondido
+1032,asistente administrativo,74.2,secundaria,2024-06-20,Puerto Escondido
+1033,mecanico,77.5,prof.univ.,2024-05-11,Ixtlan
+1034,soldador,41.5,bachillerato,2024-01-05,Macuiltianguis
+1035,investigador,68.3,prof.univ.,2024-01-25,San Juan
+1036,maestro de obra,52.6,tecnico,2024-06-05,juarez
+1037,programador,82.7,primaria,2024-07-06,Etla
+1038,asistente administrativo,63.9,maestria,2024-10-17,Santa Catarina
+1039,analista,68.8,prof.univ.,2024-05-17,Puerto Escondido
+1040,representante comercial,91.7,bachillerato,2024-02-07,Xoxocotlan
+1041,contador,79.4,bachillerato,2024-06-18,Etla
+1042,jardinero,43.0,maestria,2024-07-07,San Juan
+1043,investigador,44.2,prof.univ.,2024-12-21,Salina Cruz
+1044,plomero,59.9,primaria,2024-05-26,Macuiltianguis
+1045,maestro de obra,59.4,especialidad,2024-09-13,Santiago
+1046,enfermero,40.8,lic.incompleta,2024-12-09,Ocotlan
+1047,transportista,49.6,secundaria,2024-11-20,Tlacolula
+1048,conductor,40.2,bachillerato,2024-04-02,Ixtlan
+1049,soldador,57.3,prof.univ.,2024-09-25,Ocotlan
+1050,psicólogo,72.7,licenciatura completa,2024-08-28,Puerto Escondido
+1051,transportista,69.9,secundaria,2024-10-14,juarez
+1052,chef,48.8,maestria,2024-05-23,Ocotlan
+1053,electricista,54.4,lic.incompleta,2024-05-29,juarez
+1054,electricista,80.2,licenciatura completa,2024-03-22,Etla
+1055,investigador,54.9,secundaria,2024-02-05,Ixtlan
+1056,analista,78.5,primaria,2024-07-05,Lachixio
+1057,jardinero,50.9,primaria,2024-08-17,Lachixio
+1058,coordinador,72.2,maestria,2024-08-25,Huajuapan
+1059,soldador,41.4,licenciatura completa,2024-04-08,juarez
+1060,maestro de obra,64.3,tecnico,2024-12-23,Tlacolula
+1061,profesor,55.5,tecnico,2024-09-23,Pochutla
+1062,guardia de seguridad,73.8,bachillerato,2024-01-06,Etla
+1063,ejecutivo de ventas,75.8,tecnico,2024-05-22,oaxaca capital
+1064,contador,94.2,prof.univ.,2024-04-14,Etla
+1065,auditor,41.4,licenciatura completa,2024-01-21,Santa Catarina
+1066,programador,56.6,bachillerato,2024-04-04,Xoxocotlan
+1067,ejecutivo de ventas,60.1,primaria,2024-07-16,Huajuapan
+1068,chef,53.5,licenciatura completa,2024-08-01,Salina Cruz
+1069,técnico en telecomunicaciones,93.4,lic.incompleta,2024-04-29,Xoxocotlan
+1070,mecanico,41.8,especialidad,2024-02-28,San Juan
+1071,camarero,64.9,licenciatura completa,2024-04-21,Ixtlan
+1072,soldador,90.7,especialidad,2024-08-05,Ixtlan
+1073,vendedor,81.6,bachillerato,2024-01-07,Salina Cruz
+1074,dentista,89.3,prof.univ.,2024-02-29,Tlacolula
+1075,representante comercial,43.2,doctorado,2024-02-25,Crucecita
+1076,auditor,51.3,lic.incompleta,2024-12-20,juarez
+1077,camarero,76.0,tecnico,2024-07-12,Lachixio
+1078,psicólogo,91.3,primaria,2024-06-19,Tututepec
+1079,programador,72.7,primaria,2024-08-05,Tlacolula
+1080,carpintero,81.9,prof.univ.,2024-05-09,Huatulco
+1081,técnico de mantenimiento,48.0,doctorado,2024-11-27,Xoxocotlan
+1082,enfermero,82.4,licenciatura completa,2024-03-06,Tututepec
+1083,vendedor,62.7,secundaria,2024-01-08,Xoxocotlan
+1084,técnico en telecomunicaciones,83.5,tecnico,2024-10-20,San Juan
+1085,camarero,80.3,lic.incompleta,2024-12-12,Pochutla
+1086,chef,93.9,primaria,2024-03-23,San Pablo Etla
+1087,docente,55.1,doctorado,2024-11-16,Etla
+1088,representante comercial,76.4,licenciatura completa,2024-08-03,Xoxocotlan
+1089,guardia de seguridad,66.9,secundaria,2024-01-16,Ocotlan
+1090,coordinador,62.5,primaria,2024-05-12,Tututepec
+1091,gerente,76.2,primaria,2024-07-03,Etla
+1092,docente,53.0,maestria,2024-08-11,Huajuapan
+1093,capacitador,51.4,especialidad,2024-10-24,Ocotlan
+1094,académico,86.4,tecnico,2024-12-02,Ixtlan
+1095,docente,80.7,lic.incompleta,2024-03-18,juarez
+1096,mecanico,40.0,secundaria,2024-08-12,Ixtlan
+1097,tec. en electricidad,46.0,prof.univ.,2024-02-19,Huatulco
+1098,vendedor,70.3,lic.incompleta,2024-11-20,Ixtlan
+1099,pintor,80.3,licenciatura completa,2024-08-03,Santa Catarina
+1100,psicólogo,64.9,licenciatura completa,2024-08-29,Salina Cruz
+1101,vendedor,44.2,prof.univ.,2024-03-12,Santa Catarina
+1102,vendedor,83.6,lic.incompleta,2024-12-12,Lachixio
+1103,programador,72.1,licenciatura completa,2024-09-23,Pochutla
+1104,ingeniero de sistemas,84.8,primaria,2024-06-03,Pochutla
+1105,guardia de seguridad,58.4,doctorado,2024-06-24,Tututepec
+1106,supervisor,57.9,secundaria,2024-07-18,San Juan
+1107,plomero,88.5,licenciatura completa,2024-04-24,Pochutla
+1108,contador,44.1,lic.incompleta,2024-06-09,Ixtlan
+1109,electricista,40.3,tecnico,2024-12-17,Puerto Escondido
+1110,asistente administrativo,47.3,prof.univ.,2024-09-23,Salina Cruz
+1111,cocinero,61.4,prof.univ.,2024-01-22,oaxaca capital
+1112,diseñador grafico,42.0,especialidad,2024-12-15,oaxaca capital
+1113,pintor,81.7,tecnico,2024-07-25,Crucecita
+1114,diseñador grafico,63.3,prof.univ.,2024-07-20,Santiago
+1115,conductor,55.9,bachillerato,2024-11-27,Ixtlan
+1116,mecanico,91.7,maestria,2024-07-19,Xoxocotlan
+1117,coordinador,53.5,prof.univ.,2024-07-03,San Juan
+1118,carpintero,69.3,tecnico,2024-12-06,Huajuapan
+1119,maestro de obra,91.3,tecnico,2024-07-25,oaxaca capital
+1120,psicólogo,74.8,secundaria,2024-10-29,Tututepec
+1121,consultor,62.8,tecnico,2024-08-02,Tututepec
+1122,académico,75.1,secundaria,2024-06-16,Tututepec
+1123,cocinero,69.7,tecnico,2024-06-13,Crucecita
+1124,camarero,85.9,licenciatura completa,2024-04-19,Ixtlan
+1125,enfermero,45.5,secundaria,2024-12-30,Xoxocotlan
+1126,guardia de seguridad,63.3,lic.incompleta,2024-01-12,Ixtlan
+1127,contador,58.0,prof.univ.,2024-04-08,Ixtlan
+1128,docente,87.2,lic.incompleta,2024-11-21,Huajuapan
+1129,cocinero,54.2,maestria,2024-02-10,Huatulco
+1130,pintor,64.7,doctorado,2024-01-23,Huatulco
+1131,pintor,62.4,maestria,2024-08-24,Xoxocotlan
+1132,representante comercial,41.8,maestria,2024-09-10,Xoxocotlan
+1133,docente,91.5,tecnico,2024-02-13,San Pablo Etla
+1134,arquitecto,47.1,bachillerato,2024-06-09,Lachixio
+1135,gerente,86.9,lic.incompleta,2024-08-19,juarez
+1136,dentista,49.7,primaria,2024-01-14,Ixtlan
+1137,dentista,77.9,primaria,2024-03-23,Huatulco
+1138,docente,86.6,licenciatura completa,2024-07-29,Puerto Escondido
+1139,abogado,57.0,primaria,2024-01-01,Tututepec
+1140,vendedor,57.1,licenciatura completa,2024-02-03,Macuiltianguis
+1141,maestro de obra,89.5,bachillerato,2024-02-16,juarez
+1142,enfermero,45.4,primaria,2024-05-03,Ixtlan
+1143,transportista,79.1,bachillerato,2024-04-08,Huatulco
+1144,analista,90.9,bachillerato,2024-03-23,Salina Cruz
+1145,docente,74.7,prof.univ.,2024-07-31,Tututepec
+1146,electricista,66.3,prof.univ.,2024-10-16,Santa Catarina
+1147,plomero,49.3,tecnico,2024-08-18,Etla
+1148,psicólogo,62.9,prof.univ.,2024-05-08,oaxaca capital
+1149,representante comercial,72.1,doctorado,2024-03-30,Tututepec
+1150,psicólogo,93.8,secundaria,2024-03-30,Etla
+1151,carpintero,86.6,prof.univ.,2024-07-23,San Juan
+1152,consultor,63.1,bachillerato,2024-01-09,Crucecita
+1153,técnico en electrónica,74.3,maestria,2024-04-26,Puerto Escondido
+1154,enfermero,72.4,licenciatura completa,2024-11-16,Xoxocotlan
+1155,ingeniero de sistemas,85.8,primaria,2024-11-01,Ocotlan
+1156,abogado,54.6,bachillerato,2024-04-17,Salina Cruz
+1157,dentista,53.0,bachillerato,2024-01-08,Puerto Escondido
+1158,psicólogo,93.8,lic.incompleta,2024-07-31,San Juan
+1159,docente,43.3,maestria,2024-05-11,San Pablo Etla
+1160,arquitecto,62.1,bachillerato,2024-04-22,San Pablo Etla
+1161,investigador,42.8,doctorado,2024-02-16,San Juan
+1162,profesor,81.9,tecnico,2024-07-15,oaxaca capital
+1163,académico,64.9,doctorado,2024-12-01,Tlacolula
+1164,coordinador,62.7,maestria,2024-11-17,Huajuapan
+1165,arquitecto,40.7,primaria,2024-05-11,Crucecita
+1166,electricista,59.1,licenciatura completa,2024-01-30,Santiago
+1167,gerente,41.7,secundaria,2024-09-13,Puerto Escondido
+1168,asistente administrativo,41.4,primaria,2024-10-22,Pochutla
+1169,transportista,70.7,lic.incompleta,2024-04-11,Salina Cruz
+1170,abogado,94.8,maestria,2024-02-27,Etla
+1171,ejecutivo de ventas,40.3,tecnico,2024-05-19,Santa Catarina
+1172,técnico de mantenimiento,66.6,lic.incompleta,2024-11-04,Tututepec
+1173,técnico en telecomunicaciones,52.1,bachillerato,2024-05-19,Etla
+1174,profesor,64.3,especialidad,2024-07-12,Crucecita
+1175,soldador,43.8,licenciatura completa,2024-05-02,Lachixio
+1176,camarero,58.6,primaria,2024-02-16,oaxaca capital
+1177,tec. en electricidad,88.0,prof.univ.,2024-04-19,Tututepec
+1178,docente,69.7,primaria,2024-07-02,Tututepec
+1179,supervisor,75.6,maestria,2024-02-09,San Juan
+1180,transportista,72.9,doctorado,2024-10-08,Puerto Escondido
+1181,guardia de seguridad,89.2,prof.univ.,2024-05-30,Santa Catarina
+1182,técnico de mantenimiento,51.3,tecnico,2024-02-07,Santa Catarina
+1183,gerente,42.4,maestria,2024-07-01,Huajuapan
+1184,mecanico,42.5,maestria,2024-02-03,Crucecita
+1185,camarero,49.9,primaria,2024-12-03,Xoxocotlan
+1186,ejecutivo de ventas,86.4,especialidad,2024-07-03,Ocotlan
+1187,tec. en electricidad,76.5,tecnico,2024-08-29,Ixtlan
+1188,docente,42.7,bachillerato,2024-05-18,Salina Cruz
+1189,representante comercial,54.2,especialidad,2024-12-03,Lachixio
+1190,electricista,42.9,licenciatura completa,2024-08-12,Xoxocotlan
+1191,técnico de mantenimiento,41.0,maestria,2024-11-27,Xoxocotlan
+1192,diseñador grafico,43.4,prof.univ.,2024-09-02,Lachixio
+1193,profesor,60.4,prof.univ.,2024-07-12,Huatulco
+1194,mecanico,90.1,bachillerato,2024-10-28,Tututepec
+1195,arquitecto,93.8,tecnico,2024-11-19,Santiago
+1196,ejecutivo de ventas,66.7,prof.univ.,2024-04-21,Tututepec
+1197,pintor,66.9,secundaria,2024-09-05,Xoxocotlan
+1198,dentista,56.1,especialidad,2024-06-12,Tututepec
+1199,investigador,44.2,maestria,2024-06-26,Tututepec
+1200,mecanico,84.5,especialidad,2024-07-31,Macuiltianguis
+1201,contador,61.9,lic.incompleta,2024-06-11,Macuiltianguis
+1202,carpintero,51.9,licenciatura completa,2024-02-14,Xoxocotlan
+1203,arquitecto,88.6,prof.univ.,2024-03-16,San Pablo Etla
+1204,asistente administrativo,52.6,maestria,2024-12-20,Santa Catarina
+1205,cocinero,59.8,secundaria,2024-12-24,Tlacolula
+1206,soldador,75.4,licenciatura completa,2024-01-24,oaxaca capital
+1207,auditor,64.0,secundaria,2024-04-19,Tlacolula
+1208,ingeniero de sistemas,86.4,secundaria,2024-06-18,juarez
+1209,economista,49.4,maestria,2024-11-07,Xoxocotlan
+1210,pintor,56.7,bachillerato,2024-03-29,Puerto Escondido
+1211,docente,77.9,doctorado,2024-01-01,Huajuapan
+1212,carpintero,81.3,secundaria,2024-07-21,San Juan
+1213,camarero,88.7,prof.univ.,2024-03-25,Tututepec
+1214,cocinero,54.8,lic.incompleta,2024-06-01,Huatulco
+1215,auditor,86.9,licenciatura completa,2024-01-07,Macuiltianguis
+1216,enfermero,40.6,bachillerato,2024-05-01,San Juan
+1217,abogado,43.2,secundaria,2024-08-15,San Pablo Etla
+1218,coordinador,92.6,primaria,2024-03-19,Santiago
+1219,analista,84.4,bachillerato,2024-09-27,San Juan
+1220,auditor,77.8,lic.incompleta,2024-03-19,Tututepec
+1221,supervisor,90.6,maestria,2024-05-20,Santa Catarina
+1222,pintor,56.3,primaria,2024-03-21,Lachixio
+1223,jardinero,74.2,primaria,2024-12-16,Ocotlan
+1224,enfermero,66.6,tecnico,2024-10-04,San Pablo Etla
+1225,carpintero,84.3,bachillerato,2024-10-20,Santiago
+1226,plomero,49.0,doctorado,2024-05-26,Santa Catarina
+1227,supervisor,66.1,maestria,2024-07-14,Crucecita
+1228,ejecutivo de ventas,76.1,maestria,2024-06-10,Tututepec
+1229,docente,90.5,tecnico,2024-04-10,Tlacolula
+1230,ingeniero de sistemas,85.1,doctorado,2024-09-19,Puerto Escondido
+1231,pintor,86.7,primaria,2024-10-21,juarez
+1232,abogado,90.4,prof.univ.,2024-11-10,Crucecita
+1233,economista,41.6,secundaria,2024-03-21,San Pablo Etla
+1234,tec. en electricidad,71.1,prof.univ.,2024-06-06,Huatulco
+1235,soldador,60.4,licenciatura completa,2024-04-08,Macuiltianguis
+1236,consultor,73.4,lic.incompleta,2024-08-06,Crucecita
+1237,jardinero,53.3,maestria,2024-04-10,Etla
+1238,plomero,57.8,primaria,2024-01-31,Crucecita
+1239,dentista,60.1,tecnico,2024-04-18,juarez
+1240,analista,91.2,bachillerato,2024-12-05,Salina Cruz
+1241,guardia de seguridad,58.5,especialidad,2024-06-14,San Pablo Etla
+1242,cocinero,86.7,licenciatura completa,2024-08-17,Etla
+1243,profesor,57.1,lic.incompleta,2024-05-10,Tlacolula
+1244,programador,58.4,primaria,2024-08-15,San Pablo Etla
+1245,maestro de obra,66.9,licenciatura completa,2024-06-22,Santiago
+1246,arquitecto,69.9,bachillerato,2024-12-04,juarez
+1247,maestro de obra,51.6,secundaria,2024-11-11,Ixtlan
+1248,diseñador grafico,41.9,doctorado,2024-02-20,oaxaca capital
+1249,soldador,56.1,maestria,2024-12-04,Pochutla
+1250,economista,54.6,bachillerato,2024-05-16,Pochutla
+1251,carpintero,55.1,maestria,2024-10-19,Xoxocotlan
+1252,supervisor,51.8,primaria,2024-01-15,Huatulco
+1253,arquitecto,63.6,tecnico,2024-10-02,San Juan
+1254,representante comercial,67.2,prof.univ.,2024-03-18,Santiago
+1255,consultor,46.3,lic.incompleta,2024-12-05,Macuiltianguis
+1256,auditor,50.4,secundaria,2024-10-01,Huajuapan
+1257,investigador,54.4,maestria,2024-05-16,San Pablo Etla
+1258,consultor,86.9,doctorado,2024-02-07,Santiago
+1259,contador,58.0,tecnico,2024-10-29,Ocotlan
+1260,analista,80.6,licenciatura completa,2024-02-16,Xoxocotlan
+1261,investigador,80.1,tecnico,2024-07-24,Santiago
+1262,maestro de obra,87.5,primaria,2024-04-09,San Pablo Etla
+1263,psicólogo,92.2,bachillerato,2024-06-25,Tututepec
+1264,supervisor,65.3,maestria,2024-08-20,oaxaca capital
+1265,auditor,68.0,tecnico,2024-11-10,Salina Cruz
+1266,programador,71.9,doctorado,2024-04-16,Puerto Escondido
+1267,transportista,93.4,bachillerato,2024-03-28,San Pablo Etla
+1268,gerente,86.4,maestria,2024-01-05,juarez
+1269,plomero,65.1,prof.univ.,2024-11-04,Tlacolula
+1270,pintor,44.6,especialidad,2024-10-17,Santiago
+1271,abogado,65.9,tecnico,2024-09-30,Etla
+1272,analista,91.7,tecnico,2024-12-24,Ocotlan
+1273,coordinador,86.9,primaria,2024-10-02,Tututepec
+1274,chef,91.6,primaria,2024-02-06,Macuiltianguis
+1275,investigador,61.1,especialidad,2024-10-26,Crucecita
+1276,maestro de obra,40.7,tecnico,2024-07-04,Ocotlan
+1277,representante comercial,64.6,prof.univ.,2024-07-19,Huajuapan
+1278,capacitador,86.8,lic.incompleta,2024-11-07,Pochutla
+1279,mecanico,65.0,primaria,2024-07-04,Macuiltianguis
+1280,técnico en telecomunicaciones,41.5,licenciatura completa,2024-05-12,Xoxocotlan
+1281,conductor,43.2,doctorado,2024-08-01,Xoxocotlan
+1282,economista,68.9,secundaria,2024-11-05,Tututepec
+1283,maestro de obra,85.3,licenciatura completa,2024-12-17,Santiago
+1284,vendedor,51.2,bachillerato,2024-02-28,Lachixio
+1285,investigador,92.9,especialidad,2024-01-13,Ocotlan
+1286,jardinero,43.1,secundaria,2024-02-24,Crucecita
+1287,abogado,73.6,lic.incompleta,2024-01-17,Pochutla
+1288,vendedor,69.5,primaria,2024-04-12,Ixtlan
+1289,académico,80.6,especialidad,2024-07-22,Huajuapan
+1290,plomero,76.9,maestria,2024-10-23,Pochutla
+1291,programador,87.9,bachillerato,2024-03-13,Crucecita
+1292,dentista,54.6,secundaria,2024-12-17,Tututepec
+1293,asistente administrativo,51.2,licenciatura completa,2024-12-14,Ixtlan
+1294,investigador,83.1,doctorado,2024-06-07,Ocotlan
+1295,dentista,64.3,maestria,2024-07-02,Ixtlan
+1296,coordinador,63.3,prof.univ.,2024-06-04,oaxaca capital
+1297,chef,43.9,lic.incompleta,2024-03-10,Huajuapan
+1298,pintor,84.6,maestria,2024-11-19,Puerto Escondido
+1299,maestro de obra,51.3,maestria,2024-10-30,Ixtlan
+1300,arquitecto,61.0,licenciatura completa,2024-02-01,Pochutla
+1301,conductor,73.8,doctorado,2024-10-20,Ixtlan
+1302,guardia de seguridad,75.6,secundaria,2024-02-25,Puerto Escondido
+1303,asistente administrativo,86.7,lic.incompleta,2024-02-03,Ixtlan
+1304,enfermero,49.8,doctorado,2024-05-02,oaxaca capital
+1305,supervisor,50.6,primaria,2024-05-25,Huatulco
+1306,dentista,84.7,secundaria,2024-05-21,Tlacolula
+1307,vendedor,77.4,bachillerato,2024-02-01,Lachixio
+1308,psicólogo,92.5,tecnico,2024-06-28,Macuiltianguis
+1309,docente,89.1,primaria,2024-06-29,Pochutla
+1310,camarero,67.9,primaria,2024-08-03,Huatulco
+1311,académico,80.7,tecnico,2024-10-30,Xoxocotlan
+1312,representante comercial,82.5,prof.univ.,2024-08-13,Huajuapan
+1313,abogado,50.2,bachillerato,2024-05-23,Pochutla
+1314,camarero,85.4,lic.incompleta,2024-06-23,Crucecita
+1315,técnico en telecomunicaciones,84.8,bachillerato,2024-03-14,San Pablo Etla
+1316,investigador,81.4,maestria,2024-05-16,Lachixio
+1317,maestro de obra,45.2,licenciatura completa,2024-10-29,Tlacolula
+1318,académico,71.1,secundaria,2024-12-18,Lachixio
+1319,chef,42.7,bachillerato,2024-11-18,Puerto Escondido
+1320,ejecutivo de ventas,92.1,especialidad,2024-08-22,Huajuapan
+1321,vendedor,76.3,secundaria,2024-09-21,Pochutla
+1322,analista,77.2,bachillerato,2024-11-13,Huajuapan
+1323,auditor,54.8,primaria,2024-08-03,oaxaca capital
+1324,jardinero,50.5,especialidad,2024-12-16,Macuiltianguis
+1325,conductor,61.8,licenciatura completa,2024-04-04,Huatulco
+1326,profesor,54.5,bachillerato,2024-03-12,Lachixio
+1327,representante comercial,91.2,licenciatura completa,2024-07-02,Ocotlan
+1328,camarero,69.1,doctorado,2024-03-13,Crucecita
+1329,técnico de mantenimiento,92.9,secundaria,2024-06-15,Huajuapan
+1330,conductor,49.3,prof.univ.,2024-04-08,Etla
+1331,camarero,52.5,prof.univ.,2024-11-26,Lachixio
+1332,jardinero,63.7,maestria,2024-01-31,Tututepec
+1333,analista,58.7,tecnico,2024-01-20,Tututepec
+1334,camarero,64.2,secundaria,2024-06-16,Tututepec
+1335,consultor,83.8,doctorado,2024-05-05,Crucecita
+1336,mecanico,79.0,lic.incompleta,2024-05-07,Puerto Escondido
+1337,profesor,88.8,maestria,2024-11-02,Macuiltianguis
+1338,plomero,61.1,licenciatura completa,2024-08-26,Tlacolula
+1339,electricista,53.1,secundaria,2024-04-19,Huajuapan
+1340,representante comercial,89.3,tecnico,2024-03-07,Lachixio
+1341,auditor,80.9,secundaria,2024-06-27,Etla
+1342,economista,63.2,tecnico,2024-08-16,Ixtlan
+1343,técnico en telecomunicaciones,73.9,doctorado,2024-06-13,Macuiltianguis
+1344,programador,58.0,primaria,2024-05-15,Xoxocotlan
+1345,técnico de mantenimiento,55.9,tecnico,2024-08-28,Huatulco
+1346,electricista,92.8,bachillerato,2024-08-03,Santa Catarina
+1347,coordinador,67.4,especialidad,2024-10-11,Tututepec
+1348,dentista,60.8,doctorado,2024-06-12,San Pablo Etla
+1349,jardinero,63.4,tecnico,2024-06-23,Puerto Escondido
+1350,abogado,42.3,tecnico,2024-08-25,Crucecita
+1351,gerente,73.3,bachillerato,2024-11-11,Lachixio
+1352,analista,93.7,bachillerato,2024-08-12,San Juan
+1353,contador,60.7,especialidad,2024-10-12,juarez
+1354,profesor,58.1,bachillerato,2024-03-19,Santa Catarina
+1355,profesor,60.4,doctorado,2024-08-19,Macuiltianguis
+1356,consultor,94.3,primaria,2024-08-01,Santiago
+1357,representante comercial,83.1,doctorado,2024-11-20,Tututepec
+1358,enfermero,60.5,tecnico,2024-02-09,Lachixio
+1359,conductor,54.6,maestria,2024-07-09,Pochutla
+1360,contador,68.4,lic.incompleta,2024-01-16,Huatulco
+1361,docente,51.5,secundaria,2024-02-10,Macuiltianguis
+1362,camarero,89.7,especialidad,2024-03-25,Pochutla
+1363,profesor,54.6,bachillerato,2024-01-16,Salina Cruz
+1364,soldador,43.9,primaria,2024-08-18,Santiago
+1365,técnico en telecomunicaciones,45.5,especialidad,2024-05-12,Ocotlan
+1366,técnico de mantenimiento,78.3,doctorado,2024-01-25,Salina Cruz
+1367,soldador,82.8,tecnico,2024-11-09,Santiago
+1368,soldador,56.8,licenciatura completa,2024-12-19,Etla
+1369,técnico en telecomunicaciones,84.6,doctorado,2024-01-04,Macuiltianguis
+1370,capacitador,67.4,prof.univ.,2024-09-25,San Juan
+1371,contador,42.1,secundaria,2024-04-18,Salina Cruz
+1372,mecanico,60.3,maestria,2024-04-02,Lachixio
+1373,chef,86.3,bachillerato,2024-10-05,Etla
+1374,técnico de mantenimiento,44.9,bachillerato,2024-04-06,juarez
+1375,ejecutivo de ventas,52.2,maestria,2024-11-30,Pochutla
+1376,arquitecto,57.2,primaria,2024-10-19,Xoxocotlan
+1377,supervisor,73.0,secundaria,2024-07-10,San Pablo Etla
+1378,plomero,73.4,bachillerato,2024-12-06,Pochutla
+1379,técnico en electrónica,93.9,maestria,2024-10-31,Lachixio
+1380,auditor,48.6,primaria,2024-07-05,Ocotlan
+1381,técnico en electrónica,74.4,prof.univ.,2024-01-14,Etla
+1382,jardinero,41.5,licenciatura completa,2024-06-13,Xoxocotlan
+1383,abogado,44.0,maestria,2024-05-20,Huatulco
+1384,académico,79.8,secundaria,2024-10-10,Tlacolula
+1385,jardinero,69.8,especialidad,2024-01-27,juarez
+1386,plomero,53.0,maestria,2024-11-27,Lachixio
+1387,técnico en electrónica,82.5,primaria,2024-05-28,San Juan
+1388,economista,70.7,doctorado,2024-05-05,Etla
+1389,capacitador,83.4,lic.incompleta,2024-03-09,Lachixio
+1390,psicólogo,60.1,lic.incompleta,2024-10-15,oaxaca capital
+1391,técnico en electrónica,49.4,secundaria,2024-12-02,Santiago
+1392,ingeniero de sistemas,52.0,especialidad,2024-02-02,Salina Cruz
+1393,electricista,85.3,primaria,2024-11-15,Macuiltianguis
+1394,psicólogo,41.6,maestria,2024-12-17,Huajuapan
+1395,enfermero,51.9,lic.incompleta,2024-11-20,Salina Cruz
+1396,carpintero,85.4,bachillerato,2024-12-07,Macuiltianguis
+1397,supervisor,89.4,bachillerato,2024-12-29,Salina Cruz
+1398,programador,76.3,maestria,2024-08-22,Ocotlan
+1399,docente,52.6,primaria,2024-01-01,Ixtlan
+1400,asistente administrativo,59.7,especialidad,2024-05-26,Salina Cruz
+1401,chef,90.1,tecnico,2024-07-27,Santiago
+1402,ingeniero de sistemas,47.2,licenciatura completa,2024-11-25,Santiago
+1403,profesor,59.8,secundaria,2024-09-16,juarez
+1404,soldador,67.1,doctorado,2024-12-21,Santiago
+1405,coordinador,46.2,especialidad,2024-06-11,Huajuapan
+1406,plomero,70.4,especialidad,2024-11-21,juarez
+1407,técnico en telecomunicaciones,61.5,tecnico,2024-08-25,San Pablo Etla
+1408,asistente administrativo,56.8,primaria,2024-12-31,Xoxocotlan
+1409,psicólogo,78.7,prof.univ.,2024-04-23,Xoxocotlan
+1410,economista,83.6,secundaria,2024-09-14,Huajuapan
+1411,cocinero,63.5,bachillerato,2024-10-14,Santa Catarina
+1412,enfermero,66.4,especialidad,2024-09-29,Tututepec
+1413,arquitecto,49.4,primaria,2024-06-24,San Juan
+1414,ejecutivo de ventas,42.7,licenciatura completa,2024-09-04,Tututepec
+1415,pintor,87.1,prof.univ.,2024-03-09,Ocotlan
+1416,analista,57.0,primaria,2024-06-18,Crucecita
+1417,enfermero,42.1,especialidad,2024-06-16,Pochutla
+1418,técnico en electrónica,66.6,tecnico,2024-05-20,Santiago
+1419,supervisor,62.8,maestria,2024-01-07,Ocotlan
+1420,técnico en telecomunicaciones,50.7,licenciatura completa,2024-09-21,Ixtlan
+1421,programador,61.7,maestria,2024-09-02,Ocotlan
+1422,coordinador,74.4,tecnico,2024-10-23,Etla
+1423,abogado,67.9,lic.incompleta,2024-07-07,Xoxocotlan
+1424,soldador,94.1,secundaria,2024-03-31,Santa Catarina
+1425,abogado,65.9,maestria,2024-09-01,Santa Catarina
+1426,maestro de obra,57.6,especialidad,2024-09-03,Lachixio
+1427,chef,51.1,bachillerato,2024-10-21,juarez
+1428,contador,42.6,bachillerato,2024-08-16,Xoxocotlan
+1429,maestro de obra,49.6,bachillerato,2024-04-07,Pochutla
+1430,capacitador,58.1,lic.incompleta,2024-09-11,Salina Cruz
+1431,técnico de mantenimiento,81.6,primaria,2024-12-22,Lachixio
+1432,supervisor,62.1,maestria,2024-03-05,San Juan
+1433,capacitador,77.9,lic.incompleta,2024-10-27,Huatulco
+1434,asistente administrativo,79.1,prof.univ.,2024-01-10,Xoxocotlan
+1435,electricista,58.4,especialidad,2024-04-26,Xoxocotlan
+1436,investigador,93.9,secundaria,2024-10-30,Lachixio
+1437,mecanico,82.5,tecnico,2024-01-25,Santiago
+1438,profesor,87.0,bachillerato,2024-02-24,Salina Cruz
+1439,supervisor,51.7,licenciatura completa,2024-01-04,Tututepec
+1440,ingeniero de sistemas,41.6,lic.incompleta,2024-04-02,Pochutla
+1441,contador,69.0,bachillerato,2024-01-30,juarez
+1442,capacitador,41.2,primaria,2024-07-01,Etla
+1443,ejecutivo de ventas,84.4,prof.univ.,2024-08-31,Macuiltianguis
+1444,supervisor,63.9,licenciatura completa,2024-12-19,Xoxocotlan
+1445,gerente,50.9,tecnico,2024-06-03,Lachixio
+1446,economista,66.1,doctorado,2024-06-26,Macuiltianguis
+1447,analista,75.9,bachillerato,2024-08-16,Pochutla
+1448,carpintero,92.6,secundaria,2024-09-14,Santiago
+1449,contador,82.1,bachillerato,2024-12-15,Ixtlan
+1450,guardia de seguridad,75.8,maestria,2024-05-13,Huatulco
+1451,técnico en electrónica,71.5,licenciatura completa,2024-10-01,Santiago
+1452,docente,68.9,secundaria,2024-08-31,Macuiltianguis
+1453,camarero,81.0,tecnico,2024-05-13,San Pablo Etla
+1454,docente,41.6,lic.incompleta,2024-08-14,Xoxocotlan
+1455,analista,51.9,especialidad,2024-11-27,Puerto Escondido
+1456,diseñador grafico,52.7,especialidad,2024-12-03,Etla
+1457,economista,74.3,licenciatura completa,2024-01-06,juarez
+1458,camarero,85.0,bachillerato,2024-11-11,Crucecita
+1459,conductor,80.0,primaria,2024-04-05,juarez
+1460,cocinero,87.1,bachillerato,2024-01-17,Tututepec
+1461,cocinero,71.8,doctorado,2024-06-12,Tututepec
+1462,plomero,51.0,prof.univ.,2024-02-15,Tututepec
+1463,cocinero,89.8,primaria,2024-08-29,juarez
+1464,maestro de obra,68.6,primaria,2024-08-15,Puerto Escondido
+1465,académico,59.7,doctorado,2024-08-01,Pochutla
+1466,analista,86.7,doctorado,2024-11-06,Tututepec
+1467,ejecutivo de ventas,68.1,bachillerato,2024-01-25,Salina Cruz
+1468,economista,48.9,especialidad,2024-03-08,San Pablo Etla
+1469,consultor,69.7,lic.incompleta,2024-10-02,juarez
+1470,vendedor,71.1,tecnico,2024-12-18,Huatulco
+1471,cocinero,62.8,tecnico,2024-07-08,Crucecita
+1472,gerente,66.8,especialidad,2024-11-07,Pochutla
+1473,dentista,81.0,bachillerato,2024-04-18,Tututepec
+1474,conductor,77.7,licenciatura completa,2024-05-21,Pochutla
+1475,economista,89.4,primaria,2024-10-16,Ocotlan
+1476,psicólogo,92.4,maestria,2024-06-16,Tututepec
+1477,ejecutivo de ventas,70.8,maestria,2024-04-12,Macuiltianguis
+1478,coordinador,40.4,lic.incompleta,2024-03-05,juarez
+1479,académico,90.6,primaria,2024-04-21,Pochutla
+1480,carpintero,85.7,doctorado,2024-03-01,juarez
+1481,cocinero,82.7,licenciatura completa,2024-12-16,oaxaca capital
+1482,psicólogo,70.8,lic.incompleta,2024-11-29,Lachixio
+1483,ejecutivo de ventas,47.7,doctorado,2024-02-19,Tlacolula
+1484,carpintero,62.9,especialidad,2024-06-02,Ocotlan
+1485,académico,87.3,doctorado,2024-12-04,Crucecita
+1486,académico,90.9,licenciatura completa,2024-01-10,San Juan
+1487,pintor,45.6,doctorado,2024-05-15,Ocotlan
+1488,auditor,72.7,secundaria,2024-08-15,Xoxocotlan
+1489,jardinero,66.6,bachillerato,2024-12-07,Huajuapan
+1490,capacitador,73.0,bachillerato,2024-11-26,Santiago
+1491,contador,79.6,maestria,2024-01-13,Huatulco
+1492,pintor,69.9,maestria,2024-05-17,Santiago
+1493,soldador,76.2,lic.incompleta,2024-07-30,Macuiltianguis
+1494,pintor,72.8,bachillerato,2024-07-22,San Pablo Etla
+1495,docente,89.2,tecnico,2024-07-11,juarez
+1496,diseñador grafico,88.1,maestria,2024-01-15,Santiago
+1497,ingeniero de sistemas,59.7,doctorado,2024-12-22,Salina Cruz
+1498,pintor,87.0,licenciatura completa,2024-09-04,oaxaca capital
+1499,técnico en telecomunicaciones,82.9,secundaria,2024-12-12,Crucecita
+1500,cocinero,77.7,doctorado,2024-10-31,Etla
+1501,ingeniero de sistemas,50.5,especialidad,2024-07-14,Huatulco
+1502,investigador,74.0,licenciatura completa,2024-01-21,Ixtlan
+1503,técnico en electrónica,93.7,maestria,2024-05-04,Pochutla
+1504,abogado,91.0,bachillerato,2024-10-09,Huajuapan
+1505,cocinero,88.7,primaria,2024-11-19,Santiago
+1506,electricista,79.0,maestria,2024-01-12,Huajuapan
+1507,electricista,85.6,bachillerato,2024-12-30,Tututepec
+1508,conductor,79.1,maestria,2024-08-06,Crucecita
+1509,transportista,75.6,lic.incompleta,2024-03-19,Huajuapan
+1510,chef,67.9,prof.univ.,2024-05-04,San Pablo Etla
+1511,profesor,44.3,bachillerato,2024-05-16,oaxaca capital
+1512,analista,47.6,licenciatura completa,2024-03-02,Ocotlan
+1513,abogado,79.5,licenciatura completa,2024-07-16,Tlacolula
+1514,docente,83.1,tecnico,2024-09-02,Pochutla
+1515,auditor,93.5,tecnico,2024-01-04,Huajuapan
+1516,docente,48.0,primaria,2024-12-18,Xoxocotlan
+1517,técnico de mantenimiento,83.3,lic.incompleta,2024-05-09,Xoxocotlan
+1518,abogado,65.8,lic.incompleta,2024-07-29,Huatulco
+1519,coordinador,40.5,secundaria,2024-03-13,Puerto Escondido
+1520,economista,46.2,doctorado,2024-05-30,Ocotlan
+1521,mecanico,82.1,tecnico,2024-12-30,Santa Catarina
+1522,transportista,92.4,lic.incompleta,2024-06-14,Huajuapan
+1523,asistente administrativo,59.8,primaria,2024-11-01,Santa Catarina
+1524,técnico en telecomunicaciones,70.0,lic.incompleta,2024-08-05,Ocotlan
+1525,economista,84.3,especialidad,2024-09-23,Salina Cruz
+1526,dentista,74.8,prof.univ.,2024-07-13,Crucecita
+1527,docente,64.8,lic.incompleta,2024-12-19,Santa Catarina
+1528,asistente administrativo,86.6,doctorado,2024-10-17,oaxaca capital
+1529,maestro de obra,44.8,tecnico,2024-11-29,Tututepec
+1530,auditor,74.5,tecnico,2024-12-05,Tututepec
+1531,enfermero,48.9,licenciatura completa,2024-12-02,Puerto Escondido
+1532,profesor,81.1,secundaria,2024-10-23,Santa Catarina
+1533,mecanico,72.2,licenciatura completa,2024-05-18,Xoxocotlan
+1534,camarero,88.7,lic.incompleta,2024-06-03,Salina Cruz
+1535,abogado,46.9,primaria,2024-03-06,Huatulco
+1536,guardia de seguridad,89.1,tecnico,2024-06-17,Lachixio
+1537,diseñador grafico,80.9,doctorado,2024-06-04,Etla
+1538,técnico en electrónica,80.7,especialidad,2024-01-20,San Juan
+1539,técnico de mantenimiento,77.6,secundaria,2024-09-02,Pochutla
+1540,contador,81.7,especialidad,2024-02-04,oaxaca capital
+1541,investigador,82.8,maestria,2024-01-13,Huajuapan
+1542,mecanico,91.6,bachillerato,2024-09-21,Huatulco
+1543,arquitecto,64.1,lic.incompleta,2024-08-05,Tlacolula
+1544,contador,88.0,especialidad,2024-12-03,Tlacolula
+1545,técnico en telecomunicaciones,88.1,primaria,2024-11-12,juarez
+1546,economista,63.6,licenciatura completa,2024-07-29,Salina Cruz
+1547,soldador,60.8,bachillerato,2024-10-26,Ocotlan
+1548,auditor,55.4,tecnico,2024-03-14,Lachixio
+1549,docente,51.5,especialidad,2024-09-27,Crucecita
+1550,gerente,71.1,maestria,2024-05-01,Puerto Escondido
+1551,capacitador,51.2,doctorado,2024-05-25,Etla
+1552,auditor,81.6,maestria,2024-03-29,Huatulco
+1553,técnico de mantenimiento,44.5,prof.univ.,2024-02-06,Huajuapan
+1554,dentista,71.0,prof.univ.,2024-06-13,San Juan
+1555,chef,93.3,doctorado,2024-06-04,Huatulco
+1556,vendedor,83.4,secundaria,2024-06-20,Puerto Escondido
+1557,psicólogo,58.9,secundaria,2024-05-07,Lachixio
+1558,capacitador,92.6,especialidad,2024-04-30,Santiago
+1559,ejecutivo de ventas,84.7,tecnico,2024-03-29,Etla
+1560,carpintero,69.7,maestria,2024-04-02,Ocotlan
+1561,cocinero,93.3,doctorado,2024-07-19,Santiago
+1562,carpintero,74.6,prof.univ.,2024-01-21,Macuiltianguis
+1563,guardia de seguridad,50.2,licenciatura completa,2024-05-19,Salina Cruz
+1564,carpintero,79.4,especialidad,2024-05-27,Huatulco
+1565,auditor,65.6,secundaria,2024-01-18,Tlacolula
+1566,dentista,84.3,licenciatura completa,2024-12-30,San Pablo Etla
+1567,técnico en telecomunicaciones,79.6,secundaria,2024-08-28,Puerto Escondido
+1568,pintor,48.8,licenciatura completa,2024-04-20,Puerto Escondido
+1569,arquitecto,62.8,maestria,2024-04-09,Etla
+1570,camarero,71.6,secundaria,2024-08-18,Etla
+1571,académico,52.1,prof.univ.,2024-11-03,Santiago
+1572,profesor,45.1,especialidad,2024-09-08,San Juan
+1573,enfermero,76.1,lic.incompleta,2024-01-23,Ocotlan
+1574,gerente,84.9,lic.incompleta,2024-09-07,Ocotlan
+1575,tec. en electricidad,47.5,maestria,2024-05-28,Huajuapan
+1576,pintor,52.3,tecnico,2024-06-14,San Pablo Etla
+1577,enfermero,68.5,especialidad,2024-02-07,Macuiltianguis
+1578,consultor,41.7,lic.incompleta,2024-09-30,Crucecita
+1579,investigador,69.9,bachillerato,2024-04-02,San Juan
+1580,pintor,92.1,primaria,2024-03-20,oaxaca capital
+1581,maestro de obra,47.9,doctorado,2024-09-04,oaxaca capital
+1582,programador,51.0,prof.univ.,2024-04-21,Santa Catarina
+1583,conductor,48.1,prof.univ.,2024-11-16,San Juan
+1584,jardinero,89.2,lic.incompleta,2024-06-17,Ocotlan
+1585,representante comercial,72.4,licenciatura completa,2024-05-31,Santa Catarina
+1586,académico,54.5,maestria,2024-05-31,Etla
+1587,tec. en electricidad,84.3,especialidad,2024-05-14,Santa Catarina
+1588,camarero,63.9,primaria,2024-08-21,oaxaca capital
+1589,psicólogo,64.1,bachillerato,2024-08-25,Macuiltianguis
+1590,soldador,72.8,maestria,2024-04-26,Pochutla
+1591,diseñador grafico,45.3,licenciatura completa,2024-10-24,Tututepec
+1592,programador,52.0,lic.incompleta,2024-11-17,Lachixio
+1593,ingeniero de sistemas,83.6,doctorado,2024-03-24,Tututepec
+1594,economista,65.7,tecnico,2024-12-16,Macuiltianguis
+1595,mecanico,67.7,tecnico,2024-05-30,Huajuapan
+1596,técnico en telecomunicaciones,52.2,maestria,2024-01-19,Crucecita
+1597,maestro de obra,76.4,doctorado,2024-02-01,Ixtlan
+1598,ejecutivo de ventas,68.2,tecnico,2024-08-04,Xoxocotlan
+1599,diseñador grafico,92.9,prof.univ.,2024-10-13,oaxaca capital
+1600,analista,80.1,tecnico,2024-02-20,Crucecita
+1601,gerente,51.2,licenciatura completa,2024-08-04,Santiago
+1602,camarero,63.7,secundaria,2024-08-09,San Pablo Etla
+1603,abogado,54.6,especialidad,2024-06-19,oaxaca capital
+1604,auditor,91.3,doctorado,2024-01-04,Pochutla
+1605,carpintero,83.8,licenciatura completa,2024-04-26,oaxaca capital
+1606,economista,57.7,primaria,2024-09-11,Pochutla
+1607,tec. en electricidad,52.1,especialidad,2024-07-30,San Juan
+1608,profesor,74.2,maestria,2024-10-09,Tututepec
+1609,jardinero,66.1,bachillerato,2024-01-22,oaxaca capital
+1610,técnico en telecomunicaciones,73.6,especialidad,2024-04-29,Santa Catarina
+1611,cocinero,67.9,bachillerato,2024-04-07,Macuiltianguis
+1612,contador,70.4,especialidad,2024-04-14,Puerto Escondido
+1613,abogado,67.0,especialidad,2024-10-31,Puerto Escondido
+1614,camarero,61.4,lic.incompleta,2024-11-15,Macuiltianguis
+1615,docente,91.5,doctorado,2024-01-18,Huajuapan
+1616,asistente administrativo,72.8,primaria,2024-06-06,Tlacolula
+1617,electricista,50.9,primaria,2024-08-13,Tlacolula
+1618,representante comercial,78.3,tecnico,2024-10-04,Puerto Escondido
+1619,economista,89.2,secundaria,2024-09-02,Salina Cruz
+1620,asistente administrativo,89.4,doctorado,2024-01-01,Salina Cruz
+1621,plomero,59.9,doctorado,2024-10-30,Ixtlan
+1622,profesor,79.8,especialidad,2024-11-28,Salina Cruz
+1623,representante comercial,91.3,bachillerato,2024-10-26,oaxaca capital
+1624,supervisor,49.6,lic.incompleta,2024-04-26,San Juan
+1625,consultor,45.9,prof.univ.,2024-12-19,Huajuapan
+1626,maestro de obra,52.6,primaria,2024-01-09,Huatulco
+1627,plomero,77.8,especialidad,2024-04-28,Macuiltianguis
+1628,asistente administrativo,68.4,licenciatura completa,2024-01-02,Pochutla
+1629,técnico en electrónica,69.4,primaria,2024-01-10,Xoxocotlan
+1630,economista,72.5,primaria,2024-10-09,Macuiltianguis
+1631,chef,47.3,tecnico,2024-04-20,oaxaca capital
+1632,técnico de mantenimiento,82.3,secundaria,2024-09-21,juarez
+1633,asistente administrativo,62.2,secundaria,2024-03-14,Ocotlan
+1634,arquitecto,46.3,lic.incompleta,2024-01-14,Salina Cruz
+1635,coordinador,65.7,prof.univ.,2024-01-26,Huajuapan
+1636,gerente,84.0,secundaria,2024-04-20,Crucecita
+1637,docente,56.0,especialidad,2024-12-28,Huatulco
+1638,profesor,48.4,prof.univ.,2024-09-28,Huajuapan
+1639,técnico en electrónica,94.3,doctorado,2024-05-18,Pochutla
+1640,contador,47.1,doctorado,2024-11-17,juarez
+1641,camarero,79.9,secundaria,2024-03-07,juarez
+1642,transportista,91.0,primaria,2024-07-02,Macuiltianguis
+1643,pintor,78.4,tecnico,2024-11-06,Ocotlan
+1644,contador,93.5,primaria,2024-10-27,Salina Cruz
+1645,electricista,51.4,primaria,2024-12-08,Crucecita
+1646,soldador,91.7,primaria,2024-02-01,San Juan
+1647,profesor,55.9,especialidad,2024-08-03,oaxaca capital
+1648,abogado,75.7,maestria,2024-02-25,Tututepec
+1649,técnico de mantenimiento,51.3,especialidad,2024-10-13,Xoxocotlan
+1650,psicólogo,43.9,primaria,2024-05-11,Crucecita
+1651,carpintero,45.7,licenciatura completa,2024-06-14,Puerto Escondido
+1652,tec. en electricidad,93.5,bachillerato,2024-03-10,Huatulco
+1653,auditor,87.1,prof.univ.,2024-12-12,Macuiltianguis
+1654,guardia de seguridad,91.4,bachillerato,2024-07-03,Ocotlan
+1655,plomero,71.6,doctorado,2024-09-10,Santa Catarina
+1656,economista,58.9,maestria,2024-07-22,Salina Cruz
+1657,transportista,86.5,prof.univ.,2024-06-20,oaxaca capital
+1658,maestro de obra,93.5,secundaria,2024-05-23,San Pablo Etla
+1659,auditor,80.7,primaria,2024-09-30,Tututepec
+1660,enfermero,76.8,especialidad,2024-05-22,Tututepec
+1661,auditor,49.7,maestria,2024-02-28,Huatulco
+1662,ingeniero de sistemas,94.1,primaria,2024-11-27,Lachixio
+1663,investigador,84.1,primaria,2024-04-28,Tututepec
+1664,académico,90.5,bachillerato,2024-04-14,Huajuapan
+1665,camarero,42.3,secundaria,2024-10-23,San Juan
+1666,analista,57.0,lic.incompleta,2024-01-01,Huatulco
+1667,dentista,85.6,prof.univ.,2024-07-28,Lachixio
+1668,técnico de mantenimiento,41.8,doctorado,2024-07-04,San Juan
+1669,contador,89.6,especialidad,2024-01-05,Salina Cruz
+1670,ejecutivo de ventas,79.1,bachillerato,2024-06-01,Xoxocotlan
+1671,economista,76.1,doctorado,2024-02-12,Santa Catarina
+1672,gerente,92.9,prof.univ.,2024-06-19,Xoxocotlan
+1673,contador,60.7,maestria,2024-05-02,Crucecita
+1674,arquitecto,81.4,secundaria,2024-07-15,Etla
+1675,abogado,57.9,primaria,2024-12-15,San Juan
+1676,camarero,59.2,licenciatura completa,2024-03-19,Crucecita
+1677,contador,67.0,bachillerato,2024-04-20,Pochutla
+1678,contador,79.7,prof.univ.,2024-06-12,San Pablo Etla
+1679,ejecutivo de ventas,50.3,secundaria,2024-12-21,Puerto Escondido
+1680,camarero,94.5,prof.univ.,2024-11-17,Tututepec
+1681,gerente,51.1,lic.incompleta,2024-09-17,San Pablo Etla
+1682,mecanico,60.7,primaria,2024-08-05,Ocotlan
+1683,chef,85.2,primaria,2024-08-22,Ixtlan
+1684,tec. en electricidad,86.1,tecnico,2024-02-28,juarez
+1685,maestro de obra,55.2,maestria,2024-10-21,Macuiltianguis
+1686,jardinero,91.1,doctorado,2024-08-18,juarez
+1687,tec. en electricidad,42.5,maestria,2024-10-12,Etla
+1688,enfermero,73.4,tecnico,2024-12-26,Huatulco
+1689,chef,93.4,secundaria,2024-11-06,Ixtlan
+1690,guardia de seguridad,51.6,prof.univ.,2024-07-13,Etla
+1691,enfermero,53.4,secundaria,2024-04-03,Salina Cruz
+1692,contador,68.7,especialidad,2024-08-05,Tlacolula
+1693,economista,74.5,especialidad,2024-05-17,Puerto Escondido
+1694,contador,81.7,especialidad,2024-02-09,Tututepec
+1695,conductor,49.7,bachillerato,2024-12-27,Puerto Escondido
+1696,camarero,88.5,lic.incompleta,2024-11-07,Crucecita
+1697,gerente,92.1,bachillerato,2024-09-22,Tlacolula
+1698,analista,51.1,prof.univ.,2024-08-26,Ocotlan
+1699,cocinero,63.2,primaria,2024-10-31,Santiago
+1700,académico,73.5,tecnico,2024-03-03,Salina Cruz
+1701,camarero,53.2,licenciatura completa,2024-11-01,Macuiltianguis
+1702,dentista,60.2,prof.univ.,2024-06-19,Puerto Escondido
+1703,consultor,48.2,doctorado,2024-07-11,oaxaca capital
+1704,programador,54.9,lic.incompleta,2024-07-13,Salina Cruz
+1705,cocinero,44.7,lic.incompleta,2024-12-18,Etla
+1706,académico,71.9,licenciatura completa,2024-08-05,San Juan
+1707,contador,66.7,tecnico,2024-07-17,juarez
+1708,chef,40.7,maestria,2024-06-05,oaxaca capital
+1709,técnico en telecomunicaciones,91.4,doctorado,2024-06-28,Crucecita
+1710,ingeniero de sistemas,44.7,primaria,2024-12-19,Puerto Escondido
+1711,asistente administrativo,72.3,licenciatura completa,2024-04-13,San Pablo Etla
+1712,docente,92.8,licenciatura completa,2024-11-30,San Juan
+1713,investigador,53.3,primaria,2024-03-31,Santa Catarina
+1714,ejecutivo de ventas,86.8,lic.incompleta,2024-09-01,San Juan
+1715,programador,71.8,lic.incompleta,2024-07-10,Tututepec
+1716,capacitador,83.0,bachillerato,2024-05-08,Xoxocotlan
+1717,docente,77.6,licenciatura completa,2024-07-03,Huatulco
+1718,camarero,84.2,doctorado,2024-12-01,Crucecita
+1719,maestro de obra,65.6,licenciatura completa,2024-09-17,Huatulco
+1720,ejecutivo de ventas,84.0,primaria,2024-09-26,Etla
+1721,técnico en telecomunicaciones,81.8,doctorado,2024-04-28,Etla
+1722,auditor,74.9,secundaria,2024-08-01,Puerto Escondido
+1723,mecanico,88.9,tecnico,2024-03-20,Ixtlan
+1724,electricista,66.5,especialidad,2024-07-04,Pochutla
+1725,camarero,50.1,lic.incompleta,2024-04-17,juarez
+1726,capacitador,93.7,tecnico,2024-11-25,San Juan
+1727,enfermero,43.2,lic.incompleta,2024-07-23,Macuiltianguis
+1728,docente,76.7,licenciatura completa,2024-04-29,Crucecita
+1729,carpintero,40.3,tecnico,2024-07-22,San Pablo Etla
+1730,académico,64.5,lic.incompleta,2024-01-20,Crucecita
+1731,arquitecto,76.9,primaria,2024-01-27,San Juan
+1732,carpintero,85.1,bachillerato,2024-10-04,Santa Catarina
+1733,gerente,47.9,especialidad,2024-07-01,San Juan
+1734,docente,92.0,licenciatura completa,2024-01-02,Salina Cruz
+1735,técnico de mantenimiento,53.5,primaria,2024-10-22,San Pablo Etla
+1736,transportista,87.3,especialidad,2024-04-22,Santiago
+1737,contador,81.4,especialidad,2024-10-18,Santa Catarina
+1738,contador,70.9,secundaria,2024-06-09,Puerto Escondido
+1739,pintor,81.5,licenciatura completa,2024-12-31,Ocotlan
+1740,auditor,47.2,tecnico,2024-01-02,Ixtlan
+1741,profesor,90.7,bachillerato,2024-12-23,Etla
+1742,jardinero,59.4,primaria,2024-07-18,Crucecita
+1743,contador,61.3,lic.incompleta,2024-10-30,Puerto Escondido
+1744,pintor,86.3,maestria,2024-05-20,Ixtlan
+1745,abogado,46.9,maestria,2024-06-13,juarez
+1746,chef,91.3,secundaria,2024-09-22,Tututepec
+1747,tec. en electricidad,82.8,especialidad,2024-06-23,oaxaca capital
+1748,coordinador,93.2,tecnico,2024-04-20,Macuiltianguis
+1749,técnico de mantenimiento,86.8,secundaria,2024-01-18,Tututepec
+1750,guardia de seguridad,41.0,secundaria,2024-11-23,oaxaca capital
+1751,consultor,49.2,doctorado,2024-09-16,Ixtlan
+1752,chef,40.8,bachillerato,2024-03-27,Salina Cruz
+1753,arquitecto,73.6,prof.univ.,2024-07-17,Crucecita
+1754,contador,59.5,tecnico,2024-06-06,San Pablo Etla
+1755,ejecutivo de ventas,50.7,prof.univ.,2024-12-23,Puerto Escondido
+1756,consultor,55.5,secundaria,2024-01-30,Huatulco
+1757,guardia de seguridad,75.3,especialidad,2024-06-17,Salina Cruz
+1758,supervisor,75.5,prof.univ.,2024-12-16,Puerto Escondido
+1759,capacitador,46.5,especialidad,2024-01-05,Ixtlan
+1760,coordinador,60.3,doctorado,2024-03-01,Pochutla
+1761,auditor,48.3,maestria,2024-06-04,Puerto Escondido
+1762,psicólogo,74.9,doctorado,2024-10-01,Santiago
+1763,ingeniero de sistemas,53.9,tecnico,2024-11-02,Tlacolula
+1764,guardia de seguridad,91.4,licenciatura completa,2024-12-30,Huajuapan
+1765,pintor,48.3,doctorado,2024-08-21,Macuiltianguis
+1766,jardinero,81.4,primaria,2024-01-10,Crucecita
+1767,maestro de obra,87.8,prof.univ.,2024-02-08,Tututepec
+1768,profesor,93.5,tecnico,2024-02-19,Tututepec
+1769,tec. en electricidad,79.8,prof.univ.,2024-10-14,Tututepec
+1770,asistente administrativo,54.5,maestria,2024-03-31,Lachixio
+1771,técnico de mantenimiento,68.5,licenciatura completa,2024-01-25,Salina Cruz
+1772,camarero,86.5,lic.incompleta,2024-08-27,Crucecita
+1773,mecanico,50.2,tecnico,2024-06-03,San Pablo Etla
+1774,técnico en telecomunicaciones,85.9,tecnico,2024-04-11,Xoxocotlan
+1775,diseñador grafico,48.8,especialidad,2024-09-22,juarez
+1776,cocinero,74.9,secundaria,2024-01-10,Ixtlan
+1777,analista,44.8,tecnico,2024-08-16,Puerto Escondido
+1778,dentista,42.2,especialidad,2024-05-25,Crucecita
+1779,dentista,47.9,bachillerato,2024-08-17,Salina Cruz
+1780,auditor,44.6,licenciatura completa,2024-12-01,San Juan
+1781,técnico en telecomunicaciones,63.1,prof.univ.,2024-03-20,Puerto Escondido
+1782,capacitador,62.2,secundaria,2024-04-30,Ocotlan
+1783,camarero,52.4,tecnico,2024-11-20,San Pablo Etla
+1784,tec. en electricidad,90.3,maestria,2024-10-12,Tlacolula
+1785,asistente administrativo,42.1,maestria,2024-03-13,Lachixio
+1786,académico,91.6,maestria,2024-10-14,Santa Catarina
+1787,arquitecto,84.0,lic.incompleta,2024-10-24,Crucecita
+1788,coordinador,82.2,primaria,2024-11-11,Macuiltianguis
+1789,conductor,56.2,lic.incompleta,2024-02-15,Macuiltianguis
+1790,guardia de seguridad,83.9,especialidad,2024-05-11,Salina Cruz
+1791,tec. en electricidad,86.5,primaria,2024-06-29,Tlacolula
+1792,pintor,63.8,prof.univ.,2024-05-03,San Juan
+1793,chef,93.4,maestria,2024-08-14,Etla
+1794,ingeniero de sistemas,94.7,lic.incompleta,2024-03-03,Huajuapan
+1795,diseñador grafico,41.4,prof.univ.,2024-11-13,San Pablo Etla
+1796,cocinero,56.8,bachillerato,2024-11-25,Tututepec
+1797,diseñador grafico,46.1,maestria,2024-09-04,Lachixio
+1798,representante comercial,88.8,primaria,2024-02-24,Santiago
+1799,arquitecto,81.5,primaria,2024-02-16,San Pablo Etla
+1800,camarero,59.8,maestria,2024-09-25,Xoxocotlan
+1801,docente,76.5,tecnico,2024-09-22,Santa Catarina
+1802,académico,47.3,licenciatura completa,2024-02-29,Santa Catarina
+1803,psicólogo,46.0,maestria,2024-05-09,Santiago
+1804,técnico de mantenimiento,59.0,doctorado,2024-02-09,Salina Cruz
+1805,electricista,84.6,bachillerato,2024-02-25,Santa Catarina
+1806,plomero,77.8,tecnico,2024-07-13,Xoxocotlan
+1807,pintor,79.1,licenciatura completa,2024-09-01,Pochutla
+1808,guardia de seguridad,43.4,licenciatura completa,2024-12-16,Crucecita
+1809,cocinero,90.6,prof.univ.,2024-08-16,Huajuapan
+1810,auditor,62.7,maestria,2024-04-26,oaxaca capital
+1811,ingeniero de sistemas,83.5,bachillerato,2024-10-08,Xoxocotlan
+1812,vendedor,68.6,especialidad,2024-06-21,Pochutla
+1813,profesor,69.9,especialidad,2024-01-12,Pochutla
+1814,capacitador,50.0,licenciatura completa,2024-06-03,Puerto Escondido
+1815,coordinador,84.0,doctorado,2024-12-22,Ocotlan
+1816,abogado,59.3,tecnico,2024-01-31,Huajuapan
+1817,docente,90.2,secundaria,2024-06-21,Tututepec
+1818,camarero,77.7,maestria,2024-03-21,Puerto Escondido
+1819,académico,40.5,primaria,2024-04-30,Macuiltianguis
+1820,contador,91.4,lic.incompleta,2024-09-29,Pochutla
+1821,programador,55.7,lic.incompleta,2024-07-19,Ixtlan
+1822,representante comercial,80.8,secundaria,2024-03-27,Puerto Escondido
+1823,tec. en electricidad,54.4,doctorado,2024-07-07,Santa Catarina
+1824,técnico de mantenimiento,86.1,lic.incompleta,2024-11-02,Etla
+1825,técnico de mantenimiento,77.0,lic.incompleta,2024-05-02,Lachixio
+1826,camarero,76.5,doctorado,2024-08-29,San Juan
+1827,jardinero,45.5,especialidad,2024-06-15,oaxaca capital
+1828,chef,57.1,primaria,2024-12-12,juarez
+1829,soldador,56.8,prof.univ.,2024-04-27,Crucecita
+1830,conductor,59.7,bachillerato,2024-03-22,San Pablo Etla
+1831,chef,76.8,prof.univ.,2024-02-15,Tlacolula
+1832,contador,69.5,prof.univ.,2024-05-19,Tlacolula
+1833,abogado,69.3,especialidad,2024-09-19,Lachixio
+1834,coordinador,59.7,bachillerato,2024-12-11,Xoxocotlan
+1835,psicólogo,64.9,tecnico,2024-11-20,Etla
+1836,coordinador,40.3,lic.incompleta,2024-08-22,oaxaca capital
+1837,transportista,53.2,tecnico,2024-09-22,Huatulco
+1838,asistente administrativo,86.9,secundaria,2024-04-18,Tututepec
+1839,jardinero,57.0,lic.incompleta,2024-08-23,Santiago
+1840,asistente administrativo,90.8,maestria,2024-03-22,Santiago
+1841,técnico en telecomunicaciones,76.4,doctorado,2024-07-16,Crucecita
+1842,plomero,56.5,prof.univ.,2024-07-24,Tlacolula
+1843,jardinero,53.0,licenciatura completa,2024-06-18,Santiago
+1844,ingeniero de sistemas,58.2,lic.incompleta,2024-12-05,San Pablo Etla
+1845,representante comercial,64.6,lic.incompleta,2024-09-03,Etla
+1846,soldador,53.8,lic.incompleta,2024-03-02,Huajuapan
+1847,técnico en telecomunicaciones,61.2,bachillerato,2024-09-10,Huajuapan
+1848,contador,41.9,tecnico,2024-03-07,Santa Catarina
+1849,asistente administrativo,40.6,lic.incompleta,2024-08-21,Santa Catarina
+1850,camarero,93.2,maestria,2024-10-26,Lachixio
+1851,profesor,54.1,licenciatura completa,2024-08-22,Macuiltianguis
+1852,consultor,47.0,especialidad,2024-03-02,San Pablo Etla
+1853,abogado,87.6,maestria,2024-11-20,Huajuapan
+1854,economista,54.2,maestria,2024-11-12,Santa Catarina
+1855,arquitecto,65.5,prof.univ.,2024-03-27,Ixtlan
+1856,profesor,93.7,tecnico,2024-05-27,Crucecita
+1857,capacitador,73.0,tecnico,2024-02-04,oaxaca capital
+1858,mecanico,54.9,prof.univ.,2024-09-15,Xoxocotlan
+1859,maestro de obra,47.3,especialidad,2024-12-15,Macuiltianguis
+1860,plomero,81.9,bachillerato,2024-04-11,San Juan
+1861,investigador,79.9,licenciatura completa,2024-08-20,Santa Catarina
+1862,supervisor,80.0,licenciatura completa,2024-05-15,Crucecita
+1863,asistente administrativo,93.6,licenciatura completa,2024-12-20,Huatulco
+1864,diseñador grafico,86.2,bachillerato,2024-04-08,Lachixio
+1865,economista,70.9,secundaria,2024-02-05,Tututepec
+1866,conductor,62.1,tecnico,2024-07-12,Santa Catarina
+1867,auditor,51.6,especialidad,2024-04-19,San Pablo Etla
+1868,técnico de mantenimiento,82.4,licenciatura completa,2024-09-17,Crucecita
+1869,analista,93.5,bachillerato,2024-07-19,Santiago
+1870,dentista,71.0,especialidad,2024-07-13,Macuiltianguis
+1871,ejecutivo de ventas,70.1,prof.univ.,2024-12-09,oaxaca capital
+1872,académico,88.9,prof.univ.,2024-05-04,Salina Cruz
+1873,camarero,67.6,tecnico,2024-10-16,Tututepec
+1874,cocinero,55.0,tecnico,2024-03-12,oaxaca capital
+1875,camarero,46.4,primaria,2024-09-13,Huajuapan
+1876,supervisor,92.5,especialidad,2024-08-21,Tututepec
+1877,jardinero,75.0,doctorado,2024-03-01,Huatulco
+1878,contador,41.4,prof.univ.,2024-08-13,Ocotlan
+1879,cocinero,43.3,prof.univ.,2024-07-27,Puerto Escondido
+1880,consultor,85.9,maestria,2024-01-18,San Juan
+1881,analista,67.1,licenciatura completa,2024-05-20,Etla
+1882,pintor,49.1,primaria,2024-03-25,Xoxocotlan
+1883,vendedor,65.8,secundaria,2024-11-06,Salina Cruz
+1884,ingeniero de sistemas,88.7,lic.incompleta,2024-05-12,Macuiltianguis
+1885,guardia de seguridad,57.3,especialidad,2024-09-09,Tlacolula
+1886,abogado,81.1,doctorado,2024-04-27,Ocotlan
+1887,economista,55.7,tecnico,2024-08-18,Huajuapan
+1888,enfermero,46.0,maestria,2024-06-24,San Juan
+1889,contador,50.5,doctorado,2024-11-24,Etla
+1890,docente,70.4,secundaria,2024-11-20,juarez
+1891,tec. en electricidad,52.6,tecnico,2024-10-06,oaxaca capital
+1892,programador,87.7,prof.univ.,2024-11-12,Macuiltianguis
+1893,coordinador,62.6,prof.univ.,2024-10-28,Ocotlan
+1894,cocinero,81.4,maestria,2024-12-16,San Juan
+1895,arquitecto,62.0,primaria,2024-06-25,Santiago
+1896,coordinador,88.1,prof.univ.,2024-11-28,juarez
+1897,gerente,45.7,tecnico,2024-06-14,Salina Cruz
+1898,ingeniero de sistemas,62.6,tecnico,2024-02-16,San Juan
+1899,maestro de obra,79.1,doctorado,2024-02-22,Huatulco
+1900,gerente,47.6,prof.univ.,2024-08-31,Tlacolula
+1901,auditor,46.5,prof.univ.,2024-04-22,Pochutla
+1902,gerente,90.1,lic.incompleta,2024-01-23,Crucecita
+1903,auditor,65.0,bachillerato,2024-03-18,Salina Cruz
+1904,gerente,40.9,primaria,2024-09-14,Ixtlan
+1905,transportista,68.6,bachillerato,2024-04-26,Salina Cruz
+1906,consultor,66.5,lic.incompleta,2024-01-23,Tututepec
+1907,contador,64.5,primaria,2024-12-10,Huatulco
+1908,analista,87.4,bachillerato,2024-10-29,Ocotlan
+1909,abogado,89.7,licenciatura completa,2024-01-23,Tlacolula
+1910,soldador,79.1,primaria,2024-12-14,oaxaca capital
+1911,carpintero,93.2,licenciatura completa,2024-08-07,Tututepec
+1912,capacitador,56.6,lic.incompleta,2024-08-08,Xoxocotlan
+1913,ingeniero de sistemas,90.9,especialidad,2024-12-22,juarez
+1914,jardinero,40.5,tecnico,2024-07-24,Crucecita
+1915,psicólogo,91.5,bachillerato,2024-04-01,juarez
+1916,docente,47.9,maestria,2024-03-07,Santa Catarina
+1917,transportista,77.3,prof.univ.,2024-09-09,Crucecita
+1918,capacitador,90.5,tecnico,2024-06-08,Etla
+1919,dentista,75.7,especialidad,2024-07-05,Xoxocotlan
+1920,mecanico,40.9,doctorado,2024-02-28,Salina Cruz
+1921,arquitecto,47.0,secundaria,2024-11-29,Macuiltianguis
+1922,auditor,70.0,secundaria,2024-06-18,Santiago
+1923,profesor,92.4,prof.univ.,2024-01-08,San Juan
+1924,conductor,70.7,tecnico,2024-10-22,Puerto Escondido
+1925,enfermero,93.2,prof.univ.,2024-04-20,Crucecita
+1926,pintor,61.8,maestria,2024-04-15,Puerto Escondido
+1927,maestro de obra,87.1,lic.incompleta,2024-08-24,San Juan
+1928,supervisor,60.0,prof.univ.,2024-08-09,Tututepec
+1929,consultor,47.7,lic.incompleta,2024-12-03,oaxaca capital
+1930,psicólogo,90.9,especialidad,2024-09-29,Ixtlan
+1931,programador,70.4,licenciatura completa,2024-09-14,Etla
+1932,camarero,52.9,maestria,2024-06-26,Ocotlan
+1933,arquitecto,78.4,prof.univ.,2024-02-08,Salina Cruz
+1934,vendedor,42.5,doctorado,2024-01-16,Ixtlan
+1935,diseñador grafico,45.9,doctorado,2024-05-30,Salina Cruz
+1936,tec. en electricidad,67.7,licenciatura completa,2024-06-06,San Juan
+1937,profesor,55.7,maestria,2024-03-26,Tututepec
+1938,contador,90.9,tecnico,2024-04-02,Puerto Escondido
+1939,gerente,79.9,maestria,2024-07-19,Xoxocotlan
+1940,chef,53.0,secundaria,2024-01-06,Ocotlan
+1941,guardia de seguridad,69.0,maestria,2024-12-01,oaxaca capital
+1942,abogado,84.9,secundaria,2024-06-25,Santa Catarina
+1943,consultor,52.1,primaria,2024-07-14,Ocotlan
+1944,jardinero,56.6,tecnico,2024-03-23,Ocotlan
+1945,investigador,46.9,licenciatura completa,2024-07-13,Tlacolula
+1946,guardia de seguridad,55.2,doctorado,2024-09-24,San Pablo Etla
+1947,maestro de obra,66.4,tecnico,2024-07-28,Xoxocotlan
+1948,abogado,51.7,lic.incompleta,2024-11-24,Ixtlan
+1949,académico,74.2,doctorado,2024-05-29,Tlacolula
+1950,académico,57.8,primaria,2024-04-28,Santiago
+1951,técnico en telecomunicaciones,52.6,bachillerato,2024-03-07,San Juan
+1952,guardia de seguridad,50.2,tecnico,2024-09-24,Salina Cruz
+1953,conductor,64.9,licenciatura completa,2024-12-26,Huajuapan
+1954,académico,93.8,secundaria,2024-05-23,San Pablo Etla
+1955,tec. en electricidad,78.1,primaria,2024-08-20,Huatulco
+1956,supervisor,43.0,prof.univ.,2024-09-16,Ocotlan
+1957,ingeniero de sistemas,52.4,tecnico,2024-12-07,Salina Cruz
+1958,carpintero,70.1,prof.univ.,2024-09-24,Ocotlan
+1959,técnico en electrónica,40.7,licenciatura completa,2024-03-20,Macuiltianguis
+1960,carpintero,94.2,secundaria,2024-08-11,Santa Catarina
+1961,técnico en telecomunicaciones,45.7,lic.incompleta,2024-08-17,Santiago
+1962,electricista,63.8,licenciatura completa,2024-02-03,Tlacolula
+1963,programador,46.4,licenciatura completa,2024-04-19,Puerto Escondido
+1964,supervisor,89.9,bachillerato,2024-06-29,Etla
+1965,representante comercial,86.7,tecnico,2024-09-08,Huatulco
+1966,analista,91.6,tecnico,2024-01-25,Crucecita
+1967,representante comercial,57.3,lic.incompleta,2024-06-10,San Pablo Etla
+1968,auditor,71.2,secundaria,2024-08-31,Etla
+1969,abogado,56.7,tecnico,2024-02-23,Santa Catarina
+1970,economista,54.9,bachillerato,2024-01-29,Puerto Escondido
+1971,camarero,47.9,licenciatura completa,2024-03-17,Pochutla
+1972,psicólogo,43.0,licenciatura completa,2024-01-05,Pochutla
+1973,capacitador,81.9,maestria,2024-12-23,Tlacolula
+1974,diseñador grafico,44.9,bachillerato,2024-10-11,juarez
+1975,soldador,83.4,lic.incompleta,2024-04-27,Macuiltianguis
+1976,soldador,61.0,especialidad,2024-11-18,Xoxocotlan
+1977,técnico de mantenimiento,72.9,especialidad,2024-04-10,Huajuapan
+1978,profesor,71.6,prof.univ.,2024-12-08,Pochutla
+1979,arquitecto,80.4,prof.univ.,2024-02-18,Huajuapan
+1980,dentista,60.0,primaria,2024-09-21,Crucecita
+1981,asistente administrativo,52.5,maestria,2024-04-29,Santa Catarina
+1982,conductor,93.8,secundaria,2024-10-17,Macuiltianguis
+1983,vendedor,75.4,secundaria,2024-01-11,Tlacolula
+1984,técnico en telecomunicaciones,64.8,doctorado,2024-05-24,Huatulco
+1985,chef,92.1,lic.incompleta,2024-02-24,Huajuapan
+1986,soldador,68.2,maestria,2024-03-26,Huajuapan
+1987,diseñador grafico,87.0,bachillerato,2024-12-26,Tlacolula
+1988,psicólogo,62.5,doctorado,2024-03-05,San Juan
+1989,técnico de mantenimiento,80.5,secundaria,2024-01-31,Pochutla
+1990,mecanico,86.0,licenciatura completa,2024-06-16,Crucecita
+1991,jardinero,90.1,primaria,2024-08-20,Ixtlan
+1992,académico,48.9,bachillerato,2024-08-23,San Juan
+1993,cocinero,56.6,doctorado,2024-09-29,Xoxocotlan
+1994,cocinero,90.3,maestria,2024-02-22,juarez
+1995,economista,70.5,bachillerato,2024-08-03,oaxaca capital
+1996,mecanico,45.0,tecnico,2024-09-24,Xoxocotlan
+1997,diseñador grafico,88.3,secundaria,2024-04-23,Huatulco
+1998,supervisor,92.5,prof.univ.,2024-07-25,juarez
+1999,investigador,51.8,especialidad,2024-02-28,Santa Catarina
+2000,consultor,65.5,secundaria,2024-08-28,Ocotlan
+2001,dentista,60.7,especialidad,2024-01-29,Santa Catarina
+2002,abogado,56.2,lic.incompleta,2024-01-25,Santa Catarina
+2003,psicólogo,41.1,licenciatura completa,2024-12-25,Crucecita
+2004,transportista,90.7,secundaria,2024-03-21,oaxaca capital
+2005,asistente administrativo,77.0,doctorado,2024-05-06,Santa Catarina
+2006,camarero,46.0,primaria,2024-04-26,Macuiltianguis
+2007,gerente,88.9,doctorado,2024-06-11,oaxaca capital
+2008,diseñador grafico,54.4,lic.incompleta,2024-11-28,juarez
+2009,tec. en electricidad,71.6,tecnico,2024-02-06,San Juan
+2010,técnico en electrónica,46.6,licenciatura completa,2024-03-23,Ixtlan
+2011,técnico en telecomunicaciones,86.2,secundaria,2024-03-18,Macuiltianguis
+2012,investigador,66.7,prof.univ.,2024-03-18,Tututepec
+2013,investigador,91.6,doctorado,2024-05-05,San Pablo Etla
+2014,investigador,41.3,primaria,2024-02-06,Tlacolula
+2015,asistente administrativo,69.7,bachillerato,2024-08-03,San Pablo Etla
+2016,contador,92.8,maestria,2024-02-03,Xoxocotlan
+2017,tec. en electricidad,83.8,maestria,2024-09-23,San Pablo Etla
+2018,soldador,86.7,secundaria,2024-03-14,Macuiltianguis
+2019,investigador,75.4,bachillerato,2024-08-25,Ixtlan
+2020,programador,80.5,doctorado,2024-09-09,juarez
+2021,ingeniero de sistemas,68.8,secundaria,2024-08-16,Ocotlan
+2022,dentista,80.9,bachillerato,2024-07-07,oaxaca capital
+2023,diseñador grafico,69.3,especialidad,2024-10-23,Huajuapan
+2024,dentista,48.5,lic.incompleta,2024-10-27,Crucecita
+2025,representante comercial,54.4,prof.univ.,2024-01-08,Tlacolula
+2026,académico,87.4,prof.univ.,2024-06-27,Puerto Escondido
+2027,plomero,51.2,licenciatura completa,2024-02-08,Xoxocotlan
+2028,mecanico,86.8,doctorado,2024-10-08,Huajuapan
+2029,auditor,40.3,secundaria,2024-10-14,Puerto Escondido
+2030,supervisor,91.4,lic.incompleta,2024-02-18,Salina Cruz
+2031,coordinador,67.9,tecnico,2024-10-22,Huajuapan
+2032,conductor,67.9,maestria,2024-12-25,Pochutla
+2033,camarero,65.6,primaria,2024-06-19,Tututepec
+2034,transportista,47.0,bachillerato,2024-04-26,Pochutla
+2035,mecanico,65.9,primaria,2024-11-11,Salina Cruz
+2036,tec. en electricidad,85.7,licenciatura completa,2024-09-04,Lachixio
+2037,conductor,77.2,doctorado,2024-03-25,Lachixio
+2038,diseñador grafico,79.0,licenciatura completa,2024-08-05,Macuiltianguis
+2039,psicólogo,62.8,maestria,2024-10-16,Tlacolula
+2040,vendedor,67.4,especialidad,2024-12-30,Etla
+2041,psicólogo,91.9,tecnico,2024-05-13,Huajuapan
+2042,dentista,85.9,licenciatura completa,2024-03-18,Xoxocotlan
+2043,programador,66.8,tecnico,2024-04-15,Crucecita
+2044,asistente administrativo,54.3,prof.univ.,2024-08-11,Macuiltianguis
+2045,capacitador,68.6,secundaria,2024-04-05,Pochutla
+2046,técnico en telecomunicaciones,43.6,doctorado,2024-07-14,Santa Catarina
+2047,carpintero,66.3,prof.univ.,2024-12-18,Lachixio
+2048,técnico en electrónica,71.7,secundaria,2024-07-17,Huajuapan
+2049,auditor,94.3,prof.univ.,2024-06-28,Santiago
+2050,auditor,53.7,primaria,2024-11-20,Tlacolula
+2051,economista,44.9,maestria,2024-10-22,Ixtlan
+2052,coordinador,56.1,primaria,2024-04-18,Tututepec
+2053,asistente administrativo,40.1,bachillerato,2024-11-07,oaxaca capital
+2054,programador,52.6,primaria,2024-02-17,Crucecita
+2055,investigador,47.7,secundaria,2024-12-06,Puerto Escondido
+2056,enfermero,44.5,bachillerato,2024-08-08,Macuiltianguis
+2057,plomero,53.9,primaria,2024-11-23,oaxaca capital
+2058,programador,94.1,licenciatura completa,2024-05-05,Salina Cruz
+2059,programador,64.5,secundaria,2024-11-18,Huatulco
+2060,dentista,74.1,especialidad,2024-01-06,Santa Catarina
+2061,auditor,79.5,primaria,2024-11-05,Santiago
+2062,vendedor,61.8,bachillerato,2024-06-30,Huajuapan
+2063,técnico en electrónica,56.9,tecnico,2024-07-16,Ixtlan
+2064,supervisor,62.2,especialidad,2024-06-17,juarez
+2065,coordinador,91.5,especialidad,2024-06-09,Crucecita
+2066,guardia de seguridad,43.4,lic.incompleta,2024-04-19,oaxaca capital
+2067,maestro de obra,50.3,especialidad,2024-09-04,Huajuapan
+2068,contador,74.9,especialidad,2024-11-12,Tututepec
+2069,programador,94.6,primaria,2024-12-16,Ocotlan
+2070,electricista,79.7,bachillerato,2024-01-25,Tlacolula
+2071,diseñador grafico,81.0,lic.incompleta,2024-09-29,Lachixio
+2072,auditor,58.7,doctorado,2024-06-24,Macuiltianguis
+2073,pintor,47.0,bachillerato,2024-06-06,Etla
+2074,plomero,63.9,especialidad,2024-12-27,Salina Cruz
+2075,técnico en electrónica,86.6,especialidad,2024-05-16,Santiago
+2076,ingeniero de sistemas,93.3,secundaria,2024-02-14,Ocotlan
+2077,soldador,71.6,licenciatura completa,2024-05-26,Lachixio
+2078,camarero,51.4,especialidad,2024-12-19,Huatulco
+2079,dentista,58.4,licenciatura completa,2024-07-07,Tlacolula
+2080,docente,66.7,maestria,2024-07-13,Salina Cruz
+2081,capacitador,90.1,secundaria,2024-06-12,juarez
+2082,consultor,52.6,lic.incompleta,2024-11-26,Crucecita
+2083,enfermero,61.2,prof.univ.,2024-08-28,Tlacolula
+2084,pintor,88.7,lic.incompleta,2024-07-03,Pochutla
+2085,carpintero,41.6,doctorado,2024-01-06,Macuiltianguis
+2086,gerente,90.3,especialidad,2024-06-05,Tlacolula
+2087,cocinero,93.2,secundaria,2024-02-05,Ocotlan
+2088,docente,55.4,especialidad,2024-11-30,Santa Catarina
+2089,técnico en electrónica,66.4,licenciatura completa,2024-07-14,juarez
+2090,contador,81.5,tecnico,2024-09-02,Xoxocotlan
+2091,dentista,89.0,tecnico,2024-11-21,Ocotlan
+2092,camarero,69.1,maestria,2024-06-02,Huajuapan
+2093,contador,59.3,prof.univ.,2024-03-17,juarez
+2094,profesor,84.4,lic.incompleta,2024-05-27,Ixtlan
+2095,analista,59.0,doctorado,2024-08-07,Santa Catarina
+2096,consultor,91.3,especialidad,2024-09-02,Tututepec
+2097,académico,58.9,maestria,2024-11-24,Lachixio
+2098,ingeniero de sistemas,42.0,prof.univ.,2024-08-07,Santa Catarina
+2099,pintor,83.1,lic.incompleta,2024-11-10,Huatulco
+2100,académico,45.2,especialidad,2024-03-14,Santiago
+2101,guardia de seguridad,47.2,lic.incompleta,2024-06-21,oaxaca capital
+2102,pintor,78.1,prof.univ.,2024-12-07,Salina Cruz
+2103,vendedor,53.5,tecnico,2024-07-04,Xoxocotlan
+2104,jardinero,70.6,secundaria,2024-04-06,Pochutla
+2105,economista,85.8,lic.incompleta,2024-08-18,Xoxocotlan
+2106,maestro de obra,60.6,prof.univ.,2024-07-14,Santa Catarina
+2107,ingeniero de sistemas,42.0,primaria,2024-02-05,Huatulco
+2108,técnico de mantenimiento,44.1,bachillerato,2024-04-27,Huajuapan
+2109,jardinero,85.1,secundaria,2024-04-27,Santiago
+2110,arquitecto,40.4,especialidad,2024-10-19,Pochutla
+2111,electricista,48.1,especialidad,2024-02-28,oaxaca capital
+2112,maestro de obra,66.7,maestria,2024-04-09,Lachixio
+2113,dentista,72.7,maestria,2024-06-04,Puerto Escondido
+2114,gerente,78.3,maestria,2024-02-05,Tlacolula
+2115,enfermero,83.8,lic.incompleta,2024-05-30,Ixtlan
+2116,vendedor,89.2,doctorado,2024-04-22,Tututepec
+2117,carpintero,75.8,licenciatura completa,2024-06-05,Crucecita
+2118,enfermero,87.2,tecnico,2024-11-16,Huajuapan
+2119,enfermero,69.9,primaria,2024-09-16,Santa Catarina
+2120,ejecutivo de ventas,50.8,bachillerato,2024-10-20,Etla
+2121,jardinero,65.5,especialidad,2024-11-18,oaxaca capital
+2122,guardia de seguridad,45.7,maestria,2024-09-07,Santiago
+2123,consultor,65.8,licenciatura completa,2024-06-03,Santiago
+2124,camarero,91.1,primaria,2024-06-01,Etla
+2125,investigador,84.9,especialidad,2024-09-17,Pochutla
+2126,conductor,75.9,primaria,2024-12-24,Macuiltianguis
+2127,capacitador,43.5,tecnico,2024-07-24,Santiago
+2128,transportista,66.6,prof.univ.,2024-01-23,Tututepec
+2129,ejecutivo de ventas,79.4,prof.univ.,2024-09-16,Ixtlan
+2130,contador,44.6,tecnico,2024-08-05,Ixtlan
+2131,consultor,45.7,secundaria,2024-10-08,Tututepec
+2132,vendedor,74.9,licenciatura completa,2024-12-13,Tlacolula
+2133,contador,57.7,maestria,2024-01-11,oaxaca capital
+2134,profesor,71.4,maestria,2024-05-13,oaxaca capital
+2135,programador,81.7,especialidad,2024-04-18,oaxaca capital
+2136,cocinero,49.5,especialidad,2024-06-24,Xoxocotlan
+2137,abogado,59.7,primaria,2024-05-19,juarez
+2138,transportista,48.9,especialidad,2024-05-25,Crucecita
+2139,chef,48.1,especialidad,2024-08-23,Tututepec
+2140,chef,87.5,tecnico,2024-02-09,Ocotlan
+2141,profesor,82.8,doctorado,2024-11-21,Pochutla
+2142,profesor,65.2,bachillerato,2024-07-09,oaxaca capital
+2143,transportista,46.1,tecnico,2024-08-11,Tlacolula
+2144,chef,94.4,prof.univ.,2024-10-28,juarez
+2145,diseñador grafico,73.3,prof.univ.,2024-08-11,Santa Catarina
+2146,técnico de mantenimiento,72.0,tecnico,2024-04-26,Macuiltianguis
+2147,ingeniero de sistemas,69.2,doctorado,2024-06-02,Pochutla
+2148,académico,73.8,doctorado,2024-05-18,Ixtlan
+2149,transportista,66.4,doctorado,2024-09-02,Xoxocotlan
+2150,abogado,49.1,licenciatura completa,2024-06-24,Pochutla
+2151,pintor,88.1,primaria,2024-10-31,Santa Catarina
+2152,plomero,67.2,tecnico,2024-09-23,San Juan
+2153,dentista,65.2,prof.univ.,2024-10-23,Santa Catarina
+2154,transportista,52.5,maestria,2024-01-23,Salina Cruz
+2155,chef,72.7,maestria,2024-05-08,Ocotlan
+2156,tec. en electricidad,81.9,secundaria,2024-07-20,juarez
+2157,ejecutivo de ventas,45.7,tecnico,2024-11-20,Crucecita
+2158,investigador,42.0,primaria,2024-01-12,Santiago
+2159,ingeniero de sistemas,51.3,tecnico,2024-06-03,Santa Catarina
+2160,jardinero,75.8,licenciatura completa,2024-08-05,Santa Catarina
+2161,maestro de obra,76.5,maestria,2024-04-03,Tututepec
+2162,contador,57.8,lic.incompleta,2024-08-24,Tlacolula
+2163,auditor,45.6,especialidad,2024-02-16,Etla
+2164,pintor,70.7,doctorado,2024-03-19,Xoxocotlan
+2165,programador,61.3,prof.univ.,2024-04-16,Huatulco
+2166,pintor,46.6,doctorado,2024-02-25,San Juan
+2167,dentista,52.0,especialidad,2024-07-27,Santa Catarina
+2168,gerente,41.1,licenciatura completa,2024-10-16,Xoxocotlan
+2169,capacitador,73.0,primaria,2024-04-10,Ixtlan
+2170,camarero,43.8,primaria,2024-09-07,Puerto Escondido
+2171,analista,93.2,primaria,2024-12-09,San Juan
+2172,transportista,89.1,secundaria,2024-06-26,Ocotlan
+2173,conductor,90.5,secundaria,2024-04-24,oaxaca capital
+2174,guardia de seguridad,94.1,licenciatura completa,2024-05-25,Ixtlan
+2175,psicólogo,45.4,licenciatura completa,2024-02-02,Crucecita
+2176,pintor,93.1,licenciatura completa,2024-07-30,Santa Catarina
+2177,abogado,44.7,licenciatura completa,2024-04-10,Etla
+2178,técnico en telecomunicaciones,92.8,doctorado,2024-12-25,Ixtlan
+2179,profesor,68.6,licenciatura completa,2024-04-07,oaxaca capital
+2180,técnico en telecomunicaciones,71.2,primaria,2024-08-28,Tlacolula
+2181,representante comercial,70.4,licenciatura completa,2024-08-22,juarez
+2182,técnico en electrónica,70.4,lic.incompleta,2024-12-25,Tututepec
+2183,tec. en electricidad,49.1,especialidad,2024-03-04,Huajuapan
+2184,contador,66.5,doctorado,2024-04-06,San Pablo Etla
+2185,guardia de seguridad,67.5,primaria,2024-02-26,Santiago
+2186,dentista,44.4,especialidad,2024-04-27,Xoxocotlan
+2187,dentista,67.8,primaria,2024-12-02,San Pablo Etla
+2188,transportista,81.5,especialidad,2024-10-30,Santiago
+2189,abogado,69.9,licenciatura completa,2024-07-17,Ixtlan
+2190,chef,91.5,doctorado,2024-05-16,oaxaca capital
+2191,asistente administrativo,65.2,maestria,2024-11-12,Pochutla
+2192,programador,67.4,primaria,2024-01-06,Pochutla
+2193,carpintero,71.6,doctorado,2024-09-18,Tlacolula
+2194,asistente administrativo,83.2,secundaria,2024-03-17,Ixtlan
+2195,enfermero,68.6,lic.incompleta,2024-10-19,Salina Cruz
+2196,académico,54.3,lic.incompleta,2024-03-31,Huatulco
+2197,técnico en electrónica,43.0,bachillerato,2024-09-19,Santa Catarina
+2198,ejecutivo de ventas,49.7,licenciatura completa,2024-05-22,Tututepec
+2199,psicólogo,63.9,maestria,2024-08-07,Salina Cruz
+2200,técnico en telecomunicaciones,52.0,lic.incompleta,2024-05-04,Lachixio
+2201,economista,46.3,licenciatura completa,2024-08-07,San Pablo Etla
+2202,psicólogo,52.5,primaria,2024-06-05,Puerto Escondido
+2203,transportista,75.6,primaria,2024-08-17,San Pablo Etla
+2204,plomero,66.9,licenciatura completa,2024-07-26,San Juan
+2205,supervisor,72.7,tecnico,2024-04-11,Ixtlan
+2206,dentista,77.2,maestria,2024-11-10,Salina Cruz
+2207,tec. en electricidad,55.3,secundaria,2024-04-30,Salina Cruz
+2208,consultor,40.7,tecnico,2024-12-03,Crucecita
+2209,representante comercial,45.6,bachillerato,2024-05-28,Etla
+2210,programador,80.8,maestria,2024-03-04,juarez
+2211,contador,79.2,maestria,2024-06-26,Pochutla
+2212,coordinador,64.5,doctorado,2024-11-26,juarez
+2213,pintor,54.9,tecnico,2024-09-10,Ixtlan
+2214,técnico en electrónica,55.5,secundaria,2024-01-24,Pochutla
+2215,asistente administrativo,68.6,secundaria,2024-09-14,Puerto Escondido
+2216,pintor,60.6,maestria,2024-09-25,San Pablo Etla
+2217,profesor,80.6,lic.incompleta,2024-04-27,Pochutla
+2218,auditor,41.2,doctorado,2024-11-21,Puerto Escondido
+2219,diseñador grafico,85.5,maestria,2024-01-20,Macuiltianguis
+2220,docente,54.4,secundaria,2024-09-06,Huajuapan
+2221,técnico en telecomunicaciones,84.5,maestria,2024-02-24,Etla
+2222,conductor,93.2,tecnico,2024-12-28,oaxaca capital
+2223,carpintero,53.0,maestria,2024-06-07,Tlacolula
+2224,pintor,81.1,prof.univ.,2024-10-16,Puerto Escondido
+2225,abogado,46.7,licenciatura completa,2024-08-22,Huatulco
+2226,economista,84.4,prof.univ.,2024-11-08,Huatulco
+2227,chef,59.4,doctorado,2024-08-07,Tututepec
+2228,contador,88.9,primaria,2024-12-14,Crucecita
+2229,auditor,71.9,lic.incompleta,2024-12-20,Etla
+2230,camarero,43.4,licenciatura completa,2024-07-04,San Juan
+2231,jardinero,43.7,secundaria,2024-09-11,San Pablo Etla
+2232,electricista,79.7,primaria,2024-06-04,Etla
+2233,camarero,67.2,especialidad,2024-01-24,San Juan
+2234,analista,43.9,doctorado,2024-07-21,Santiago
+2235,jardinero,64.5,licenciatura completa,2024-09-12,Tlacolula
+2236,cocinero,63.6,primaria,2024-10-14,oaxaca capital
+2237,arquitecto,71.6,lic.incompleta,2024-06-06,Ixtlan
+2238,pintor,78.5,prof.univ.,2024-01-01,Tlacolula
+2239,analista,89.7,secundaria,2024-02-03,Santa Catarina
+2240,mecanico,57.5,maestria,2024-04-19,Ixtlan
+2241,mecanico,78.3,secundaria,2024-01-16,Macuiltianguis
+2242,economista,75.1,especialidad,2024-06-18,Crucecita
+2243,plomero,51.6,tecnico,2024-02-05,Santa Catarina
+2244,coordinador,55.9,secundaria,2024-02-23,juarez
+2245,diseñador grafico,58.7,maestria,2024-06-07,San Pablo Etla
+2246,académico,60.8,licenciatura completa,2024-04-06,Pochutla
+2247,supervisor,76.4,maestria,2024-08-04,Tlacolula
+2248,pintor,56.0,doctorado,2024-03-27,Tlacolula
+2249,docente,85.0,tecnico,2024-09-09,Crucecita
+2250,carpintero,64.9,maestria,2024-01-24,juarez
+2251,auditor,66.0,prof.univ.,2024-01-15,Santiago
+2252,chef,58.6,especialidad,2024-08-16,Tututepec
+2253,jardinero,45.3,licenciatura completa,2024-03-06,Puerto Escondido
+2254,contador,44.3,lic.incompleta,2024-06-30,Santiago
+2255,arquitecto,93.8,especialidad,2024-02-12,oaxaca capital
+2256,conductor,40.4,primaria,2024-12-31,Ocotlan
+2257,investigador,92.3,especialidad,2024-08-03,Huatulco
+2258,electricista,68.2,doctorado,2024-09-13,juarez
+2259,académico,42.4,licenciatura completa,2024-07-15,Ixtlan
+2260,coordinador,60.3,licenciatura completa,2024-08-05,Macuiltianguis
+2261,ingeniero de sistemas,84.0,licenciatura completa,2024-04-18,Etla
+2262,conductor,75.9,prof.univ.,2024-08-26,Huatulco
+2263,representante comercial,54.8,prof.univ.,2024-08-10,Lachixio
+2264,supervisor,73.9,maestria,2024-04-06,Xoxocotlan
+2265,auditor,88.4,bachillerato,2024-03-08,Santa Catarina
+2266,técnico de mantenimiento,69.3,primaria,2024-08-20,juarez
+2267,programador,64.1,secundaria,2024-12-31,Ixtlan
+2268,abogado,48.4,licenciatura completa,2024-08-13,Santiago
+2269,plomero,61.0,licenciatura completa,2024-09-11,Salina Cruz
+2270,plomero,67.8,primaria,2024-11-20,San Juan
+2271,jardinero,51.4,licenciatura completa,2024-07-29,Tlacolula
+2272,vendedor,64.7,primaria,2024-09-16,Pochutla
+2273,jardinero,75.6,tecnico,2024-08-25,San Pablo Etla
+2274,plomero,78.9,doctorado,2024-07-28,Santa Catarina
+2275,supervisor,42.1,tecnico,2024-06-09,San Juan
+2276,maestro de obra,82.2,especialidad,2024-08-28,Salina Cruz
+2277,auditor,94.9,licenciatura completa,2024-12-30,Xoxocotlan
+2278,auditor,43.3,primaria,2024-02-15,Ixtlan
+2279,académico,73.5,primaria,2024-07-31,Puerto Escondido
+2280,transportista,70.6,doctorado,2024-11-23,Santiago
+2281,plomero,85.1,primaria,2024-08-27,Ixtlan
+2282,pintor,42.8,secundaria,2024-01-31,Pochutla
+2283,consultor,86.9,bachillerato,2024-06-01,Tututepec
+2284,gerente,90.8,tecnico,2024-10-23,San Pablo Etla
+2285,soldador,42.1,prof.univ.,2024-10-09,Tututepec
+2286,docente,89.1,doctorado,2024-09-25,Huatulco
+2287,pintor,52.1,tecnico,2024-07-05,Tututepec
+2288,analista,90.7,primaria,2024-02-02,Macuiltianguis
+2289,docente,56.4,primaria,2024-07-10,Macuiltianguis
+2290,contador,78.7,maestria,2024-08-29,Huajuapan
+2291,abogado,83.8,especialidad,2024-09-26,Macuiltianguis
+2292,contador,57.7,lic.incompleta,2024-08-02,juarez
+2293,economista,78.8,especialidad,2024-05-04,oaxaca capital
+2294,técnico en telecomunicaciones,62.7,licenciatura completa,2024-09-23,Tututepec
+2295,guardia de seguridad,89.8,lic.incompleta,2024-11-12,Tlacolula
+2296,transportista,87.6,maestria,2024-05-27,Ocotlan
+2297,plomero,72.1,licenciatura completa,2024-03-22,Ocotlan
+2298,cocinero,93.0,prof.univ.,2024-07-06,Santiago
+2299,carpintero,47.8,bachillerato,2024-02-02,Puerto Escondido
+2300,asistente administrativo,67.2,licenciatura completa,2024-09-08,Huajuapan
+2301,gerente,79.9,primaria,2024-12-30,Huatulco
+2302,maestro de obra,83.3,lic.incompleta,2024-09-19,Tlacolula
+2303,tec. en electricidad,67.0,primaria,2024-05-04,Huatulco
+2304,docente,43.4,licenciatura completa,2024-08-16,oaxaca capital
+2305,abogado,65.3,secundaria,2024-11-13,San Pablo Etla
+2306,chef,55.6,tecnico,2024-12-19,Tlacolula
+2307,técnico en electrónica,88.5,tecnico,2024-10-23,Huajuapan
+2308,economista,70.6,bachillerato,2024-12-28,Crucecita
+2309,asistente administrativo,74.9,primaria,2024-11-07,San Juan
+2310,académico,85.8,prof.univ.,2024-09-15,Macuiltianguis
+2311,carpintero,64.5,secundaria,2024-07-27,San Pablo Etla
+2312,chef,86.2,tecnico,2024-03-31,Etla
+2313,electricista,56.9,prof.univ.,2024-12-11,San Pablo Etla
+2314,coordinador,49.5,maestria,2024-01-29,Santa Catarina
+2315,técnico en electrónica,84.5,tecnico,2024-09-27,San Juan
+2316,arquitecto,81.1,secundaria,2024-08-16,oaxaca capital
+2317,contador,92.0,maestria,2024-07-21,San Pablo Etla
+2318,guardia de seguridad,71.0,primaria,2024-02-23,Etla
+2319,ingeniero de sistemas,92.8,lic.incompleta,2024-09-13,San Juan
+2320,chef,76.2,secundaria,2024-02-11,Macuiltianguis
+2321,carpintero,71.5,primaria,2024-10-01,Salina Cruz
+2322,cocinero,91.4,tecnico,2024-05-07,Lachixio
+2323,analista,62.5,doctorado,2024-10-31,Santa Catarina
+2324,electricista,70.5,primaria,2024-02-15,Tututepec
+2325,soldador,45.3,especialidad,2024-10-27,Macuiltianguis
+2326,representante comercial,82.5,maestria,2024-01-05,juarez
+2327,coordinador,45.2,lic.incompleta,2024-01-24,Huatulco
+2328,carpintero,67.6,prof.univ.,2024-08-12,Puerto Escondido
+2329,dentista,91.4,secundaria,2024-07-22,Crucecita
+2330,técnico en telecomunicaciones,64.5,maestria,2024-10-14,Ixtlan
+2331,mecanico,88.1,prof.univ.,2024-07-19,Etla
+2332,ejecutivo de ventas,49.5,prof.univ.,2024-01-25,Santiago
+2333,psicólogo,59.0,secundaria,2024-08-08,Etla
+2334,representante comercial,47.2,primaria,2024-03-24,San Pablo Etla
+2335,economista,69.0,lic.incompleta,2024-02-01,Puerto Escondido
+2336,técnico en telecomunicaciones,40.7,maestria,2024-02-26,San Pablo Etla
+2337,gerente,62.6,maestria,2024-10-15,Salina Cruz
+2338,representante comercial,88.7,bachillerato,2024-12-19,Huatulco
+2339,técnico en electrónica,88.9,lic.incompleta,2024-09-24,Crucecita
+2340,gerente,59.1,primaria,2024-07-18,Huatulco
+2341,plomero,63.9,primaria,2024-02-28,juarez
+2342,camarero,80.8,doctorado,2024-05-23,Lachixio
+2343,diseñador grafico,74.2,doctorado,2024-01-12,Puerto Escondido
+2344,ejecutivo de ventas,50.6,primaria,2024-06-23,Etla
+2345,pintor,44.3,lic.incompleta,2024-03-18,Pochutla
+2346,técnico de mantenimiento,75.5,bachillerato,2024-01-04,Tututepec
+2347,abogado,56.0,maestria,2024-08-24,Xoxocotlan
+2348,profesor,42.0,secundaria,2024-05-14,juarez
+2349,camarero,89.7,bachillerato,2024-04-18,Crucecita
+2350,asistente administrativo,94.5,primaria,2024-04-05,Tututepec
+2351,contador,77.1,secundaria,2024-04-13,Puerto Escondido
+2352,abogado,46.9,bachillerato,2024-10-09,Ocotlan
+2353,guardia de seguridad,52.2,especialidad,2024-11-28,Xoxocotlan
+2354,diseñador grafico,63.4,especialidad,2024-05-06,Ixtlan
+2355,docente,79.3,lic.incompleta,2024-05-05,Xoxocotlan
+2356,programador,63.7,doctorado,2024-06-14,Macuiltianguis
+2357,profesor,93.8,secundaria,2024-04-20,Huatulco
+2358,técnico en electrónica,65.8,secundaria,2024-02-16,Etla
+2359,investigador,71.0,bachillerato,2024-08-07,Tututepec
+2360,diseñador grafico,52.3,doctorado,2024-11-24,Puerto Escondido
+2361,ejecutivo de ventas,47.0,secundaria,2024-08-22,juarez
+2362,gerente,54.9,primaria,2024-12-29,Pochutla
+2363,asistente administrativo,77.8,especialidad,2024-09-13,Macuiltianguis
+2364,representante comercial,76.4,especialidad,2024-04-11,Macuiltianguis
+2365,diseñador grafico,69.6,doctorado,2024-12-06,juarez
+2366,abogado,59.2,primaria,2024-11-08,juarez
+2367,transportista,44.9,secundaria,2024-01-14,San Juan
+2368,vendedor,63.6,maestria,2024-10-31,Pochutla
+2369,gerente,85.9,tecnico,2024-03-09,Macuiltianguis
+2370,consultor,40.4,lic.incompleta,2024-04-04,San Pablo Etla
+2371,técnico en electrónica,44.2,tecnico,2024-12-12,Huatulco
+2372,contador,81.3,maestria,2024-05-24,Etla
+2373,investigador,92.5,primaria,2024-07-22,Ocotlan
+2374,mecanico,55.2,especialidad,2024-12-16,Salina Cruz
+2375,plomero,43.4,maestria,2024-12-24,Santa Catarina
+2376,representante comercial,65.9,bachillerato,2024-07-22,Lachixio
+2377,enfermero,66.8,doctorado,2024-02-21,Tlacolula
+2378,contador,52.1,maestria,2024-01-19,Tlacolula
+2379,jardinero,83.4,maestria,2024-12-27,San Juan
+2380,jardinero,79.3,bachillerato,2024-07-07,Etla
+2381,técnico en telecomunicaciones,67.5,primaria,2024-12-21,Santiago
+2382,representante comercial,41.7,bachillerato,2024-09-26,Xoxocotlan
+2383,capacitador,66.2,bachillerato,2024-10-01,San Pablo Etla
+2384,gerente,63.4,prof.univ.,2024-08-07,Crucecita
+2385,técnico en telecomunicaciones,50.9,doctorado,2024-10-24,juarez
+2386,cocinero,91.3,bachillerato,2024-07-04,Salina Cruz
+2387,auditor,54.3,primaria,2024-08-01,San Pablo Etla
+2388,ejecutivo de ventas,49.1,maestria,2024-10-06,Ixtlan
+2389,asistente administrativo,81.3,licenciatura completa,2024-02-28,Etla
+2390,analista,49.6,doctorado,2024-03-17,Huatulco
+2391,camarero,58.2,bachillerato,2024-04-04,Tlacolula
+2392,conductor,93.8,licenciatura completa,2024-04-18,Santa Catarina
+2393,tec. en electricidad,84.2,doctorado,2024-06-10,Lachixio
+2394,diseñador grafico,79.8,bachillerato,2024-04-22,Xoxocotlan
+2395,carpintero,40.0,tecnico,2024-02-11,Etla
+2396,transportista,84.3,primaria,2024-02-24,oaxaca capital
+2397,contador,49.6,doctorado,2024-01-09,Tlacolula
+2398,maestro de obra,54.9,licenciatura completa,2024-02-03,Tlacolula
+2399,técnico en electrónica,64.5,maestria,2024-11-10,Crucecita
+2400,arquitecto,93.7,doctorado,2024-06-28,San Pablo Etla
+2401,carpintero,91.7,bachillerato,2024-03-28,Ocotlan
+2402,representante comercial,84.1,maestria,2024-02-18,San Pablo Etla
+2403,asistente administrativo,92.4,secundaria,2024-07-12,Salina Cruz
+2404,arquitecto,59.9,tecnico,2024-07-27,Puerto Escondido
+2405,analista,57.5,primaria,2024-11-15,Tlacolula
+2406,soldador,57.8,maestria,2024-12-23,Huajuapan
+2407,supervisor,92.7,doctorado,2024-06-15,Salina Cruz
+2408,enfermero,81.7,prof.univ.,2024-11-23,Santiago
+2409,investigador,76.4,secundaria,2024-04-09,Ocotlan
+2410,soldador,47.6,lic.incompleta,2024-06-19,Macuiltianguis
+2411,cocinero,86.7,especialidad,2024-11-12,Macuiltianguis
+2412,contador,40.3,maestria,2024-12-06,San Pablo Etla
+2413,abogado,72.7,prof.univ.,2024-01-22,oaxaca capital
+2414,coordinador,84.9,bachillerato,2024-05-22,Xoxocotlan
+2415,ejecutivo de ventas,76.2,lic.incompleta,2024-10-10,Huajuapan
+2416,guardia de seguridad,83.5,primaria,2024-03-26,juarez
+2417,técnico en telecomunicaciones,65.5,especialidad,2024-12-11,Tlacolula
+2418,auditor,54.6,lic.incompleta,2024-09-12,Santa Catarina
+2419,soldador,82.1,especialidad,2024-03-24,Lachixio
+2420,auditor,84.7,licenciatura completa,2024-06-28,juarez
+2421,pintor,91.0,lic.incompleta,2024-05-22,Santiago
+2422,maestro de obra,52.6,primaria,2024-02-02,Lachixio
+2423,carpintero,66.7,tecnico,2024-03-06,Etla
+2424,psicólogo,43.7,licenciatura completa,2024-04-24,Lachixio
+2425,consultor,65.4,primaria,2024-11-21,Ixtlan
+2426,auditor,67.4,doctorado,2024-04-13,juarez
+2427,vendedor,74.8,doctorado,2024-04-12,Puerto Escondido
+2428,pintor,91.8,maestria,2024-12-12,Puerto Escondido
+2429,dentista,54.9,doctorado,2024-10-17,Pochutla
+2430,plomero,55.3,maestria,2024-03-17,Santiago
+2431,gerente,58.0,secundaria,2024-06-11,Xoxocotlan
+2432,transportista,69.4,licenciatura completa,2024-02-18,San Pablo Etla
+2433,profesor,72.2,doctorado,2024-06-16,Xoxocotlan
+2434,conductor,45.6,lic.incompleta,2024-04-06,Tututepec
+2435,gerente,66.9,primaria,2024-08-03,juarez
+2436,camarero,77.0,especialidad,2024-11-03,Santiago
+2437,pintor,87.8,primaria,2024-01-13,Pochutla
+2438,economista,44.7,especialidad,2024-05-12,Macuiltianguis
+2439,coordinador,66.7,bachillerato,2024-06-16,juarez
+2440,capacitador,55.8,prof.univ.,2024-10-25,San Pablo Etla
+2441,programador,78.1,prof.univ.,2024-06-06,Lachixio
+2442,supervisor,65.2,lic.incompleta,2024-05-19,Crucecita
+2443,gerente,88.6,primaria,2024-05-13,Macuiltianguis
+2444,abogado,84.6,licenciatura completa,2024-09-26,Lachixio
+2445,vendedor,83.8,tecnico,2024-05-20,Macuiltianguis
+2446,pintor,63.7,lic.incompleta,2024-06-16,Santa Catarina
+2447,abogado,73.0,secundaria,2024-06-01,San Pablo Etla
+2448,mecanico,91.8,prof.univ.,2024-01-15,Santiago
+2449,jardinero,93.0,maestria,2024-07-15,San Pablo Etla
+2450,psicólogo,89.4,licenciatura completa,2024-04-02,Santa Catarina
+2451,plomero,74.5,primaria,2024-07-16,Huajuapan
+2452,pintor,44.4,maestria,2024-09-13,Huajuapan
+2453,diseñador grafico,52.4,secundaria,2024-05-21,Macuiltianguis
+2454,técnico de mantenimiento,69.4,lic.incompleta,2024-12-28,Santiago
+2455,tec. en electricidad,53.1,primaria,2024-08-24,Lachixio
+2456,programador,48.6,secundaria,2024-05-27,San Juan
+2457,analista,69.5,tecnico,2024-02-12,Huatulco
+2458,técnico en electrónica,78.3,primaria,2024-09-27,Salina Cruz
+2459,electricista,63.9,maestria,2024-06-29,Ixtlan
+2460,contador,45.2,secundaria,2024-09-23,Xoxocotlan
+2461,auditor,89.3,tecnico,2024-07-07,Huatulco
+2462,conductor,65.0,tecnico,2024-04-26,Salina Cruz
+2463,asistente administrativo,70.6,secundaria,2024-06-15,Pochutla
+2464,conductor,87.1,bachillerato,2024-08-20,Santiago
+2465,vendedor,64.2,doctorado,2024-11-15,juarez
+2466,académico,54.3,tecnico,2024-05-08,Pochutla
+2467,representante comercial,57.9,primaria,2024-06-28,Xoxocotlan
+2468,capacitador,78.1,lic.incompleta,2024-12-17,Lachixio
+2469,asistente administrativo,57.0,bachillerato,2024-08-02,Macuiltianguis
+2470,auditor,47.7,tecnico,2024-08-03,oaxaca capital
+2471,maestro de obra,74.6,secundaria,2024-04-09,San Juan
+2472,diseñador grafico,87.4,primaria,2024-08-06,Crucecita
+2473,transportista,67.9,prof.univ.,2024-12-20,San Pablo Etla
+2474,profesor,94.7,prof.univ.,2024-04-13,Huatulco
+2475,carpintero,74.2,prof.univ.,2024-01-22,Xoxocotlan
+2476,conductor,71.0,licenciatura completa,2024-10-20,San Pablo Etla
+2477,académico,81.2,tecnico,2024-03-11,San Juan
+2478,auditor,50.7,bachillerato,2024-03-25,Santiago
+2479,arquitecto,45.5,primaria,2024-05-11,San Pablo Etla
+2480,académico,61.3,doctorado,2024-12-14,Huatulco
+2481,plomero,50.6,prof.univ.,2024-08-02,Lachixio
+2482,consultor,78.4,secundaria,2024-02-10,Lachixio
+2483,ejecutivo de ventas,50.5,especialidad,2024-08-06,Lachixio
+2484,investigador,55.8,maestria,2024-02-06,Tututepec
+2485,guardia de seguridad,45.9,primaria,2024-05-31,Ixtlan
+2486,electricista,59.5,lic.incompleta,2024-05-14,San Juan
+2487,ingeniero de sistemas,81.0,doctorado,2024-12-27,Xoxocotlan
+2488,camarero,63.6,lic.incompleta,2024-06-19,Lachixio
+2489,supervisor,80.3,bachillerato,2024-11-23,Pochutla
+2490,conductor,52.0,lic.incompleta,2024-05-02,San Juan
+2491,diseñador grafico,41.3,primaria,2024-06-16,Santiago
+2492,consultor,51.6,prof.univ.,2024-07-21,Pochutla
+2493,gerente,85.3,licenciatura completa,2024-10-27,Macuiltianguis
+2494,consultor,79.9,prof.univ.,2024-08-22,Tututepec
+2495,economista,52.3,maestria,2024-09-21,Macuiltianguis
+2496,vendedor,56.3,tecnico,2024-01-24,Santa Catarina
+2497,arquitecto,42.6,maestria,2024-04-12,Santiago
+2498,chef,78.3,primaria,2024-07-09,Etla
+2499,analista,85.8,prof.univ.,2024-09-09,Huajuapan
+2500,coordinador,70.9,primaria,2024-08-27,Lachixio
+2501,soldador,45.4,lic.incompleta,2024-05-25,Ocotlan
+2502,chef,59.6,prof.univ.,2024-09-03,Santiago
+2503,pintor,83.9,especialidad,2024-12-30,Salina Cruz
+2504,guardia de seguridad,75.1,especialidad,2024-08-08,Etla
+2505,gerente,69.8,primaria,2024-04-13,Xoxocotlan
+2506,contador,80.7,tecnico,2024-08-25,San Pablo Etla
+2507,profesor,76.7,tecnico,2024-06-22,Santa Catarina
+2508,maestro de obra,69.5,especialidad,2024-08-14,San Juan
+2509,ejecutivo de ventas,94.7,secundaria,2024-09-29,Huajuapan
+2510,electricista,72.1,tecnico,2024-12-25,Puerto Escondido
+2511,asistente administrativo,45.7,tecnico,2024-02-15,Salina Cruz
+2512,ejecutivo de ventas,58.3,prof.univ.,2024-02-22,Santa Catarina
+2513,supervisor,66.8,especialidad,2024-06-20,Pochutla
+2514,carpintero,61.4,maestria,2024-02-05,Puerto Escondido
+2515,electricista,57.5,especialidad,2024-03-29,Ixtlan
+2516,técnico de mantenimiento,67.5,secundaria,2024-01-22,Ixtlan
+2517,camarero,66.2,especialidad,2024-05-01,Macuiltianguis
+2518,contador,44.7,primaria,2024-12-18,Lachixio
+2519,economista,70.6,maestria,2024-11-01,Pochutla
+2520,docente,41.3,maestria,2024-01-20,juarez
+2521,chef,79.3,especialidad,2024-11-08,Ixtlan
+2522,guardia de seguridad,71.2,maestria,2024-09-11,Huajuapan
+2523,representante comercial,71.5,doctorado,2024-07-11,Xoxocotlan
+2524,investigador,54.2,primaria,2024-08-31,Puerto Escondido
+2525,capacitador,86.6,bachillerato,2024-04-20,oaxaca capital
+2526,analista,63.5,licenciatura completa,2024-05-30,Santa Catarina
+2527,electricista,52.7,doctorado,2024-03-14,Ocotlan
+2528,analista,82.3,maestria,2024-02-06,Ixtlan
+2529,carpintero,63.7,doctorado,2024-08-31,Pochutla
+2530,contador,76.6,maestria,2024-09-29,Puerto Escondido
+2531,investigador,43.4,secundaria,2024-06-11,Macuiltianguis
+2532,ingeniero de sistemas,54.0,especialidad,2024-06-19,Huatulco
+2533,ejecutivo de ventas,81.1,bachillerato,2024-09-26,juarez
+2534,economista,41.1,bachillerato,2024-12-30,Crucecita
+2535,guardia de seguridad,45.2,licenciatura completa,2024-04-17,Puerto Escondido
+2536,técnico en electrónica,45.4,licenciatura completa,2024-08-13,Huatulco
+2537,técnico en electrónica,92.2,bachillerato,2024-04-11,Pochutla
+2538,conductor,43.7,especialidad,2024-10-21,San Pablo Etla
+2539,analista,89.1,primaria,2024-10-08,Xoxocotlan
+2540,chef,87.2,primaria,2024-12-14,Salina Cruz
+2541,asistente administrativo,94.9,primaria,2024-10-25,Salina Cruz
+2542,abogado,50.1,licenciatura completa,2024-12-28,Puerto Escondido
+2543,tec. en electricidad,88.3,bachillerato,2024-09-26,Tlacolula
+2544,transportista,52.1,licenciatura completa,2024-08-13,Huajuapan
+2545,soldador,49.2,lic.incompleta,2024-08-07,Tlacolula
+2546,enfermero,93.9,prof.univ.,2024-09-20,Salina Cruz
+2547,representante comercial,84.5,maestria,2024-05-29,oaxaca capital
+2548,asistente administrativo,62.7,licenciatura completa,2024-05-22,Pochutla
+2549,capacitador,66.8,lic.incompleta,2024-01-22,Tlacolula
+2550,soldador,58.7,doctorado,2024-12-24,oaxaca capital
+2551,dentista,41.3,lic.incompleta,2024-03-29,Pochutla
+2552,economista,76.4,especialidad,2024-11-12,Lachixio
+2553,pintor,50.1,lic.incompleta,2024-07-22,oaxaca capital
+2554,jardinero,93.5,secundaria,2024-10-02,juarez
+2555,técnico en electrónica,51.9,prof.univ.,2024-11-06,Ixtlan
+2556,contador,74.3,especialidad,2024-12-02,Huajuapan
+2557,jardinero,41.0,especialidad,2024-02-06,Santa Catarina
+2558,conductor,85.3,especialidad,2024-06-08,Ocotlan
+2559,maestro de obra,55.8,primaria,2024-01-12,Pochutla
+2560,consultor,57.5,doctorado,2024-04-11,Tlacolula
+2561,diseñador grafico,91.4,primaria,2024-01-01,Tututepec
+2562,electricista,75.7,secundaria,2024-12-25,Lachixio
+2563,investigador,40.5,maestria,2024-12-30,Santiago
+2564,capacitador,49.2,lic.incompleta,2024-05-02,Tlacolula
+2565,consultor,77.5,primaria,2024-03-13,Santa Catarina
+2566,capacitador,91.0,licenciatura completa,2024-07-08,Santa Catarina
+2567,investigador,54.5,tecnico,2024-12-09,Ocotlan
+2568,maestro de obra,79.0,lic.incompleta,2024-04-22,Crucecita
+2569,analista,80.1,doctorado,2024-04-28,Salina Cruz
+2570,consultor,63.5,doctorado,2024-06-05,San Pablo Etla
+2571,capacitador,51.4,bachillerato,2024-02-06,San Juan
+2572,maestro de obra,87.0,tecnico,2024-10-17,Lachixio
+2573,psicólogo,84.7,especialidad,2024-02-10,Huajuapan
+2574,investigador,64.5,primaria,2024-05-04,Crucecita
+2575,conductor,59.2,lic.incompleta,2024-09-17,Etla
+2576,dentista,76.7,lic.incompleta,2024-05-14,Lachixio
+2577,contador,47.1,especialidad,2024-01-06,Xoxocotlan
+2578,arquitecto,57.5,bachillerato,2024-11-01,Xoxocotlan
+2579,técnico en telecomunicaciones,40.1,primaria,2024-04-20,Pochutla
+2580,técnico de mantenimiento,73.2,licenciatura completa,2024-05-04,Ocotlan
+2581,electricista,73.6,secundaria,2024-04-28,Etla
+2582,capacitador,58.2,doctorado,2024-04-11,Ixtlan
+2583,contador,54.4,secundaria,2024-02-03,juarez
+2584,enfermero,73.6,maestria,2024-08-02,San Pablo Etla
+2585,investigador,93.7,licenciatura completa,2024-05-11,Lachixio
+2586,conductor,67.6,primaria,2024-10-31,Huatulco
+2587,conductor,65.8,especialidad,2024-06-02,Santiago
+2588,cocinero,58.4,doctorado,2024-01-16,San Juan
+2589,ejecutivo de ventas,49.1,especialidad,2024-01-05,Huatulco
+2590,tec. en electricidad,52.9,especialidad,2024-03-25,Pochutla
+2591,coordinador,89.8,doctorado,2024-04-01,juarez
+2592,cocinero,89.4,tecnico,2024-11-22,Huajuapan
+2593,jardinero,87.3,maestria,2024-12-23,Santiago
+2594,capacitador,74.7,lic.incompleta,2024-10-17,Tlacolula
+2595,dentista,68.0,lic.incompleta,2024-03-28,San Pablo Etla
+2596,técnico en electrónica,43.8,tecnico,2024-08-03,Tututepec
+2597,representante comercial,49.5,especialidad,2024-01-12,Santiago
+2598,carpintero,56.6,maestria,2024-09-18,Santa Catarina
+2599,guardia de seguridad,91.7,maestria,2024-03-13,Huajuapan
+2600,técnico de mantenimiento,75.3,especialidad,2024-07-16,Ocotlan
+2601,gerente,67.8,licenciatura completa,2024-04-20,Ixtlan
+2602,abogado,49.7,prof.univ.,2024-06-11,Santa Catarina
+2603,mecanico,41.4,lic.incompleta,2024-09-06,Crucecita
+2604,coordinador,59.8,secundaria,2024-06-09,Huajuapan
+2605,académico,76.2,secundaria,2024-01-20,juarez
+2606,jardinero,61.5,lic.incompleta,2024-03-11,Tututepec
+2607,ejecutivo de ventas,85.0,licenciatura completa,2024-07-15,Pochutla
+2608,contador,75.8,maestria,2024-01-12,Santiago
+2609,ejecutivo de ventas,58.3,licenciatura completa,2024-02-24,Xoxocotlan
+2610,auditor,67.8,bachillerato,2024-01-09,Santa Catarina
+2611,economista,81.1,licenciatura completa,2024-02-28,juarez
+2612,representante comercial,76.7,secundaria,2024-12-15,Salina Cruz
+2613,conductor,55.4,secundaria,2024-12-28,Pochutla
+2614,docente,70.2,doctorado,2024-06-14,Ocotlan
+2615,arquitecto,90.6,secundaria,2024-04-27,Xoxocotlan
+2616,electricista,43.9,tecnico,2024-05-28,Huajuapan
+2617,guardia de seguridad,92.3,maestria,2024-07-20,Etla
+2618,ejecutivo de ventas,47.1,secundaria,2024-07-18,Santa Catarina
+2619,docente,81.1,doctorado,2024-04-19,San Pablo Etla
+2620,coordinador,94.0,tecnico,2024-08-19,Salina Cruz
+2621,contador,64.8,primaria,2024-07-26,Santa Catarina
+2622,supervisor,67.4,especialidad,2024-03-28,Tlacolula
+2623,transportista,70.3,lic.incompleta,2024-02-15,Xoxocotlan
+2624,supervisor,43.0,lic.incompleta,2024-09-19,Ocotlan
+2625,carpintero,58.4,primaria,2024-08-05,Macuiltianguis
+2626,gerente,87.2,primaria,2024-11-17,Santiago
+2627,camarero,82.1,maestria,2024-08-31,San Juan
+2628,auditor,61.9,maestria,2024-02-01,Xoxocotlan
+2629,soldador,73.2,lic.incompleta,2024-11-03,Xoxocotlan
+2630,guardia de seguridad,94.7,secundaria,2024-06-07,San Pablo Etla
+2631,gerente,76.8,tecnico,2024-10-28,Santa Catarina
+2632,psicólogo,42.5,maestria,2024-01-10,Santiago
+2633,programador,53.6,bachillerato,2024-02-12,Puerto Escondido
+2634,docente,47.2,licenciatura completa,2024-07-07,Crucecita
+2635,psicólogo,90.7,licenciatura completa,2024-01-05,San Pablo Etla
+2636,contador,74.5,prof.univ.,2024-07-20,Huajuapan
+2637,técnico en electrónica,61.1,bachillerato,2024-01-17,Crucecita
+2638,economista,81.8,doctorado,2024-01-14,Lachixio
+2639,soldador,54.7,tecnico,2024-09-20,Tlacolula
+2640,ejecutivo de ventas,73.0,doctorado,2024-11-13,Salina Cruz
+2641,arquitecto,84.6,prof.univ.,2024-11-10,Pochutla
+2642,capacitador,52.8,primaria,2024-08-11,Tlacolula
+2643,investigador,47.4,licenciatura completa,2024-06-05,San Juan
+2644,dentista,45.3,lic.incompleta,2024-01-13,Ocotlan
+2645,tec. en electricidad,73.0,tecnico,2024-01-13,juarez
+2646,chef,56.9,primaria,2024-12-14,Lachixio
+2647,camarero,87.9,maestria,2024-08-17,Lachixio
+2648,capacitador,87.9,lic.incompleta,2024-05-09,San Juan
+2649,pintor,69.7,tecnico,2024-05-23,Santa Catarina
+2650,economista,59.6,prof.univ.,2024-05-21,Santiago
+2651,dentista,52.8,bachillerato,2024-09-30,Lachixio
+2652,transportista,89.0,lic.incompleta,2024-04-11,Salina Cruz
+2653,profesor,78.3,lic.incompleta,2024-07-24,Macuiltianguis
+2654,plomero,65.3,licenciatura completa,2024-10-27,juarez
+2655,abogado,55.1,especialidad,2024-10-12,Santa Catarina
+2656,dentista,93.3,primaria,2024-07-17,San Pablo Etla
+2657,profesor,57.7,licenciatura completa,2024-12-04,Crucecita
+2658,conductor,90.8,primaria,2024-03-03,Tlacolula
+2659,cocinero,71.4,tecnico,2024-11-15,Santiago
+2660,ejecutivo de ventas,93.5,maestria,2024-08-22,Puerto Escondido
+2661,analista,75.9,secundaria,2024-04-03,Salina Cruz
+2662,mecanico,88.2,especialidad,2024-08-02,Macuiltianguis
+2663,guardia de seguridad,69.0,licenciatura completa,2024-04-16,Macuiltianguis
+2664,soldador,68.8,lic.incompleta,2024-04-28,Lachixio
+2665,ejecutivo de ventas,57.4,maestria,2024-07-31,Tututepec
+2666,electricista,80.7,primaria,2024-06-21,Tlacolula
+2667,asistente administrativo,71.1,doctorado,2024-01-30,San Juan
+2668,economista,41.1,tecnico,2024-07-25,Etla
+2669,técnico en telecomunicaciones,49.8,tecnico,2024-02-20,Crucecita
+2670,pintor,67.9,doctorado,2024-12-25,Lachixio
+2671,técnico de mantenimiento,91.5,lic.incompleta,2024-04-06,Santiago
+2672,dentista,43.6,doctorado,2024-07-25,Puerto Escondido
+2673,técnico de mantenimiento,79.5,prof.univ.,2024-05-20,San Juan
+2674,técnico en electrónica,70.4,especialidad,2024-04-08,Crucecita
+2675,profesor,86.4,prof.univ.,2024-12-10,Tlacolula
+2676,carpintero,49.2,tecnico,2024-10-29,Lachixio
+2677,contador,72.9,prof.univ.,2024-11-01,juarez
+2678,abogado,40.1,primaria,2024-01-29,Lachixio
+2679,técnico en electrónica,91.2,bachillerato,2024-03-10,juarez
+2680,auditor,64.7,licenciatura completa,2024-11-30,Pochutla
+2681,pintor,48.3,bachillerato,2024-10-01,oaxaca capital
+2682,profesor,90.9,doctorado,2024-08-22,Ocotlan
+2683,técnico en electrónica,93.0,prof.univ.,2024-10-03,Huatulco
+2684,cocinero,52.6,lic.incompleta,2024-11-05,Ixtlan
+2685,soldador,73.0,primaria,2024-10-14,Pochutla
+2686,camarero,40.3,doctorado,2024-04-18,Pochutla
+2687,dentista,52.8,doctorado,2024-07-26,Salina Cruz
+2688,ingeniero de sistemas,90.9,licenciatura completa,2024-05-09,juarez
+2689,guardia de seguridad,86.5,secundaria,2024-04-16,Puerto Escondido
+2690,diseñador grafico,50.2,tecnico,2024-07-10,Tututepec
+2691,técnico de mantenimiento,50.9,lic.incompleta,2024-01-29,Huajuapan
+2692,vendedor,68.0,especialidad,2024-03-13,Santa Catarina
+2693,jardinero,63.9,tecnico,2024-07-06,Macuiltianguis
+2694,dentista,70.9,secundaria,2024-02-03,Macuiltianguis
+2695,consultor,57.0,licenciatura completa,2024-04-09,Ocotlan
+2696,investigador,69.5,maestria,2024-08-05,Xoxocotlan
+2697,profesor,85.3,bachillerato,2024-07-24,Santa Catarina
+2698,carpintero,75.0,secundaria,2024-11-01,San Pablo Etla
+2699,plomero,92.4,tecnico,2024-10-11,Tututepec
+2700,vendedor,42.0,maestria,2024-03-22,Tututepec
+2701,abogado,66.3,lic.incompleta,2024-02-05,Huajuapan
+2702,gerente,40.8,especialidad,2024-02-26,oaxaca capital
+2703,analista,72.7,licenciatura completa,2024-12-31,Etla
+2704,arquitecto,55.7,licenciatura completa,2024-11-15,Pochutla
+2705,ejecutivo de ventas,66.2,maestria,2024-06-30,oaxaca capital
+2706,ingeniero de sistemas,93.9,licenciatura completa,2024-01-31,Salina Cruz
+2707,capacitador,77.8,bachillerato,2024-12-15,Huajuapan
+2708,ejecutivo de ventas,52.3,primaria,2024-06-19,San Juan
+2709,tec. en electricidad,65.8,especialidad,2024-07-11,juarez
+2710,técnico en telecomunicaciones,61.5,prof.univ.,2024-12-30,Ocotlan
+2711,contador,61.1,prof.univ.,2024-12-06,San Pablo Etla
+2712,plomero,48.8,secundaria,2024-10-21,Macuiltianguis
+2713,programador,43.4,maestria,2024-06-16,Ixtlan
+2714,chef,47.6,bachillerato,2024-02-04,Ocotlan
+2715,ejecutivo de ventas,42.5,doctorado,2024-05-11,San Juan
+2716,pintor,91.9,primaria,2024-12-17,Lachixio
+2717,representante comercial,48.3,lic.incompleta,2024-05-28,oaxaca capital
+2718,diseñador grafico,92.8,doctorado,2024-07-20,Salina Cruz
+2719,soldador,90.9,tecnico,2024-09-19,Lachixio
+2720,enfermero,54.3,prof.univ.,2024-11-14,Santa Catarina
+2721,supervisor,67.9,doctorado,2024-02-26,Salina Cruz
+2722,ejecutivo de ventas,92.8,lic.incompleta,2024-04-03,Puerto Escondido
+2723,pintor,74.9,doctorado,2024-09-11,Ixtlan
+2724,conductor,53.8,especialidad,2024-08-05,San Pablo Etla
+2725,supervisor,90.4,maestria,2024-03-18,Santiago
+2726,auditor,85.5,maestria,2024-10-12,Macuiltianguis
+2727,contador,52.1,maestria,2024-03-18,San Juan
+2728,representante comercial,86.0,tecnico,2024-05-13,Ixtlan
+2729,abogado,58.6,prof.univ.,2024-02-03,Ocotlan
+2730,auditor,66.8,tecnico,2024-12-30,Macuiltianguis
+2731,ingeniero de sistemas,85.9,maestria,2024-11-13,Salina Cruz
+2732,transportista,78.7,licenciatura completa,2024-09-22,Salina Cruz
+2733,auditor,41.4,prof.univ.,2024-04-09,Etla
+2734,asistente administrativo,93.5,bachillerato,2024-02-26,juarez
+2735,académico,90.3,tecnico,2024-10-30,Huajuapan
+2736,ejecutivo de ventas,42.5,lic.incompleta,2024-03-16,Tlacolula
+2737,conductor,61.0,maestria,2024-06-08,Pochutla
+2738,arquitecto,84.8,tecnico,2024-03-25,Tututepec
+2739,auditor,73.7,tecnico,2024-06-20,San Pablo Etla
+2740,cocinero,61.5,bachillerato,2024-12-24,Tlacolula
+2741,supervisor,87.6,licenciatura completa,2024-07-05,Tlacolula
+2742,programador,75.9,secundaria,2024-08-19,Xoxocotlan
+2743,técnico en telecomunicaciones,57.0,primaria,2024-09-18,Macuiltianguis
+2744,programador,82.9,especialidad,2024-03-29,Etla
+2745,soldador,41.7,tecnico,2024-07-13,Tlacolula
+2746,gerente,54.3,prof.univ.,2024-05-10,Huajuapan
+2747,gerente,87.4,lic.incompleta,2024-05-16,Santa Catarina
+2748,tec. en electricidad,69.7,doctorado,2024-08-15,Huajuapan
+2749,consultor,53.4,primaria,2024-07-06,Huatulco
+2750,representante comercial,44.4,licenciatura completa,2024-02-13,Lachixio
+2751,tec. en electricidad,45.1,tecnico,2024-06-28,Macuiltianguis
+2752,investigador,88.5,bachillerato,2024-07-30,Ocotlan
+2753,diseñador grafico,64.8,lic.incompleta,2024-11-22,Tututepec
+2754,transportista,41.1,bachillerato,2024-02-03,oaxaca capital
+2755,profesor,64.8,maestria,2024-12-31,Huajuapan
+2756,académico,72.2,secundaria,2024-09-27,Tututepec
+2757,técnico en telecomunicaciones,55.3,lic.incompleta,2024-05-13,Ixtlan
+2758,mecanico,63.5,prof.univ.,2024-12-03,oaxaca capital
+2759,consultor,53.5,especialidad,2024-10-21,Puerto Escondido
+2760,plomero,93.1,secundaria,2024-05-22,oaxaca capital
+2761,profesor,92.3,secundaria,2024-12-03,Santiago
+2762,conductor,85.1,maestria,2024-12-18,Lachixio
+2763,gerente,54.9,secundaria,2024-02-07,Salina Cruz
+2764,auditor,87.6,primaria,2024-12-19,Ixtlan
+2765,contador,56.5,especialidad,2024-05-24,Santa Catarina
+2766,analista,67.8,tecnico,2024-10-01,Macuiltianguis
+2767,representante comercial,63.6,lic.incompleta,2024-12-14,Salina Cruz
+2768,supervisor,52.0,licenciatura completa,2024-08-21,Salina Cruz
+2769,chef,65.1,maestria,2024-07-13,Crucecita
+2770,programador,64.0,lic.incompleta,2024-03-22,Salina Cruz
+2771,representante comercial,57.8,tecnico,2024-12-14,oaxaca capital
+2772,contador,82.7,licenciatura completa,2024-01-12,Puerto Escondido
+2773,transportista,83.6,secundaria,2024-04-13,Santa Catarina
+2774,jardinero,62.1,lic.incompleta,2024-03-01,San Juan
+2775,tec. en electricidad,47.1,prof.univ.,2024-09-01,Pochutla
+2776,transportista,67.7,prof.univ.,2024-01-23,Santa Catarina
+2777,cocinero,58.7,secundaria,2024-12-09,Huatulco
+2778,tec. en electricidad,63.5,lic.incompleta,2024-01-01,Ocotlan
+2779,profesor,51.9,tecnico,2024-07-24,Huajuapan
+2780,ingeniero de sistemas,84.6,maestria,2024-01-16,Etla
+2781,técnico en electrónica,60.4,especialidad,2024-09-30,Tututepec
+2782,maestro de obra,49.9,secundaria,2024-02-04,Santa Catarina
+2783,gerente,58.5,tecnico,2024-04-27,oaxaca capital
+2784,gerente,62.7,prof.univ.,2024-03-21,San Pablo Etla
+2785,enfermero,75.7,secundaria,2024-05-24,juarez
+2786,representante comercial,62.7,primaria,2024-06-20,Crucecita
+2787,carpintero,71.1,primaria,2024-02-11,Santa Catarina
+2788,técnico de mantenimiento,58.4,lic.incompleta,2024-11-23,oaxaca capital
+2789,psicólogo,44.9,maestria,2024-08-04,Ocotlan
+2790,asistente administrativo,53.2,tecnico,2024-09-10,Etla
+2791,técnico en electrónica,50.2,primaria,2024-07-24,juarez
+2792,soldador,60.4,maestria,2024-12-09,Santiago
+2793,enfermero,76.1,tecnico,2024-02-04,Crucecita
+2794,contador,62.6,tecnico,2024-01-24,Ocotlan
+2795,pintor,48.0,doctorado,2024-02-23,juarez
+2796,guardia de seguridad,94.2,maestria,2024-02-05,Huajuapan
+2797,cocinero,49.1,especialidad,2024-10-05,Huatulco
+2798,técnico de mantenimiento,55.7,lic.incompleta,2024-05-15,Santiago
+2799,técnico en telecomunicaciones,62.9,maestria,2024-05-14,San Juan
+2800,plomero,68.7,bachillerato,2024-11-29,San Juan
+2801,carpintero,72.6,primaria,2024-06-10,Huajuapan
+2802,plomero,46.1,especialidad,2024-01-06,juarez
+2803,chef,83.1,primaria,2024-02-25,Xoxocotlan
+2804,psicólogo,92.8,especialidad,2024-07-06,Salina Cruz
+2805,técnico en telecomunicaciones,54.2,doctorado,2024-07-23,Salina Cruz
+2806,chef,44.4,prof.univ.,2024-11-17,Tututepec
+2807,psicólogo,74.8,especialidad,2024-12-02,Lachixio
+2808,supervisor,58.1,lic.incompleta,2024-07-24,Huajuapan
+2809,mecanico,93.7,bachillerato,2024-02-17,Pochutla
+2810,chef,83.0,bachillerato,2024-07-22,Huajuapan
+2811,docente,56.5,licenciatura completa,2024-07-01,Etla
+2812,contador,68.0,bachillerato,2024-05-18,Ocotlan
+2813,profesor,72.8,secundaria,2024-01-02,Tlacolula
+2814,auditor,73.9,bachillerato,2024-03-10,San Juan
+2815,capacitador,59.6,bachillerato,2024-05-25,Ocotlan
+2816,analista,53.7,primaria,2024-03-04,Puerto Escondido
+2817,representante comercial,87.7,tecnico,2024-04-23,Ocotlan
+2818,enfermero,73.7,secundaria,2024-12-25,Pochutla
+2819,arquitecto,67.2,doctorado,2024-08-12,Etla
+2820,enfermero,71.2,lic.incompleta,2024-11-01,Santa Catarina
+2821,cocinero,85.8,secundaria,2024-05-11,Santiago
+2822,abogado,50.8,especialidad,2024-11-09,juarez
+2823,arquitecto,86.2,especialidad,2024-10-18,Huatulco
+2824,plomero,89.9,tecnico,2024-05-18,Huatulco
+2825,asistente administrativo,58.2,doctorado,2024-07-24,juarez
+2826,ejecutivo de ventas,77.2,primaria,2024-01-29,Xoxocotlan
+2827,psicólogo,40.3,maestria,2024-10-25,Ixtlan
+2828,técnico en telecomunicaciones,81.0,especialidad,2024-07-29,Tlacolula
+2829,psicólogo,78.4,secundaria,2024-09-05,Salina Cruz
+2830,diseñador grafico,69.4,secundaria,2024-03-15,Huajuapan
+2831,asistente administrativo,76.6,especialidad,2024-08-18,Macuiltianguis
+2832,analista,49.9,doctorado,2024-07-19,San Pablo Etla
+2833,vendedor,76.9,prof.univ.,2024-07-20,Ixtlan
+2834,contador,90.3,secundaria,2024-12-25,Puerto Escondido
+2835,representante comercial,60.1,tecnico,2024-09-02,Macuiltianguis
+2836,arquitecto,77.3,especialidad,2024-02-27,Tututepec
+2837,ejecutivo de ventas,89.0,especialidad,2024-04-21,Santiago
+2838,dentista,87.5,maestria,2024-08-18,Santa Catarina
+2839,representante comercial,48.1,tecnico,2024-12-14,Huajuapan
+2840,coordinador,59.4,maestria,2024-07-20,Xoxocotlan
+2841,vendedor,52.0,maestria,2024-08-27,Pochutla
+2842,arquitecto,69.6,especialidad,2024-08-27,Macuiltianguis
+2843,diseñador grafico,88.1,maestria,2024-07-19,Huajuapan
+2844,ejecutivo de ventas,58.4,bachillerato,2024-11-20,Puerto Escondido
+2845,coordinador,41.3,prof.univ.,2024-05-06,Crucecita
+2846,gerente,58.9,lic.incompleta,2024-01-17,Salina Cruz
+2847,electricista,78.4,maestria,2024-05-01,Tlacolula
+2848,ejecutivo de ventas,73.1,maestria,2024-06-05,Salina Cruz
+2849,plomero,50.5,licenciatura completa,2024-01-15,oaxaca capital
+2850,asistente administrativo,53.3,lic.incompleta,2024-02-28,San Juan
+2851,ejecutivo de ventas,94.4,maestria,2024-11-20,Lachixio
+2852,gerente,47.6,especialidad,2024-12-22,Huajuapan
+2853,arquitecto,85.6,prof.univ.,2024-06-03,Tututepec
+2854,psicólogo,45.7,lic.incompleta,2024-09-24,Santiago
+2855,técnico en electrónica,91.3,lic.incompleta,2024-01-04,Ocotlan
+2856,profesor,58.0,prof.univ.,2024-12-11,Crucecita
+2857,maestro de obra,62.9,prof.univ.,2024-07-25,Xoxocotlan
+2858,camarero,90.6,licenciatura completa,2024-05-06,Pochutla
+2859,ingeniero de sistemas,70.5,prof.univ.,2024-04-22,oaxaca capital
+2860,chef,67.9,tecnico,2024-12-13,Etla
+2861,contador,52.2,secundaria,2024-07-04,Ocotlan
+2862,maestro de obra,63.2,especialidad,2024-06-19,Xoxocotlan
+2863,técnico en telecomunicaciones,83.1,prof.univ.,2024-05-13,San Pablo Etla
+2864,técnico en telecomunicaciones,44.0,licenciatura completa,2024-08-11,San Juan
+2865,técnico de mantenimiento,93.1,primaria,2024-02-20,Salina Cruz
+2866,cocinero,71.7,doctorado,2024-04-15,Pochutla
+2867,diseñador grafico,50.2,tecnico,2024-11-25,Ixtlan
+2868,técnico de mantenimiento,45.4,maestria,2024-01-16,San Juan
+2869,académico,75.9,doctorado,2024-10-17,Ocotlan
+2870,técnico de mantenimiento,45.8,tecnico,2024-08-05,oaxaca capital
+2871,diseñador grafico,60.4,primaria,2024-08-15,Ocotlan
+2872,diseñador grafico,88.1,doctorado,2024-07-17,Santiago
+2873,contador,85.9,licenciatura completa,2024-03-23,Ixtlan
+2874,carpintero,71.6,especialidad,2024-05-23,Ixtlan
+2875,electricista,72.2,licenciatura completa,2024-02-25,Crucecita
+2876,técnico en telecomunicaciones,80.7,bachillerato,2024-10-23,Huatulco
+2877,coordinador,86.7,maestria,2024-07-15,Lachixio
+2878,tec. en electricidad,90.4,tecnico,2024-04-25,Santiago
+2879,técnico de mantenimiento,75.2,especialidad,2024-11-09,Puerto Escondido
+2880,enfermero,82.7,licenciatura completa,2024-08-08,Macuiltianguis
+2881,pintor,90.0,licenciatura completa,2024-01-02,Santiago
+2882,arquitecto,66.8,lic.incompleta,2024-11-28,Macuiltianguis
+2883,mecanico,49.5,tecnico,2024-03-08,Xoxocotlan
+2884,ejecutivo de ventas,86.0,bachillerato,2024-10-11,Xoxocotlan
+2885,pintor,73.8,especialidad,2024-11-13,Santa Catarina
+2886,camarero,73.4,lic.incompleta,2024-08-18,Salina Cruz
+2887,contador,66.9,bachillerato,2024-04-03,Ocotlan
+2888,tec. en electricidad,93.0,bachillerato,2024-08-10,San Juan
+2889,consultor,71.5,primaria,2024-01-08,Huajuapan
+2890,cocinero,68.8,doctorado,2024-06-16,Puerto Escondido
+2891,técnico en electrónica,55.4,especialidad,2024-08-09,Salina Cruz
+2892,economista,67.4,bachillerato,2024-06-13,Lachixio
+2893,capacitador,42.5,doctorado,2024-04-22,Tututepec
+2894,psicólogo,64.2,licenciatura completa,2024-08-19,San Juan
+2895,técnico en electrónica,53.8,primaria,2024-05-09,Pochutla
+2896,vendedor,70.5,lic.incompleta,2024-12-04,Huatulco
+2897,programador,49.4,doctorado,2024-03-13,Ixtlan
+2898,mecanico,86.6,doctorado,2024-03-15,Huajuapan
+2899,cocinero,67.9,bachillerato,2024-03-30,Macuiltianguis
+2900,investigador,59.8,prof.univ.,2024-08-05,Xoxocotlan
+2901,jardinero,79.3,primaria,2024-11-14,Salina Cruz
+2902,camarero,66.1,maestria,2024-09-15,Etla
+2903,chef,81.8,prof.univ.,2024-08-05,Puerto Escondido
+2904,técnico de mantenimiento,49.3,tecnico,2024-01-20,Pochutla
+2905,supervisor,79.2,tecnico,2024-09-15,Puerto Escondido
+2906,arquitecto,75.8,secundaria,2024-05-08,Puerto Escondido
+2907,chef,88.1,prof.univ.,2024-05-28,Etla
+2908,técnico en telecomunicaciones,52.8,licenciatura completa,2024-09-24,Macuiltianguis
+2909,transportista,61.7,licenciatura completa,2024-06-28,Salina Cruz
+2910,jardinero,44.4,licenciatura completa,2024-02-08,Lachixio
+2911,auditor,81.9,lic.incompleta,2024-06-22,oaxaca capital
+2912,plomero,79.6,secundaria,2024-11-02,Tlacolula
+2913,representante comercial,68.9,bachillerato,2024-09-26,Etla
+2914,dentista,65.7,licenciatura completa,2024-11-14,Huajuapan
+2915,programador,79.0,primaria,2024-12-04,Ixtlan
+2916,contador,42.6,maestria,2024-06-21,Xoxocotlan
+2917,plomero,77.1,especialidad,2024-01-09,Ocotlan
+2918,auditor,58.8,bachillerato,2024-11-30,Lachixio
+2919,plomero,42.9,doctorado,2024-01-12,Ocotlan
+2920,capacitador,66.7,especialidad,2024-03-03,Xoxocotlan
+2921,dentista,55.1,bachillerato,2024-03-24,Tututepec
+2922,ingeniero de sistemas,91.4,primaria,2024-03-14,Tututepec
+2923,profesor,61.7,licenciatura completa,2024-12-21,Tlacolula
+2924,electricista,50.0,bachillerato,2024-04-02,Etla
+2925,docente,46.7,lic.incompleta,2024-01-12,Crucecita
+2926,soldador,67.9,bachillerato,2024-10-29,Ixtlan
+2927,enfermero,81.5,lic.incompleta,2024-06-19,Etla
+2928,capacitador,70.7,licenciatura completa,2024-09-10,Ixtlan
+2929,jardinero,59.3,licenciatura completa,2024-06-20,Huatulco
+2930,técnico de mantenimiento,43.0,prof.univ.,2024-10-23,Tlacolula
+2931,tec. en electricidad,77.4,maestria,2024-05-16,Salina Cruz
+2932,ingeniero de sistemas,53.8,tecnico,2024-07-04,Pochutla
+2933,electricista,69.7,primaria,2024-01-29,Pochutla
+2934,psicólogo,83.0,bachillerato,2024-04-13,Salina Cruz
+2935,contador,83.4,licenciatura completa,2024-12-18,Pochutla
+2936,capacitador,44.2,licenciatura completa,2024-10-07,Salina Cruz
+2937,pintor,56.9,secundaria,2024-04-16,Crucecita
+2938,auditor,55.7,licenciatura completa,2024-04-12,Santiago
+2939,asistente administrativo,66.8,prof.univ.,2024-12-17,Tututepec
+2940,arquitecto,93.3,tecnico,2024-01-23,Salina Cruz
+2941,analista,83.0,primaria,2024-07-05,juarez
+2942,mecanico,55.4,maestria,2024-03-18,Crucecita
+2943,economista,49.9,doctorado,2024-09-17,Salina Cruz
+2944,maestro de obra,84.1,bachillerato,2024-03-08,Salina Cruz
+2945,psicólogo,64.2,secundaria,2024-11-29,San Pablo Etla
+2946,capacitador,46.1,primaria,2024-01-28,Tlacolula
+2947,transportista,46.6,tecnico,2024-05-03,Salina Cruz
+2948,profesor,42.9,doctorado,2024-01-22,oaxaca capital
+2949,contador,88.7,primaria,2024-07-28,San Juan
+2950,diseñador grafico,62.7,maestria,2024-04-30,Pochutla
+2951,docente,79.7,lic.incompleta,2024-07-05,Huatulco
+2952,psicólogo,60.0,maestria,2024-07-25,Santiago
+2953,economista,43.8,prof.univ.,2024-12-04,Macuiltianguis
+2954,conductor,81.8,licenciatura completa,2024-11-26,oaxaca capital
+2955,coordinador,94.6,maestria,2024-09-01,San Pablo Etla
+2956,técnico en telecomunicaciones,59.1,primaria,2024-08-22,San Juan
+2957,dentista,41.5,bachillerato,2024-09-11,Crucecita
+2958,profesor,64.2,doctorado,2024-09-22,Huajuapan
+2959,capacitador,46.2,doctorado,2024-02-12,Xoxocotlan
+2960,jardinero,52.0,bachillerato,2024-02-06,juarez
+2961,coordinador,50.0,especialidad,2024-10-13,Huatulco
+2962,maestro de obra,49.9,bachillerato,2024-10-15,San Pablo Etla
+2963,camarero,50.8,especialidad,2024-05-13,Santa Catarina
+2964,académico,47.3,secundaria,2024-05-11,oaxaca capital
+2965,asistente administrativo,48.6,tecnico,2024-09-01,Pochutla
+2966,investigador,51.3,doctorado,2024-08-09,San Pablo Etla
+2967,ejecutivo de ventas,82.6,bachillerato,2024-10-03,Huatulco
+2968,camarero,82.3,especialidad,2024-09-11,Tlacolula
+2969,arquitecto,40.0,doctorado,2024-05-21,juarez
+2970,ingeniero de sistemas,78.8,maestria,2024-11-27,oaxaca capital
+2971,guardia de seguridad,43.1,prof.univ.,2024-04-24,oaxaca capital
+2972,cocinero,70.8,licenciatura completa,2024-08-09,juarez
+2973,académico,80.7,doctorado,2024-06-01,Crucecita
+2974,abogado,92.2,doctorado,2024-09-09,Ixtlan
+2975,representante comercial,71.1,secundaria,2024-02-11,Santa Catarina
+2976,gerente,93.6,especialidad,2024-10-12,Tlacolula
+2977,profesor,47.0,secundaria,2024-11-07,Santiago
+2978,electricista,80.5,maestria,2024-12-26,San Juan
+2979,vendedor,74.7,maestria,2024-10-16,Tlacolula
+2980,tec. en electricidad,63.2,licenciatura completa,2024-12-01,Santa Catarina
+2981,auditor,92.9,especialidad,2024-01-30,Pochutla
+2982,soldador,94.4,maestria,2024-02-04,Tututepec
+2983,diseñador grafico,62.2,tecnico,2024-11-09,Macuiltianguis
+2984,capacitador,51.0,lic.incompleta,2024-06-08,Crucecita
+2985,cocinero,75.9,tecnico,2024-08-15,Salina Cruz
+2986,camarero,78.8,lic.incompleta,2024-01-22,Lachixio
+2987,camarero,66.9,lic.incompleta,2024-09-19,Tututepec
+2988,plomero,94.8,doctorado,2024-03-02,Ixtlan
+2989,técnico de mantenimiento,47.4,prof.univ.,2024-07-14,Santiago
+2990,ingeniero de sistemas,59.9,doctorado,2024-02-22,Crucecita
+2991,contador,55.9,maestria,2024-01-29,Macuiltianguis
+2992,contador,41.0,doctorado,2024-07-22,Salina Cruz
+2993,tec. en electricidad,67.6,doctorado,2024-02-10,Huajuapan
+2994,ejecutivo de ventas,50.9,bachillerato,2024-02-10,Pochutla
+2995,plomero,45.1,especialidad,2024-01-24,Santiago
+2996,representante comercial,64.6,bachillerato,2024-07-07,Ocotlan
+2997,profesor,64.6,primaria,2024-02-21,Tututepec
+2998,dentista,68.8,bachillerato,2024-11-30,Ixtlan
+2999,dentista,67.7,maestria,2024-04-25,juarez
+3000,conductor,42.9,prof.univ.,2024-02-03,Puerto Escondido
+3001,ejecutivo de ventas,55.7,bachillerato,2024-07-27,Tututepec
+3002,chef,90.6,lic.incompleta,2024-08-13,Xoxocotlan
+3003,maestro de obra,69.2,tecnico,2024-01-24,Macuiltianguis
+3004,maestro de obra,87.8,primaria,2024-08-04,juarez
+3005,investigador,63.6,licenciatura completa,2024-03-06,Lachixio
+3006,camarero,48.0,especialidad,2024-10-13,Lachixio
+3007,asistente administrativo,53.4,doctorado,2024-02-05,Santa Catarina
+3008,guardia de seguridad,68.7,lic.incompleta,2024-12-10,Pochutla
+3009,psicólogo,77.7,licenciatura completa,2024-05-20,Huatulco
+3010,maestro de obra,91.5,primaria,2024-04-16,San Juan
+3011,guardia de seguridad,80.0,especialidad,2024-12-13,Etla
+3012,electricista,41.4,maestria,2024-03-06,Crucecita
+3013,dentista,67.6,especialidad,2024-05-06,San Juan
+3014,coordinador,90.5,bachillerato,2024-12-18,juarez
+3015,contador,51.9,lic.incompleta,2024-03-16,oaxaca capital
+3016,técnico en telecomunicaciones,92.1,tecnico,2024-12-31,Tlacolula
+3017,técnico de mantenimiento,76.8,lic.incompleta,2024-12-24,Xoxocotlan
+3018,académico,69.6,bachillerato,2024-07-03,Ocotlan
+3019,transportista,61.7,lic.incompleta,2024-04-04,Xoxocotlan
+3020,diseñador grafico,54.2,secundaria,2024-03-11,Ocotlan
