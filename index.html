@@ -28,6 +28,10 @@
                     <span class="btn-icon">📥</span>
                     <span class="btn-text">EXTRACCIÓN</span>
                 </button>
+                <button class="menu-btn" id="kpis-btn" data-menu="kpis">
+                    <span class="btn-icon">📊</span>
+                    <span class="btn-text">KPIs</span>
+                </button>
             </section>
 
             <!-- Submenu Extracción -->
@@ -91,7 +95,79 @@
                     <p class="format-description" id="format-description"></p>
                 </div>
 
+            </section>
 
+            <!-- Sección de KPIs -->
+            <section class="kpis-section" id="kpis-section" style="display: none;">
+                <div class="kpis-header">
+                    <h2>📊 Dashboard de KPIs</h2>
+                    <button class="btn-refresh-kpis" id="btn-refresh-kpis">🔄 Actualizar</button>
+                </div>
+
+                <!-- Tabs para navegación -->
+                <div class="kpis-tabs">
+                    <button class="tab-btn active" data-tab="resumen">📈 Resumen</button>
+                    <button class="tab-btn" data-tab="graficas">📊 Gráficas</button>
+                    <button class="tab-btn" data-tab="detalles">📋 Detalles</button>
+                </div>
+
+                <!-- TAB: Resumen de KPIs -->
+                <div class="tab-content" id="tab-resumen" style="display: block;">
+                    <div class="kpis-container" id="kpis-container">
+                        <!-- Los KPIs se inyectarán aquí -->
+                    </div>
+                </div>
+
+                <!-- TAB: Gráficas -->
+                <div class="tab-content" id="tab-graficas" style="display: none;">
+                    <div class="graficas-grid">
+                        <div class="grafica-card">
+                            <h3>⚖️ Demanda vs Oferta por Sector</h3>
+                            <canvas id="chart-demanda-oferta"></canvas>
+                        </div>
+                        <div class="grafica-card">
+                            <h3>💰 Salario Promedio por Sector</h3>
+                            <canvas id="chart-salario-sector"></canvas>
+                        </div>
+                        <div class="grafica-card">
+                            <h3>👥 Empleabilidad por Municipio</h3>
+                            <canvas id="chart-empleabilidad-municipio"></canvas>
+                        </div>
+                        <div class="grafica-card">
+                            <h3>📈 Evolución de Salarios</h3>
+                            <canvas id="chart-evolucion-salarios"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB: Detalles -->
+                <div class="tab-content" id="tab-detalles" style="display: none;">
+                    <div class="detalles-container">
+                        <h3>📊 Detalles de D/O por Sector</h3>
+                        <table class="detalles-table" id="detalles-table">
+                            <thead>
+                                <tr>
+                                    <th>Sector</th>
+                                    <th>Alto</th>
+                                    <th>Bajo</th>
+                                    <th>Ratio D/O</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody id="detalles-tbody">
+                                <!-- Se llenará dinámicamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="kpis-loading" id="kpis-loading" style="display: none;">
+                    <p>⏳ Cargando KPIs...</p>
+                </div>
+
+                <div class="kpis-error" id="kpis-error" style="display: none;">
+                    <p id="kpis-error-message">Error al cargar los KPIs</p>
+                </div>
             </section>
         </main>
 
@@ -101,6 +177,7 @@
         </footer>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
