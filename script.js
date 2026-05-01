@@ -1191,14 +1191,11 @@ function showInterpretationModal(kpiId, kpiValue) {
         </div>
     `;
     
-    // Crear modal si no existe
-    let overlay = document.getElementById('modal-overlay');
-    if (!overlay) {
-        document.body.insertAdjacentHTML('beforeend', modal);
-        overlay = document.getElementById('modal-overlay');
-    } else {
-        overlay.innerHTML = modal;
-    }
+    // Crear modal (eliminar si ya existe para evitar duplicados)
+    const existing = document.getElementById('modal-overlay');
+    if (existing) existing.remove();
+    document.body.insertAdjacentHTML('beforeend', modal);
+    const overlay = document.getElementById('modal-overlay');
     
     // Event listener para cerrar al hacer click fuera
     overlay.addEventListener('click', (e) => {

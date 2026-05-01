@@ -1,16 +1,75 @@
 id,fecha_registro,sector_laboral,salario_promedio_mensual,empleabilidad,municipio,observaciones
-1,2024-11-08,TecnologÍa,18500.50,alto,oaxaca capital,muy demandado
-2,2024-10-14,salud,15320.75,alto,Huajuapan,profesionales requeridos
-3,2024-12-01,educacion,13450.00,medio,oaxaca capital,sector regulado
-4,2024-09-20,turismo,10200.25,medio,Ixtlan,estacional
-5,2024-11-25,construccion,12800.50,bajo,juarez,cyclico
-6,2024-10-05,Agricultura,8950.00,bajo,Tlacolula,dependencia climatica
-7,2024-11-30,servicios,9800.75,medio,oaxaca capital,variable
-8,2024-10-28,finanzas,16700.50,alto,oaxaca capital,en desarrollo
-9,2024-12-09,manufactura,11500.00,medio,Xoxocotlan,competencia internacional
-10,2024-11-12,transportes,13200.25,bajo,Etla,saturado
-11,2024-09-17,gastronomia,10500.50,medio,oaxaca capital,post-pandemia recuperacion
-12,2024-10-31,comercio,11200.00,medio,Huajuapan,estable
-13,2024-11-19,ingenieria,17800.75,alto,oaxaca capital,muy cotizado
-14,2024-09-26,Administracion,12300.50,medio,juarez,demanda permanente
-15,2024-12-04,medio ambiente,14500.00,bajo,Lachixio,nichos emergentes
+1,2024-09-08,Tecnología,18500.50,alto,Oaxaca de Juárez,desarrolladores muy demandados
+2,2024-10-14,Salud,15320.75,alto,Huajuapan de León,profesionales requeridos
+3,2024-11-01,Educación,13450.00,medio,Oaxaca de Juárez,sector regulado por gobierno
+4,2024-09-20,Turismo,10200.25,medio,Ixtlán de Juárez,actividad estacional sierra
+5,2024-10-25,Construcción,12800.50,bajo,Oaxaca de Juárez,obra pública limitada
+6,2024-10-05,Agricultura,8950.00,bajo,Tlacolula de Matamoros,dependencia climática alta
+7,2024-11-30,Servicios,9800.75,medio,Oaxaca de Juárez,sector variable informal
+8,2024-10-28,Finanzas,16700.50,alto,Oaxaca de Juárez,banca en expansión regional
+9,2024-12-09,Manufactura,11500.00,medio,Xoxocotlán,competencia internacional fuerte
+10,2024-11-12,Transportes,13200.25,bajo,Etla,saturación de rutas locales
+11,2024-09-17,Gastronomía,10500.50,medio,Oaxaca de Juárez,recuperación post-pandemia
+12,2024-10-31,Comercio,11200.00,medio,Huajuapan de León,mercado estable regional
+13,2024-11-19,Ingeniería,17800.75,alto,Oaxaca de Juárez,proyectos de infraestructura
+14,2024-09-26,Administración,12300.50,medio,Oaxaca de Juárez,demanda permanente empresas
+15,2024-12-04,Medio Ambiente,14500.00,bajo,Lachixio,nichos emergentes limitados
+16,2024-12-15,Tecnología,21500.00,alto,Oaxaca de Juárez,ingenieros de software senior
+17,2025-01-10,Tecnología,16800.75,medio,Xoxocotlán,soporte técnico regional pymes
+18,2025-02-05,Tecnología,14200.00,bajo,Huajuapan de León,mercado local con baja demanda
+19,2025-01-15,Salud,19200.50,alto,Oaxaca de Juárez,especialistas médicos IMSS-ISSSTE
+20,2024-12-20,Salud,12600.00,medio,Tehuantepec,médicos generales clínicas rurales
+21,2025-02-10,Salud,10900.25,bajo,Miahuatlán de Porfirio Díaz,zona rural con escasa oferta
+22,2025-01-08,Educación,15400.00,alto,Oaxaca de Juárez,educación superior privada
+23,2025-02-18,Educación,11800.50,medio,Puerto Escondido,sistema público federal
+24,2024-12-12,Educación,10300.00,bajo,Etla,zona semiurbana bajo presupuesto
+25,2025-01-22,Turismo,14900.75,alto,Puerto Escondido,auge turístico costero
+26,2025-02-14,Turismo,11400.00,medio,Huajuapan de León,turismo de aventura serrana
+27,2025-03-01,Turismo,8700.50,bajo,Miahuatlán de Porfirio Díaz,temporada baja prolongada
+28,2025-01-05,Construcción,16500.00,alto,Oaxaca de Juárez,proyectos de infraestructura pública
+29,2025-02-20,Construcción,13600.50,medio,Xoxocotlán,obra residencial privada
+30,2025-03-08,Construcción,10100.25,bajo,Tlacolula de Matamoros,escasa contratación temporal
+31,2025-01-18,Agricultura,11600.00,medio,Miahuatlán de Porfirio Díaz,exportación de café orgánico
+32,2025-02-08,Agricultura,13400.75,alto,Tlacolula de Matamoros,agro-exportación certificada
+33,2025-03-12,Agricultura,7900.50,bajo,Lachixio,agricultura de subsistencia familiar
+34,2025-01-25,Servicios,12900.00,alto,Oaxaca de Juárez,servicios profesionales corporativos
+35,2025-02-12,Servicios,10400.25,medio,Tehuantepec,servicios locales consolidados
+36,2025-03-05,Servicios,8800.00,bajo,Miahuatlán de Porfirio Díaz,economía informal prevalente
+37,2025-02-02,Finanzas,20800.00,alto,Oaxaca de Juárez,banca corporativa y seguros
+38,2025-03-15,Finanzas,15600.50,medio,Huajuapan de León,microfinanzas y cajas rurales
+39,2025-01-28,Finanzas,13100.00,bajo,Tehuantepec,cajas populares con saturación
+40,2025-02-25,Manufactura,14600.75,alto,Xoxocotlán,industria textil para exportación
+41,2025-03-18,Manufactura,12100.00,medio,Oaxaca de Juárez,artesanías industrializadas
+42,2025-01-12,Manufactura,9700.50,bajo,Etla,maquila de bajo valor agregado
+43,2025-02-08,Transportes,16600.00,alto,Oaxaca de Juárez,logística y cadena de suministro
+44,2025-03-20,Transportes,12200.25,medio,Puerto Escondido,transporte turístico costero
+45,2025-01-30,Transportes,10400.00,bajo,Tlacolula de Matamoros,rutas locales congestionadas
+46,2025-02-15,Gastronomía,14300.75,alto,Puerto Escondido,gastronomía gourmet costera
+47,2025-03-10,Gastronomía,11600.00,medio,Oaxaca de Juárez,restaurantes formales zona centro
+48,2025-01-20,Gastronomía,9100.50,bajo,Miahuatlán de Porfirio Díaz,fondas y comedores informales
+49,2025-02-22,Comercio,13900.00,alto,Oaxaca de Juárez,comercio electrónico en crecimiento
+50,2025-03-14,Comercio,11100.25,medio,Tehuantepec,mercado regional consolidado
+51,2025-01-16,Comercio,9000.50,bajo,Lachixio,comercio informal predominante
+52,2025-03-02,Ingeniería,22800.00,alto,Oaxaca de Juárez,proyectos de energía renovable
+53,2025-01-22,Ingeniería,19500.50,alto,Xoxocotlán,manufactura industrial avanzada
+54,2025-02-18,Ingeniería,15700.00,medio,Huajuapan de León,ingeniería civil regional
+55,2025-03-25,Ingeniería,13100.25,bajo,Miahuatlán de Porfirio Díaz,escasa demanda en zona sur
+56,2025-02-28,Administración,16800.00,alto,Oaxaca de Juárez,gestión corporativa y consultoría
+57,2025-03-16,Administración,13700.50,medio,Tehuantepec,administración de pymes locales
+58,2025-01-14,Administración,11100.00,bajo,Lachixio,mercado local con poca demanda
+59,2025-03-08,Medio Ambiente,18400.00,alto,Oaxaca de Juárez,consultoría ambiental gubernamental
+60,2025-02-05,Medio Ambiente,15400.75,medio,Puerto Escondido,gestión ecoturística costera
+61,2025-01-25,Medio Ambiente,12200.00,bajo,Miahuatlán de Porfirio Díaz,mercado incipiente zona sur
+62,2025-01-02,Salud,17200.00,alto,Etla,centro de salud regional en expansión
+63,2025-01-15,Turismo,13400.00,alto,Lachixio,ecoturismo sierra sur emergente
+64,2025-01-20,Educación,14800.00,alto,Tehuantepec,universidad tecnológica del istmo
+65,2025-02-03,Administración,15100.00,alto,Miahuatlán de Porfirio Díaz,crecimiento de pymes formales
+66,2025-03-03,Ingeniería,20500.00,alto,Ixtlán de Juárez,ingeniería forestal certificada
+67,2025-03-06,Tecnología,23500.00,alto,Oaxaca de Juárez,arquitectos cloud muy solicitados
+68,2025-03-09,Tecnología,19200.00,alto,Tehuantepec,tecnología para agroindustria istmo
+69,2025-03-12,Tecnología,21000.00,alto,Xoxocotlán,parque tecnológico zona norte
+70,2025-03-17,Tecnología,17300.00,medio,Tlacolula de Matamoros,soporte técnico regional mixto
+71,2025-03-22,Tecnología,16200.00,medio,Puerto Escondido,desarrollo web sector turístico
+72,2025-01-08,Tecnología,12500.00,bajo,Etla,pymes tecnológicas con baja demanda
+73,2025-02-14,Tecnología,18800.00,medio,Huajuapan de León,sistemas de información regionales
+74,2025-03-28,Tecnología,11800.00,bajo,Miahuatlán de Porfirio Díaz,mercado tecnológico incipiente

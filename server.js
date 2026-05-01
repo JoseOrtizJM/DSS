@@ -39,7 +39,7 @@ async function connectToMongo() {
 function parseCSV(filePath) {
     try {
         const content = fs.readFileSync(filePath, 'utf-8');
-        const lines = content.trim().split('\n');
+        const lines = content.trim().split('\n').map(l => l.trim()).filter(l => l.length > 0);
         const headers = lines[0].split(',').map(h => h.trim());
         const data = [];
 
@@ -114,23 +114,26 @@ function calcularKPIs(data) {
     kpis.CDE = ((maxSector / data.length) * 100).toFixed(1);
 
     // 5. Índice de Empleabilidad Regional (IER)
+    // Promedio del porcentaje de empleabilidad alta por municipio
     const municipioEmpleabilidad = {};
     data.forEach(r => {
         if (r.municipio && r.empleabilidad) {
-            if (!municipioEmpleabilidad[r.municipio]) {
-                municipioEmpleabilidad[r.municipio] = { alto: 0, total: 0 };
+            const mun = r.municipio.toLowerCase().trim();
+            if (!municipioEmpleabilidad[mun]) {
+                municipioEmpleabilidad[mun] = { alto: 0, total: 0 };
             }
-            municipioEmpleabilidad[r.municipio].total += 1;
+            municipioEmpleabilidad[mun].total += 1;
             if (r.empleabilidad.toLowerCase() === 'alto') {
-                municipioEmpleabilidad[r.municipio].alto += 1;
+                municipioEmpleabilidad[mun].alto += 1;
             }
         }
     });
-
-    const municipios = Object.keys(municipioEmpleabilidad);
-    const promedioEmpleabilidad = municipios.reduce((sum, mun) => {
-        return sum + (municipioEmpleabilidad[mun].alto / municipioEmpleabilidad[mun].total);
-    }, 0) / municipios.length;
+    const municipiosArr = Object.keys(municipioEmpleabilidad);
+    const promedioEmpleabilidad = municipiosArr.length > 0
+        ? municipiosArr.reduce((sum, mun) =>
+            sum + (municipioEmpleabilidad[mun].alto / municipioEmpleabilidad[mun].total), 0
+        ) / municipiosArr.length
+        : 0;
     kpis.IER = (promedioEmpleabilidad * 100).toFixed(1);
 
     // 6. Tasa de Crecimiento Salarial (TCS)

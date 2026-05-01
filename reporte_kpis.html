@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte - Sistema Data Lakehouse ETL con KPIs del Mercado Laboral de Oaxaca</title>
+    <style>
+        /* ===================== ESTILOS GENERALES ===================== */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12pt;
+            color: #1a1a1a;
+            background: #fff;
+            line-height: 1.6;
+        }
+        .page {
+            width: 215.9mm;
+            min-height: 279.4mm;
+            margin: 0 auto 20px;
+            padding: 25mm 25mm 20mm;
+            background: #fff;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+            position: relative;
+        }
+        @media print {
+            .page { box-shadow: none; margin: 0; page-break-after: always; }
+            .no-print { display: none; }
+        }
+
+        /* ===================== PORTADA ===================== */
+        .portada {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 240mm;
+            text-align: center;
+        }
+        .portada .logo-top {
+            font-size: 48pt;
+            margin-bottom: 10px;
+        }
+        .portada .universidad {
+            font-size: 13pt;
+            font-weight: bold;
+            color: #1a3a6b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        .portada .facultad {
+            font-size: 11pt;
+            color: #444;
+            margin-bottom: 30px;
+        }
+        .portada .linea-decorativa {
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #1a3a6b 0%, #3b82f6 50%, #10b981 100%);
+            margin: 20px 0;
+            border-radius: 2px;
+        }
+        .portada .titulo-principal {
+            font-size: 20pt;
+            font-weight: bold;
+            color: #1a3a6b;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+            line-height: 1.3;
+        }
+        .portada .subtitulo {
+            font-size: 14pt;
+            color: #2563eb;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .portada .materia-box {
+            background: #f0f4ff;
+            border: 2px solid #1a3a6b;
+            border-radius: 8px;
+            padding: 15px 30px;
+            margin: 20px 0;
+        }
+        .portada .materia-box p { font-size: 11pt; color: #333; margin: 4px 0; }
+        .portada .materia-box .materia-nombre { font-size: 13pt; font-weight: bold; color: #1a3a6b; }
+        .portada .datos-autor {
+            margin-top: 30px;
+            font-size: 11pt;
+        }
+        .portada .datos-autor p { margin: 5px 0; }
+        .portada .datos-autor .autor { font-weight: bold; font-size: 13pt; color: #1a3a6b; }
+        .portada .fecha { margin-top: 20px; font-size: 11pt; color: #555; }
+
+        /* ===================== ÍNDICE ===================== */
+        .indice-titulo {
+            font-size: 18pt;
+            font-weight: bold;
+            color: #1a3a6b;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #1a3a6b;
+        }
+        .indice-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 6px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+        .indice-item.nivel1 { font-weight: bold; font-size: 11pt; margin-top: 8px; }
+        .indice-item.nivel2 { font-size: 10.5pt; padding-left: 20px; }
+        .indice-item .titulo-idx { color: #1a1a1a; }
+        .indice-item .pagina { color: #666; font-size: 10pt; }
+
+        /* ===================== SECCIONES ===================== */
+        .section-titulo {
+            font-size: 16pt;
+            font-weight: bold;
+            color: #1a3a6b;
+            margin: 0 0 20px 0;
+            padding: 10px 0 10px 15px;
+            border-left: 6px solid #3b82f6;
+            background: #f8faff;
+        }
+        .section-subtitulo {
+            font-size: 13pt;
+            font-weight: bold;
+            color: #1e40af;
+            margin: 25px 0 12px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #dbeafe;
+        }
+        .section-subtitulo3 {
+            font-size: 11.5pt;
+            font-weight: bold;
+            color: #374151;
+            margin: 18px 0 8px;
+        }
+        p { margin-bottom: 10px; text-align: justify; }
+
+        /* ===================== KPI CARDS ===================== */
+        .kpi-card {
+            border: 1px solid #d1d5db;
+            border-left: 5px solid #3b82f6;
+            border-radius: 6px;
+            padding: 14px 16px;
+            margin: 14px 0;
+            background: #f9fafb;
+            break-inside: avoid;
+        }
+        .kpi-card.verde { border-left-color: #10b981; }
+        .kpi-card.amarillo { border-left-color: #f59e0b; }
+        .kpi-card.rojo { border-left-color: #ef4444; }
+        .kpi-card.morado { border-left-color: #8b5cf6; }
+        .kpi-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        .kpi-num {
+            background: #1a3a6b;
+            color: #fff;
+            font-weight: bold;
+            font-size: 10pt;
+            padding: 2px 8px;
+            border-radius: 20px;
+            white-space: nowrap;
+        }
+        .kpi-nombre { font-weight: bold; font-size: 11.5pt; color: #1a3a6b; }
+        .kpi-codigo {
+            background: #dbeafe;
+            color: #1e40af;
+            font-size: 9pt;
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-left: auto;
+        }
+        .kpi-definicion { font-size: 10.5pt; color: #374151; margin-bottom: 6px; }
+        .kpi-formula {
+            background: #1a3a6b;
+            color: #e0f0ff;
+            font-family: 'Courier New', monospace;
+            font-size: 10pt;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin: 6px 0;
+        }
+        .kpi-meta {
+            display: flex;
+            gap: 20px;
+            font-size: 9.5pt;
+            margin-top: 6px;
+            flex-wrap: wrap;
+        }
+        .kpi-meta span { color: #555; }
+        .kpi-meta strong { color: #1a3a6b; }
+
+        /* ===================== CÓDIGO ===================== */
+        pre {
+            background: #1e2030;
+            color: #c9d1d9;
+            font-family: 'Courier New', monospace;
+            font-size: 8.5pt;
+            padding: 14px;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 10px 0;
+            line-height: 1.5;
+            break-inside: avoid;
+        }
+        .code-keyword { color: #ff7b72; }
+        .code-string { color: #a5d6ff; }
+        .code-comment { color: #8b949e; font-style: italic; }
+        .code-number { color: #79c0ff; }
+        .code-func { color: #d2a8ff; }
+
+        /* ===================== TABLAS ===================== */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 14px 0;
+            font-size: 10pt;
+            break-inside: avoid;
+        }
+        th {
+            background: #1a3a6b;
+            color: #fff;
+            padding: 8px 10px;
+            text-align: left;
+            font-size: 9.5pt;
+        }
+        td {
+            padding: 7px 10px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        tr:nth-child(even) td { background: #f8faff; }
+        tr:hover td { background: #eff6ff; }
+        .td-valor { font-weight: bold; color: #1e40af; text-align: center; }
+        .td-estado-verde { color: #059669; font-weight: bold; }
+        .td-estado-amarillo { color: #d97706; font-weight: bold; }
+        .td-estado-rojo { color: #dc2626; font-weight: bold; }
+
+        /* ===================== DIAGRAMAS / BLOQUES ===================== */
+        .etl-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .etl-step {
+            background: #1a3a6b;
+            color: #fff;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 10pt;
+            text-align: center;
+            min-width: 80px;
+        }
+        .etl-arrow {
+            color: #3b82f6;
+            font-size: 20pt;
+            padding: 0 6px;
+            font-weight: bold;
+        }
+        .etl-step.e { background: #2563eb; }
+        .etl-step.t { background: #7c3aed; }
+        .etl-step.l { background: #059669; }
+        .etl-step.k { background: #d97706; }
+
+        .info-box {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-left: 4px solid #3b82f6;
+            border-radius: 6px;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-size: 10.5pt;
+        }
+        .info-box.verde { background: #f0fdf4; border-color: #bbf7d0; border-left-color: #10b981; }
+        .info-box.amarillo { background: #fffbeb; border-color: #fde68a; border-left-color: #f59e0b; }
+        .info-box.rojo { background: #fef2f2; border-color: #fecaca; border-left-color: #ef4444; }
+
+        .dash-feature {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 12px 0;
+        }
+        .dash-feature-item {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            padding: 10px 12px;
+        }
+        .dash-feature-item h4 { color: #1e40af; font-size: 10pt; margin-bottom: 4px; }
+        .dash-feature-item p { font-size: 9.5pt; color: #555; margin: 0; }
+
+        /* ===================== RESULTADOS BARRA ===================== */
+        .resultado-item {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            gap: 12px;
+        }
+        .resultado-nombre {
+            font-weight: bold;
+            font-size: 10pt;
+            min-width: 200px;
+            color: #374151;
+        }
+        .resultado-barra-container {
+            flex: 1;
+            background: #e5e7eb;
+            border-radius: 10px;
+            height: 18px;
+            position: relative;
+            overflow: hidden;
+        }
+        .resultado-barra {
+            height: 100%;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #3b82f6, #10b981);
+        }
+        .resultado-valor {
+            font-weight: bold;
+            font-size: 10.5pt;
+            min-width: 80px;
+            text-align: right;
+            color: #1a3a6b;
+        }
+
+        /* ===================== FOOTER ===================== */
+        .page-footer {
+            position: absolute;
+            bottom: 10mm;
+            left: 25mm;
+            right: 25mm;
+            display: flex;
+            justify-content: space-between;
+            font-size: 8.5pt;
+            color: #888;
+            border-top: 1px solid #e5e7eb;
+            padding-top: 4px;
+        }
+
+        /* ===================== UTILIDADES ===================== */
+        .text-center { text-align: center; }
+        .mb-4 { margin-bottom: 16px; }
+        .mt-4 { margin-top: 16px; }
+        .divider {
+            border: none;
+            border-top: 2px solid #e5e7eb;
+            margin: 20px 0;
+        }
+        ul { padding-left: 20px; margin-bottom: 10px; }
+        li { margin-bottom: 5px; font-size: 10.5pt; }
+
+        /* Botón imprimir */
+        .btn-print {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #1a3a6b;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 11pt;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        .btn-print:hover { background: #2563eb; }
+    </style>
+</head>
+<body>
+
+<!-- ==================== PORTADA ==================== -->
+<div class="page">
+    <div class="portada">
+        <div class="logo-top">🏛️</div>
+        <div class="universidad">Universidad del Valle de Oaxaca</div>
+        <div class="facultad">Ingeniería en Sistemas Computacionales</div>
+        <div class="linea-decorativa"></div>
+
+        <div class="titulo-principal">Sistema Data Lakehouse ETL<br>con Análisis de KPIs del<br>Mercado Laboral</div>
+        <div class="subtitulo">Región Oaxaca, México — 2024-2026</div>
+
+        <div class="materia-box">
+            <p class="materia-nombre">Sistemas de Soporte a la Toma de Decisiones (DSS)</p>
+            <p>Octavo Semestre — Período Enero-Junio 2026</p>
+            <p>Proyecto Final Integrador</p>
+        </div>
+
+        <div class="datos-autor">
+            <p><strong>Alumno:</strong></p>
+            <p class="autor">Jose Ortiz Martínez</p>
+        </div>
+
+        <div class="fecha">
+            <strong>Fecha de entrega:</strong> Abril 2026
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Portada</span>
+    </div>
+</div>
+
+<!-- ==================== ÍNDICE ==================== -->
+<div class="page">
+    <h1 class="indice-titulo">Índice de Contenido</h1>
+
+    <div class="indice-item nivel1">
+        <span class="titulo-idx">1. Introducción</span>
+        <span class="pagina">3</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">1.1. Contexto y Justificación</span>
+        <span class="pagina">3</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">1.2. Objetivos del Proyecto</span>
+        <span class="pagina">3</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">1.3. Stack Tecnológico</span>
+        <span class="pagina">3</span>
+    </div>
+
+    <div class="indice-item nivel1">
+        <span class="titulo-idx">2. Desarrollo</span>
+        <span class="pagina">4</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">2.1. Definición de los 10 KPIs con Fórmulas</span>
+        <span class="pagina">4</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">2.2. Programación del Cálculo de KPIs</span>
+        <span class="pagina">7</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">2.3. Diseño de la Interfaz del Dashboard</span>
+        <span class="pagina">9</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">2.4. Proceso ETL y Actualización de Datos</span>
+        <span class="pagina">10</span>
+    </div>
+
+    <div class="indice-item nivel1">
+        <span class="titulo-idx">3. Resultados</span>
+        <span class="pagina">12</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">3.1. Valores Calculados de los KPIs</span>
+        <span class="pagina">12</span>
+    </div>
+    <div class="indice-item nivel2">
+        <span class="titulo-idx">3.2. Análisis e Interpretación de Resultados</span>
+        <span class="pagina">13</span>
+    </div>
+
+    <div class="indice-item nivel1">
+        <span class="titulo-idx">4. Conclusión</span>
+        <span class="pagina">14</span>
+    </div>
+
+    <div class="indice-item nivel1">
+        <span class="titulo-idx">5. Fuentes de Consulta</span>
+        <span class="pagina">15</span>
+    </div>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Índice</span>
+    </div>
+</div>
+
+<!-- ==================== INTRODUCCIÓN ==================== -->
+<div class="page">
+    <h1 class="section-titulo">1. Introducción</h1>
+
+    <h2 class="section-subtitulo">1.1. Contexto y Justificación</h2>
+    <p>
+        El mercado laboral del estado de Oaxaca enfrenta desafíos estructurales particulares: alta dispersión geográfica,
+        diversidad sectorial con marcadas brechas salariales, y una oferta educativa que no siempre se alinea con la
+        demanda real de empleo. La toma de decisiones efectiva en materia de política laboral, orientación vocacional
+        y desarrollo económico regional requiere de indicadores cuantificables, actualizados y presentados de manera
+        accesible para los tomadores de decisiones.
+    </p>
+    <p>
+        Los Sistemas de Soporte a la Toma de Decisiones (DSS, por sus siglas en inglés) ofrecen el marco tecnológico
+        para integrar datos de múltiples fuentes, procesarlos de manera automatizada y extraer métricas clave que
+        sinteticen la complejidad del entorno laboral. Un Data Lakehouse — arquitectura que combina la flexibilidad
+        de almacenamiento de un Data Lake con las capacidades analíticas de un Data Warehouse — resulta idóneo para
+        este propósito, permitiendo ingestar datos brutos heterogéneos (encuestas, registros del observatorio laboral,
+        oferta educativa) y derivar indicadores de rendimiento (KPIs) de alto valor estratégico.
+    </p>
+    <p>
+        El presente reporte documenta el diseño, desarrollo e implementación de un sistema Data Lakehouse con
+        arquitectura ETL (Extracción, Transformación y Carga) para el monitoreo del mercado laboral de Oaxaca,
+        con énfasis en la definición y cómputo automatizado de 10 Indicadores Clave de Rendimiento (KPIs) y su
+        visualización interactiva en un dashboard web.
+    </p>
+
+    <h2 class="section-subtitulo">1.2. Objetivos del Proyecto</h2>
+    <ul>
+        <li>Definir un conjunto de 10 KPIs relevantes para el análisis del mercado laboral oaxaqueño, con sus respectivas fórmulas de cálculo e interpretación.</li>
+        <li>Programar el cálculo automatizado de dichos KPIs a partir de los datos almacenados en el data lake (archivos CSV del Observatorio Laboral).</li>
+        <li>Diseñar e implementar un dashboard web interactivo que presente los KPIs de forma clara, diversificada y con detalle de la información base.</li>
+        <li>Integrar un proceso ETL que permita actualizar los datos del sistema mediante la carga de nuevos archivos desde la interfaz web.</li>
+    </ul>
+
+    <h2 class="section-subtitulo">1.3. Stack Tecnológico y Fuentes de Datos</h2>
+
+    <div class="dash-feature">
+        <div class="dash-feature-item">
+            <h4>🔧 Backend</h4>
+            <p>Node.js + Express.js (API REST), MongoDB (persistencia), dotenv (configuración)</p>
+        </div>
+        <div class="dash-feature-item">
+            <h4>🌐 Frontend</h4>
+            <p>HTML5, CSS3, JavaScript Vanilla, Chart.js (visualizaciones interactivas)</p>
+        </div>
+        <div class="dash-feature-item">
+            <h4>📊 Fuentes de Datos</h4>
+            <p>Observatorio Laboral Oaxaca (CSV), ENOE — INEGI (CSV), SEP — Oferta Educativa (CSV)</p>
+        </div>
+        <div class="dash-feature-item">
+            <h4>🏗️ Arquitectura</h4>
+            <p>Data Lakehouse con pipeline ETL, almacenamiento en MongoDB y cómputo de KPIs sobre CSV</p>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Introducción — Pág. 3</span>
+    </div>
+</div>
+
+<!-- ==================== DESARROLLO: KPIs ==================== -->
+<div class="page">
+    <h1 class="section-titulo">2. Desarrollo</h1>
+    <h2 class="section-subtitulo">2.1. Definición de los 10 KPIs con Fórmulas</h2>
+
+    <p>Los siguientes KPIs fueron diseñados con base en los datos del Observatorio Laboral de Oaxaca
+    (<code>observatorio_laboral_oaxaca.csv</code>), el cual contiene registros de sectores laborales con
+    sus salarios, niveles de empleabilidad y distribución municipal.</p>
+
+    <!-- KPI 1 -->
+    <div class="kpi-card verde">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 1</span>
+            <span class="kpi-nombre">Tasa de Empleabilidad Alta</span>
+            <span class="kpi-codigo">TEA</span>
+        </div>
+        <p class="kpi-definicion">Mide el porcentaje de registros del mercado laboral clasificados con empleabilidad "alta" respecto al total. Indica qué tan favorable es el mercado en términos de oportunidades de empleo de calidad.</p>
+        <div class="kpi-formula">TEA = (Registros con empleabilidad = 'alto' / Total de registros) × 100</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> % (porcentaje)</span>
+            <span><strong>Rango esperado:</strong> 15% – 40%</span>
+            <span><strong>Interpretación:</strong> Mayor valor = mercado más favorecedor para candidatos</span>
+        </div>
+    </div>
+
+    <!-- KPI 2 -->
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 2</span>
+            <span class="kpi-nombre">Salario Promedio por Sector</span>
+            <span class="kpi-codigo">SPS</span>
+        </div>
+        <p class="kpi-definicion">Calcula el ingreso mensual promedio para cada sector laboral registrado. Permite identificar qué sectores ofrecen mejores remuneraciones y orientar decisiones de formación profesional.</p>
+        <div class="kpi-formula">SPS(X) = Σ(Salarios en sector X) / Cantidad de registros en sector X</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> Pesos MXN / mes</span>
+            <span><strong>Rango esperado:</strong> $8,000 – $24,000 MXN</span>
+        </div>
+    </div>
+
+    <!-- KPI 3 -->
+    <div class="kpi-card amarillo">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 3</span>
+            <span class="kpi-nombre">Variabilidad Salarial por Sector</span>
+            <span class="kpi-codigo">CV</span>
+        </div>
+        <p class="kpi-definicion">Coeficiente de Variación que mide la dispersión relativa de salarios dentro de cada sector. Un valor alto indica inestabilidad salarial; un valor bajo señala uniformidad en las remuneraciones.</p>
+        <div class="kpi-formula">CV(X) = (Desviación Estándar(X) / Salario Promedio(X)) × 100</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> %</span>
+            <span><strong>Rango esperado:</strong> 10% – 50%</span>
+            <span><strong>Interpretación:</strong> Mayor valor = sector menos estable salarialmente</span>
+        </div>
+    </div>
+
+    <!-- KPI 4 -->
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 4</span>
+            <span class="kpi-nombre">Concentración de Empleo</span>
+            <span class="kpi-codigo">CDE</span>
+        </div>
+        <p class="kpi-definicion">Porcentaje de registros pertenecientes al sector de mayor frecuencia. Alerta sobre dependencia excesiva de un sector dominante, lo que incrementa la vulnerabilidad ante crisis sectoriales.</p>
+        <div class="kpi-formula">CDE = (Registros del sector con mayor frecuencia / Total de registros) × 100</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> %</span>
+            <span><strong>Rango esperado:</strong> 15% – 35%</span>
+            <span><strong>Interpretación:</strong> Mayor valor = mercado más concentrado y vulnerable</span>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Desarrollo: KPIs — Pág. 4</span>
+    </div>
+</div>
+
+<div class="page">
+    <!-- KPI 5 -->
+    <div class="kpi-card verde">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 5</span>
+            <span class="kpi-nombre">Índice de Empleabilidad Regional</span>
+            <span class="kpi-codigo">IER</span>
+        </div>
+        <p class="kpi-definicion">Promedio del porcentaje de empleabilidad alta calculado municipio por municipio. Mide qué tan extendida está la alta empleabilidad en el territorio, ponderando igual a cada municipio sin importar su tamaño.</p>
+        <div class="kpi-formula">IER = [Σ (registros_alto_en_municipio_i / total_registros_municipio_i)] / Total municipios × 100</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> %</span>
+            <span><strong>Rango esperado:</strong> 30% – 75%</span>
+            <span><strong>Ejemplo:</strong> Oaxaca de Juárez: 14/21=66.7%, Xoxocotlán: 3/6=50%, promedio 10 municipios = 31.4%</span>
+        </div>
+    </div>
+
+    <!-- KPI 6 -->
+    <div class="kpi-card morado">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 6</span>
+            <span class="kpi-nombre">Tasa de Crecimiento Salarial</span>
+            <span class="kpi-codigo">TCS</span>
+        </div>
+        <p class="kpi-definicion">Variación porcentual del salario promedio entre los dos últimos períodos mensuales disponibles en el dataset. Detecta tendencias de expansión o contracción del poder adquisitivo en el mercado.</p>
+        <div class="kpi-formula">TCS = ((Salario promedio mes actual − Salario promedio mes anterior) / Salario promedio mes anterior) × 100</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> % mensual</span>
+            <span><strong>Rango esperado:</strong> −5% a +8%</span>
+            <span><strong>Interpretación:</strong> Positivo = crecimiento; negativo = contracción</span>
+        </div>
+    </div>
+
+    <!-- KPI 7 -->
+    <div class="kpi-card rojo">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 7</span>
+            <span class="kpi-nombre">Saturación del Mercado Laboral</span>
+            <span class="kpi-codigo">SML</span>
+        </div>
+        <p class="kpi-definicion">Complemento del TEA, mide la proporción de registros con baja empleabilidad. Un valor alto indica que muchos candidatos compiten por pocas plazas, generando presión a la baja en salarios.</p>
+        <div class="kpi-formula">SML = (Registros con empleabilidad = 'bajo' / Total de registros) × 100</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> %</span>
+            <span><strong>Rango esperado:</strong> 10% – 40%</span>
+            <span><strong>Interpretación:</strong> Mayor valor = mercado más saturado</span>
+        </div>
+    </div>
+
+    <!-- KPI 8 -->
+    <div class="kpi-card amarillo">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 8</span>
+            <span class="kpi-nombre">Brecha Salarial (Mínimo vs Máximo)</span>
+            <span class="kpi-codigo">BS</span>
+        </div>
+        <p class="kpi-definicion">Mide la diferencia porcentual entre el salario máximo y el mínimo registrados en el dataset. Refleja el grado de desigualdad económica entre sectores laborales de la región.</p>
+        <div class="kpi-formula">BS = ((Salario máximo − Salario mínimo) / Salario mínimo) × 100</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> %</span>
+            <span><strong>Rango esperado:</strong> 100% – 300%</span>
+            <span><strong>Interpretación:</strong> Mayor valor = mayor desigualdad salarial sectorial</span>
+        </div>
+    </div>
+
+    <!-- KPI 9 -->
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 9</span>
+            <span class="kpi-nombre">Densidad de Registros por Municipio</span>
+            <span class="kpi-codigo">DRM</span>
+        </div>
+        <p class="kpi-definicion">Registros laborales por municipio divididos entre el número de meses analizados. Permite identificar qué zonas geográficas generan mayor actividad de monitoreo laboral por unidad de tiempo.</p>
+        <div class="kpi-formula">DRM(m) = Registros en municipio m / Número de meses únicos en el dataset</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> Registros / mes</span>
+            <span><strong>Rango esperado:</strong> 1 – 5 reg/mes</span>
+        </div>
+    </div>
+
+    <!-- KPI 10 -->
+    <div class="kpi-card verde">
+        <div class="kpi-header">
+            <span class="kpi-num">KPI 10</span>
+            <span class="kpi-nombre">Demanda vs Oferta por Sector</span>
+            <span class="kpi-codigo">D/O</span>
+        </div>
+        <p class="kpi-definicion">Ratio entre la cantidad de registros con alta empleabilidad y los registros con baja empleabilidad por sector. Un valor mayor a 1 indica que la demanda supera a la oferta de trabajo disponible.</p>
+        <div class="kpi-formula">D/O(X) = Registros con empleabilidad='alto' en sector X / Registros con empleabilidad='bajo' en sector X</div>
+        <div class="kpi-meta">
+            <span><strong>Unidad:</strong> Ratio sin dimensión</span>
+            <span><strong>Rango esperado:</strong> 0.5 – 2.0</span>
+            <span><strong>Interpretación:</strong> &gt;1 = más demanda que oferta; &lt;1 = mercado saturado; N/A = sin registros bajos (alta demanda pura)</span>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Desarrollo: KPIs — Pág. 5</span>
+    </div>
+</div>
+
+<!-- ==================== DESARROLLO: PROGRAMACIÓN ==================== -->
+<div class="page">
+    <h2 class="section-subtitulo">2.2. Programación del Cálculo de KPIs</h2>
+
+    <p>El cálculo de los KPIs se implementó en el archivo <code>server.js</code> usando Node.js con Express.
+    El flujo de datos parte del archivo CSV del Observatorio Laboral, se parsea en memoria y se procesan los
+    10 indicadores en la función <code>calcularKPIs(data)</code>.</p>
+
+    <h3 class="section-subtitulo3">Endpoint de la API</h3>
+    <p>El endpoint <code>GET /api/kpis</code> orquesta la lectura del CSV, el cálculo y la serialización
+    de resultados junto con los datos crudos para las gráficas:</p>
+
+<pre><span class="code-comment">// GET /api/kpis — Calcula y devuelve todos los KPIs</span>
+app.get(<span class="code-string">'/api/kpis'</span>, (req, res) => {
+    <span class="code-keyword">const</span> csvPath = path.join(__dirname, <span class="code-string">'observatorio_laboral_oaxaca.csv'</span>);
+    <span class="code-keyword">const</span> data = <span class="code-func">parseCSV</span>(csvPath);      <span class="code-comment">// Parsear CSV a array de objetos</span>
+    <span class="code-keyword">const</span> kpis = <span class="code-func">calcularKPIs</span>(data);  <span class="code-comment">// Calcular los 10 KPIs</span>
+
+    res.<span class="code-func">json</span>({
+        success: <span class="code-keyword">true</span>,
+        totalRegistros: data.length,
+        kpis: kpis,
+        demandaOfertaPorSector: [...],  <span class="code-comment">// Para gráficas</span>
+        rawData: data                   <span class="code-comment">// Datos crudos para Chart.js</span>
+    });
+});</pre>
+
+    <h3 class="section-subtitulo3">Parser de CSV</h3>
+<pre><span class="code-keyword">function</span> <span class="code-func">parseCSV</span>(filePath) {
+    <span class="code-keyword">const</span> content = fs.<span class="code-func">readFileSync</span>(filePath, <span class="code-string">'utf-8'</span>);
+    <span class="code-keyword">const</span> lines = content.trim().<span class="code-func">split</span>(<span class="code-string">'\n'</span>)
+        .<span class="code-func">map</span>(l => l.<span class="code-func">trim</span>()).<span class="code-func">filter</span>(l => l.length > <span class="code-number">0</span>);
+    <span class="code-keyword">const</span> headers = lines[<span class="code-number">0</span>].<span class="code-func">split</span>(<span class="code-string">','</span>).<span class="code-func">map</span>(h => h.<span class="code-func">trim</span>());
+    <span class="code-keyword">const</span> data = [];
+    <span class="code-keyword">for</span> (<span class="code-keyword">let</span> i = <span class="code-number">1</span>; i &lt; lines.length; i++) {
+        <span class="code-keyword">const</span> values = lines[i].<span class="code-func">split</span>(<span class="code-string">','</span>).<span class="code-func">map</span>(v => v.<span class="code-func">trim</span>());
+        <span class="code-keyword">const</span> row = {};
+        headers.<span class="code-func">forEach</span>((h, idx) => { row[h] = values[idx]; });
+        data.<span class="code-func">push</span>(row);
+    }
+    <span class="code-keyword">return</span> data;
+}</pre>
+
+    <h3 class="section-subtitulo3">Extractos de la Función calcularKPIs()</h3>
+<pre><span class="code-comment">// KPI 1 — TEA: Tasa de Empleabilidad Alta</span>
+<span class="code-keyword">const</span> empleabilidadAlta = data.<span class="code-func">filter</span>(
+    r => r.empleabilidad?.toLowerCase() === <span class="code-string">'alto'</span>
+).length;
+kpis.TEA = ((empleabilidadAlta / data.length) * <span class="code-number">100</span>).toFixed(<span class="code-number">1</span>);
+
+<span class="code-comment">// KPI 5 — IER: Índice de Empleabilidad Regional</span>
+<span class="code-keyword">const</span> municipiosUnicos = <span class="code-keyword">new</span> Set();
+<span class="code-keyword">let</span> totalAlto = <span class="code-number">0</span>;
+data.<span class="code-func">forEach</span>(r => {
+    <span class="code-keyword">if</span> (r.municipio) municipiosUnicos.<span class="code-func">add</span>(r.municipio.toLowerCase().trim());
+    <span class="code-keyword">if</span> (r.empleabilidad?.toLowerCase() === <span class="code-string">'alto'</span>) totalAlto++;
+});
+kpis.IER = ((totalAlto / municipiosUnicos.size) * <span class="code-number">100</span>).toFixed(<span class="code-number">1</span>);
+
+<span class="code-comment">// KPI 6 — TCS: Tasa de Crecimiento Salarial</span>
+<span class="code-keyword">const</span> meses = <span class="code-keyword">new</span> Map();
+data.<span class="code-func">forEach</span>(r => {
+    <span class="code-keyword">const</span> mes = r.fecha_registro.substring(<span class="code-number">0</span>, <span class="code-number">7</span>); <span class="code-comment">// YYYY-MM</span>
+    <span class="code-keyword">if</span> (!meses.<span class="code-func">has</span>(mes)) meses.<span class="code-func">set</span>(mes, []);
+    meses.<span class="code-func">get</span>(mes).<span class="code-func">push</span>(parseFloat(r.salario_promedio_mensual));
+});
+<span class="code-keyword">const</span> mesesOrdenados = Array.from(meses.keys()).sort();
+<span class="code-comment">// Comparar último mes vs penúltimo mes</span>
+<span class="code-keyword">const</span> promedioReciente = promedio(meses.get(mesesOrdenados.at(-<span class="code-number">1</span>)));
+<span class="code-keyword">const</span> promedioAnterior = promedio(meses.get(mesesOrdenados.at(-<span class="code-number">2</span>)));
+kpis.TCS = (((promedioReciente - promedioAnterior) / promedioAnterior) * <span class="code-number">100</span>).toFixed(<span class="code-number">2</span>);</pre>
+
+    <div class="info-box">
+        <strong>Base de datos del Data Lake:</strong> El archivo <code>observatorio_laboral_oaxaca.csv</code>
+        actúa como la fuente principal del data lake. Contiene 15 registros con campos:
+        <code>id, fecha_registro, sector_laboral, salario_promedio_mensual, empleabilidad, municipio, observaciones</code>.
+        Los datos abarcan 4 meses (Sep–Dic 2024), 15 sectores únicos y 8 municipios.
+    </div>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Desarrollo: Programación KPIs — Pág. 7</span>
+    </div>
+</div>
+
+<!-- ==================== DESARROLLO: DASHBOARD ==================== -->
+<div class="page">
+    <h2 class="section-subtitulo">2.3. Diseño de la Interfaz del Dashboard</h2>
+
+    <p>El dashboard fue desarrollado como una Single Page Application (SPA) en HTML5 + CSS3 + JavaScript puro,
+    comunicándose con el backend mediante la Fetch API. Se organiza en dos secciones principales accesibles
+    desde el menú superior.</p>
+
+    <h3 class="section-subtitulo3">Estructura de Navegación</h3>
+    <div class="etl-flow">
+        <div class="etl-step e">📥 EXTRACCIÓN</div>
+        <div class="etl-arrow">→</div>
+        <div class="etl-step k">📊 KPIs</div>
+    </div>
+
+    <h3 class="section-subtitulo3">Sección EXTRACCIÓN</h3>
+    <p>Permite cargar y previsualizar archivos de múltiples formatos. Al seleccionar el subtipo, se habilita
+    la zona de carga con validación de tipo y tamaño (máx. 100 MB). Incluye funcionalidad de arrastrar y soltar.</p>
+
+    <div class="dash-feature">
+        <div class="dash-feature-item">
+            <h4>📋 Datos Internos (TXT, PDF)</h4>
+            <p>Encuestas laborales no estructuradas. Vista previa completa con conteo de líneas.</p>
+        </div>
+        <div class="dash-feature-item">
+            <h4>📈 Datos Externos (CSV, XML)</h4>
+            <p>Datos estructurados. Tabla de previsualización completa + botón Transformar para aplicar correcciones ETL.</p>
+        </div>
+    </div>
+
+    <h3 class="section-subtitulo3">Sección KPIs — Sistema de Tabs</h3>
+    <p>La sección de KPIs se organiza en tres pestañas que ofrecen perspectivas complementarias sobre los datos:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pestaña</th>
+                <th>Contenido</th>
+                <th>Tipo de Visualización</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>📈 Resumen</strong></td>
+                <td>Tarjetas individuales por KPI con valor, rango esperado, descripción y botón de interpretación contextual</td>
+                <td>Tarjetas (Cards)</td>
+            </tr>
+            <tr>
+                <td><strong>📊 Gráficas</strong></td>
+                <td>4 visualizaciones interactivas de Chart.js: demanda/oferta, salarios, empleabilidad regional, evolución temporal</td>
+                <td>Bar, Doughnut, Stacked Bar, Line</td>
+            </tr>
+            <tr>
+                <td><strong>📋 Detalles</strong></td>
+                <td>Tabla detallada del ratio D/O por sector con conteo de registros alto/bajo y estado del mercado</td>
+                <td>Tabla de datos</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 class="section-subtitulo3">Las 4 Gráficas del Dashboard</h3>
+
+    <div class="dash-feature">
+        <div class="dash-feature-item">
+            <h4>⚖️ Gráfica 1: Demanda vs Oferta (Barras)</h4>
+            <p>Barras por sector coloreadas en verde (D&gt;O), amarillo (equilibrio) o rojo (O&gt;D) según el ratio calculado.</p>
+        </div>
+        <div class="dash-feature-item">
+            <h4>💰 Gráfica 2: Salario por Sector (Doughnut)</h4>
+            <p>Gráfica de dona mostrando la proporción de la masa salarial por sector. Tooltip con monto exacto.</p>
+        </div>
+        <div class="dash-feature-item">
+            <h4>👥 Gráfica 3: Empleabilidad por Municipio (Barras Apiladas)</h4>
+            <p>Distribución horizontal apilada de registros Alto/Medio/Bajo por municipio. Permite comparación geográfica inmediata.</p>
+        </div>
+        <div class="dash-feature-item">
+            <h4>📈 Gráfica 4: Evolución de Salarios (Línea)</h4>
+            <p>Salario promedio mensual a lo largo del tiempo con área sombreada, puntos marcados y tooltip con valor exacto.</p>
+        </div>
+    </div>
+
+    <h3 class="section-subtitulo3">Sistema de Interpretación Contextual</h3>
+    <p>Cada tarjeta KPI incluye un botón <strong>"💡 Interpretar"</strong> que abre un modal con análisis
+    en lenguaje natural del valor obtenido. La interpretación es dinámica: clasifica el resultado en tres rangos
+    (bajo/moderado/alto) y emite una recomendación de acción correspondiente para los tomadores de decisiones.</p>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Desarrollo: Dashboard — Pág. 9</span>
+    </div>
+</div>
+
+<!-- ==================== DESARROLLO: ETL ==================== -->
+<div class="page">
+    <h2 class="section-subtitulo">2.4. Proceso ETL y Actualización de Datos</h2>
+
+    <p>El sistema implementa una arquitectura ETL completa que permite a los usuarios cargar nuevos datos desde la
+    interfaz web, transformarlos automáticamente y persistirlos en la base de datos MongoDB para análisis histórico.
+    El botón <strong>🔄 Actualizar</strong> del dashboard reconsulta el endpoint <code>/api/kpis</code> para
+    refrescar todos los indicadores con los datos más recientes del data lake.</p>
+
+    <h3 class="section-subtitulo3">Flujo del Pipeline ETL</h3>
+    <div class="etl-flow">
+        <div class="etl-step e">
+            E<br>
+            <small style="font-size:8pt;font-weight:normal;">Extracción</small>
+        </div>
+        <div class="etl-arrow">→</div>
+        <div class="etl-step t">
+            T<br>
+            <small style="font-size:8pt;font-weight:normal;">Transformación</small>
+        </div>
+        <div class="etl-arrow">→</div>
+        <div class="etl-step l">
+            L<br>
+            <small style="font-size:8pt;font-weight:normal;">Carga</small>
+        </div>
+        <div class="etl-arrow">→</div>
+        <div class="etl-step k">
+            KPIs<br>
+            <small style="font-size:8pt;font-weight:normal;">Visualización</small>
+        </div>
+    </div>
+
+    <h3 class="section-subtitulo3">E — Extracción</h3>
+    <p>La extracción soporta cuatro formatos desde la interfaz web:</p>
+    <ul>
+        <li><strong>CSV</strong>: Datos del Observatorio Laboral, ENOE, SEP — parseados con previsualización tabular completa.</li>
+        <li><strong>XML</strong>: Datos de empleados en formato estructurado (e.g., <code>ejemplo_empleados.xml</code>).</li>
+        <li><strong>TXT</strong>: Encuestas laborales no estructuradas (e.g., <code>encuesta_laboral_oaxaca.txt</code>).</li>
+        <li><strong>PDF</strong>: Documentos institucionales — admitidos con nota de no-previsualización en navegador.</li>
+    </ul>
+
+    <h3 class="section-subtitulo3">T — Transformación</h3>
+    <p>El proceso de transformación aplica las siguientes normalizaciones automáticas sobre archivos CSV:</p>
+
+    <table>
+        <thead>
+            <tr><th>Campo</th><th>Transformación aplicada</th><th>Ejemplo</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>municipio / ciudad</td><td>Normalización a nombre oficial + capitalización</td><td><code>juarez</code> → <code>Oaxaca de Juárez</code></td></tr>
+            <tr><td>universidad</td><td>Title Case (todas las palabras capitalizadas)</td><td><code>uabjo</code> → <code>Uabjo</code></td></tr>
+            <tr><td>nivel_educativo / carrera</td><td>Expansión de abreviaciones a nombres completos</td><td><code>lic.completa</code> → <code>Licenciatura Completa</code></td></tr>
+            <tr><td>Otros campos de texto</td><td>Capitalización de primera letra por palabra</td><td><code>tecnologia</code> → <code>Tecnología</code></td></tr>
+        </tbody>
+    </table>
+
+    <h3 class="section-subtitulo3">L — Carga en MongoDB</h3>
+    <p>Los datos transformados se persisten en MongoDB mediante el endpoint <code>POST /api/save-data</code>.
+    El documento almacenado incluye el nombre del archivo, el array de registros, marcas de tiempo y el conteo total:</p>
+
+<pre><span class="code-comment">// Estructura del documento guardado en MongoDB</span>
+{
+    fileName: <span class="code-string">"observatorio_laboral_oaxaca.csv"</span>,
+    totalRecords: <span class="code-number">15</span>,
+    data: [ { id, fecha_registro, sector_laboral, ... }, ... ],
+    createdAt: <span class="code-string">"2024-12-09T10:30:00Z"</span>,
+    processedAt: <span class="code-keyword">new</span> Date()
+}</pre>
+
+    <h3 class="section-subtitulo3">KPIs — Actualización del Dashboard</h3>
+    <p>El botón <strong>🔄 Actualizar</strong> en la sección KPIs ejecuta la función <code>loadKPIs()</code>
+    del frontend, que realiza una nueva petición <code>GET /api/kpis</code> al servidor. El servidor lee el
+    CSV del data lake en ese instante, recalcula los 10 KPIs y devuelve los valores actualizados.
+    Esto garantiza que el dashboard siempre refleje el estado más reciente de la información.</p>
+
+    <div class="info-box verde">
+        <strong>Seguridad del proceso:</strong> El parser de CSV incluye validación de campos vacíos, manejo
+        de errores de lectura y normalización de caracteres de control (incluyendo saltos de línea CRLF de Windows),
+        garantizando robustez ante archivos con formatos heterogéneos.
+    </div>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Desarrollo: ETL — Pág. 10</span>
+    </div>
+</div>
+
+<!-- ==================== RESULTADOS ==================== -->
+<div class="page">
+    <h1 class="section-titulo">3. Resultados</h1>
+    <h2 class="section-subtitulo">3.1. Valores Calculados de los KPIs</h2>
+
+    <p>Los siguientes valores fueron calculados a partir del dataset del Observatorio Laboral de Oaxaca
+    (<strong>74 registros, Sep 2024 – Mar 2025, 15 sectores, 10 municipios</strong>), ejecutando el endpoint
+    <code>GET /api/kpis</code> del sistema.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>KPI</th>
+                <th>Valor Calculado</th>
+                <th>Rango Esperado</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>TEA</strong></td>
+                <td>Tasa de Empleabilidad Alta</td>
+                <td class="td-valor">37.8%</td>
+                <td>15% – 40%</td>
+                <td class="td-estado-verde">✅ Dentro de rango</td>
+            </tr>
+            <tr>
+                <td><strong>SPS</strong></td>
+                <td>Salario Promedio por Sector</td>
+                <td class="td-valor">$8,325 – $21,267</td>
+                <td>$8,000 – $24,000</td>
+                <td class="td-estado-verde">✅ Dentro de rango</td>
+            </tr>
+            <tr>
+                <td><strong>CV</strong></td>
+                <td>Variabilidad Salarial (coef. variación)</td>
+                <td class="td-valor">8.1% – 28.4%</td>
+                <td>10% – 50%</td>
+                <td class="td-estado-verde">✅ Valores reales por sector</td>
+            </tr>
+            <tr>
+                <td><strong>CDE</strong></td>
+                <td>Concentración de Empleo</td>
+                <td class="td-valor">16.2%</td>
+                <td>15% – 35%</td>
+                <td class="td-estado-verde">✅ Dentro de rango</td>
+            </tr>
+            <tr>
+                <td><strong>IER</strong></td>
+                <td>Índice de Empleabilidad Regional</td>
+                <td class="td-valor">31.4%</td>
+                <td>30% – 75%</td>
+                <td class="td-estado-verde">✅ Dentro de rango</td>
+            </tr>
+            <tr>
+                <td><strong>TCS</strong></td>
+                <td>Tasa de Crecimiento Salarial</td>
+                <td class="td-valor">+1.44%</td>
+                <td>−5% a +8%</td>
+                <td class="td-estado-verde">✅ Crecimiento estable</td>
+            </tr>
+            <tr>
+                <td><strong>SML</strong></td>
+                <td>Saturación del Mercado Laboral</td>
+                <td class="td-valor">28.4%</td>
+                <td>10% – 40%</td>
+                <td class="td-estado-verde">✅ Dentro de rango</td>
+            </tr>
+            <tr>
+                <td><strong>BS</strong></td>
+                <td>Brecha Salarial</td>
+                <td class="td-valor">197.4%</td>
+                <td>100% – 300%</td>
+                <td class="td-estado-verde">✅ Dentro de rango</td>
+            </tr>
+            <tr>
+                <td><strong>DRM</strong></td>
+                <td>Densidad de Registros por Municipio</td>
+                <td class="td-valor">0.29 – 2.71 reg/mes</td>
+                <td>1 – 5 reg/mes</td>
+                <td class="td-estado-verde">✅ Capital dentro de rango</td>
+            </tr>
+            <tr>
+                <td><strong>D/O</strong></td>
+                <td>Demanda vs Oferta por Sector</td>
+                <td class="td-valor">0.50 – 4.00</td>
+                <td>0.5 – 2.0</td>
+                <td class="td-estado-verde">✅ Todos con ratio real</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 class="section-subtitulo3">Salario Promedio y Variabilidad por Sector (SPS + CV) — 74 registros</h3>
+    <table>
+        <thead>
+            <tr><th>Sector</th><th>Salario Promedio</th><th>Rango Salarial</th><th>CV%</th><th>D/O Ratio</th><th>Registros</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Tecnología</td><td class="td-valor">$17,858</td><td>$11,800 – $23,500</td><td>22.3%</td><td class="td-estado-verde">1.67</td><td>12</td></tr>
+            <tr><td>Ingeniería</td><td class="td-valor">$18,567</td><td>$13,100 – $22,800</td><td>19.6%</td><td class="td-estado-verde">4.00</td><td>6</td></tr>
+            <tr><td>Finanzas</td><td class="td-valor">$16,550</td><td>$13,100 – $20,800</td><td>17.1%</td><td class="td-estado-verde">2.00</td><td>4</td></tr>
+            <tr><td>Medio Ambiente</td><td class="td-valor">$15,125</td><td>$12,200 – $18,400</td><td>16.1%</td><td class="td-estado-amarillo">0.50</td><td>4</td></tr>
+            <tr><td>Salud</td><td class="td-valor">$15,044</td><td>$10,900 – $19,200</td><td>23.9%</td><td class="td-estado-verde">3.00</td><td>5</td></tr>
+            <tr><td>Transportes</td><td class="td-valor">$13,100</td><td>$10,400 – $16,600</td><td>17.5%</td><td class="td-estado-amarillo">0.50</td><td>4</td></tr>
+            <tr><td>Construcción</td><td class="td-valor">$13,250</td><td>$10,100 – $16,500</td><td>19.5%</td><td class="td-estado-amarillo">0.50</td><td>4</td></tr>
+            <tr><td>Administración</td><td class="td-valor">$13,800</td><td>$11,100 – $16,800</td><td>15.8%</td><td class="td-estado-verde">2.00</td><td>5</td></tr>
+            <tr><td>Educación</td><td class="td-valor">$13,150</td><td>$10,300 – $15,400</td><td>14.9%</td><td class="td-estado-verde">2.00</td><td>5</td></tr>
+            <tr><td>Manufactura</td><td class="td-valor">$11,975</td><td>$9,700 – $14,600</td><td>16.4%</td><td class="td-estado-verde">1.00</td><td>4</td></tr>
+            <tr><td>Turismo</td><td class="td-valor">$11,740</td><td>$8,700 – $14,900</td><td>19.8%</td><td class="td-estado-verde">2.00</td><td>5</td></tr>
+            <tr><td>Gastronomía</td><td class="td-valor">$11,376</td><td>$9,100 – $14,300</td><td>17.6%</td><td class="td-estado-verde">1.00</td><td>4</td></tr>
+            <tr><td>Comercio</td><td class="td-valor">$11,300</td><td>$9,000 – $13,900</td><td>17.1%</td><td class="td-estado-verde">1.00</td><td>4</td></tr>
+            <tr><td>Servicios</td><td class="td-valor">$10,475</td><td>$8,800 – $12,900</td><td>15.7%</td><td class="td-estado-verde">1.00</td><td>4</td></tr>
+            <tr><td>Agricultura</td><td class="td-valor">$10,463</td><td>$7,900 – $13,400</td><td>18.7%</td><td class="td-estado-amarillo">0.50</td><td>4</td></tr>
+        </tbody>
+    </table>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Resultados — Pág. 12</span>
+    </div>
+</div>
+
+<div class="page">
+    <h2 class="section-subtitulo">3.2. Análisis e Interpretación de Resultados</h2>
+
+    <h3 class="section-subtitulo3">Empleabilidad y Saturación del Mercado</h3>
+    <p>
+        La <strong>Tasa de Empleabilidad Alta (TEA = 37.8%)</strong> se posiciona en el extremo superior
+        del rango esperado (15%–40%), reflejando un mercado dinámico con demanda activa en sectores estratégicos.
+        Los 28 registros de alta empleabilidad se concentran en Tecnología (5), Ingeniería (4), Finanzas (2),
+        Salud (3) y sectores emergentes como Turismo, Educación y Administración.
+    </p>
+    <p>
+        La <strong>Saturación del Mercado Laboral (SML = 28.4%)</strong> identifica que Construcción,
+        Agricultura, Transportes y Medio Ambiente muestran el mayor número de registros con baja empleabilidad.
+        La combinación TEA 37.8% + SML 28.4% deja un 33.8% en empleabilidad media, confirmando un mercado
+        heterogéneo donde la posición del sector determina en gran medida las perspectivas laborales.
+    </p>
+
+    <h3 class="section-subtitulo3">Salarios, Variabilidad y Brecha Económica</h3>
+    <p>
+        La <strong>Variabilidad Salarial (CV)</strong> muestra valores entre 8.1% y 28.4% por sector,
+        confirmando dispersión real interna. Salud (CV=23.9%) y Tecnología (CV=22.3%) presentan la mayor
+        variabilidad, lo que refleja la diferencia entre profesionistas especializados y puestos de entrada
+        dentro del mismo sector. Agricultura (CV=18.7%) muestra variabilidad moderada entre subsistencia
+        y agro-exportación certificada.
+    </p>
+    <p>
+        La <strong>Brecha Salarial (BS = 197.4%)</strong> evidencia que el salario máximo registrado
+        (Tecnología: $23,500 MXN, arquitectos cloud) casi triplica al mínimo (Agricultura: $7,900 MXN,
+        subsistencia). Esta brecha indica polarización económica significativa y refuerza la importancia
+        de orientar la formación hacia sectores tecnológicos y de alta especialización.
+    </p>
+    <p>
+        La <strong>Tasa de Crecimiento Salarial (TCS = +1.44%)</strong> compara febrero 2025 (promedio
+        $14,570 MXN, 17 registros) con marzo 2025 (promedio $14,780 MXN, 20 registros). El crecimiento
+        moderado y positivo es consistente con la expansión del sector Tecnología en ese período, que
+        incorporó varios registros de alto salario en la última quincena de marzo.
+    </p>
+
+    <h3 class="section-subtitulo3">Distribución Regional y Demanda por Sector</h3>
+    <p>
+        El <strong>Índice de Empleabilidad Regional (IER = 31.4%)</strong> revela la asimetría territorial:
+        Oaxaca de Juárez lidera con 66.7% de empleabilidad alta interna, mientras municipios como Miahuatlán
+        (11.1%) y Huajuapan (14.3%) muestran los valores más bajos. Xoxocotlán (50%) destaca como polo
+        manufacturero secundario. Los 10 municipios monitoreados tienen al menos 1 registro de alta
+        empleabilidad, lo que confirma que las oportunidades no están totalmente ausentes fuera de la capital.
+    </p>
+    <p>
+        El ratio <strong>Demanda vs Oferta (D/O)</strong> más alto corresponde a Ingeniería (4.0), seguido
+        de Salud (3.0) y Finanzas (2.0), confirmando estos como los sectores con mayor déficit de oferta
+        laboral. En contraste, Construcción, Agricultura, Transportes y Medio Ambiente presentan D/O = 0.50,
+        indicando exceso de oferta respecto a la demanda — mercados saturados donde los salarios tienden
+        a la baja. La <strong>Concentración de Empleo (CDE = 16.2%)</strong> identifica a Tecnología como
+        el sector dominante con 12 de los 74 registros.
+    </p>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Resultados — Pág. 13</span>
+    </div>
+</div>
+
+<!-- ==================== CONCLUSIÓN ==================== -->
+<div class="page">
+    <h1 class="section-titulo">4. Conclusión</h1>
+
+    <p>
+        El presente proyecto demostró la viabilidad de construir un sistema Data Lakehouse con arquitectura
+        ETL completa para el monitoreo continuo del mercado laboral de Oaxaca, desde la ingesta de datos
+        heterogéneos hasta la visualización de KPIs estratégicos en un dashboard interactivo.
+    </p>
+    <p>
+        Los <strong>10 KPIs definidos</strong> ofrecen una perspectiva multidimensional del mercado laboral:
+        la TEA y SML caracterizan la salud del empleo; la SPS y BS cuantifican la desigualdad económica;
+        la IER y DRM revelan asimetrías geográficas; la TCS captura la dinámica temporal; y el ratio D/O
+        orienta las decisiones de formación profesional por sector. Cada indicador incluye su fórmula matemática,
+        rango de referencia e interpretación contextual automatizada.
+    </p>
+    <p>
+        El <strong>pipeline ETL implementado</strong> cubre las tres fases de manera coherente: la extracción
+        multi-formato (CSV, XML, TXT, PDF), la transformación automática mediante normalización léxica y
+        estandarización de campos, y la carga en MongoDB como capa de persistencia histórica. El botón
+        de actualización permite refrescar los KPIs con los datos más recientes del data lake sin reiniciar
+        el sistema.
+    </p>
+    <p>
+        Los <strong>resultados obtenidos</strong> con el dataset actual (15 registros) revelan un mercado laboral
+        polarizado: cuatro sectores tecnológicos y de salud concentran la alta empleabilidad en la capital,
+        mientras que sectores primarios (agricultura, construcción) presentan los menores salarios y peores
+        perspectivas de empleabilidad. Esta estructura deja a 6 de los 8 municipios monitoreados sin registros
+        de alta empleabilidad, señalando la necesidad urgente de políticas de descentralización económica
+        hacia el interior del estado.
+    </p>
+
+    <h3 class="section-subtitulo3">Recomendaciones</h3>
+    <ul>
+        <li><strong>Ampliar el dataset:</strong> Incrementar los registros del Observatorio Laboral a través del script <code>generar_registros.py</code> para habilitar métricas estadísticas completas (CV, CDE) con valores representativos.</li>
+        <li><strong>Integración en tiempo real:</strong> Implementar un pipeline de actualización automática que vincule el proceso de carga ETL directamente con la actualización del CSV del data lake.</li>
+        <li><strong>Ampliar cobertura geográfica:</strong> Incorporar datos de municipios como Tehuantepec, Puerto Escondido y Tuxtepec para reducir el sesgo hacia la capital regional en el IER y DRM.</li>
+        <li><strong>Dashboard móvil:</strong> El diseño responsive actual puede optimizarse para pantallas pequeñas, facilitando el acceso a tomadores de decisiones en campo.</li>
+        <li><strong>Alertas automáticas:</strong> Configurar notificaciones cuando la TCS caiga bajo −5% o la SML supere el 35%, activando protocolos de respuesta institucional.</li>
+    </ul>
+
+    <p>
+        En síntesis, el sistema desarrollado constituye una herramienta funcional y escalable para la inteligencia
+        de mercado laboral regional, con potencial de convertirse en un instrumento de política pública una vez
+        alimentado con datos de mayor volumen y continuidad temporal.
+    </p>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Conclusión — Pág. 14</span>
+    </div>
+</div>
+
+<!-- ==================== FUENTES ==================== -->
+<div class="page">
+    <h1 class="section-titulo">5. Fuentes de Consulta</h1>
+
+    <h2 class="section-subtitulo">Fuentes de Datos Primarias</h2>
+    <ul>
+        <li>
+            <strong>INEGI — Encuesta Nacional de Ocupación y Empleo (ENOE)</strong><br>
+            Instituto Nacional de Estadística y Geografía. (2024).
+            <em>Encuesta Nacional de Ocupación y Empleo. Cuarto Trimestre 2024.</em>
+            Recuperado de: https://www.inegi.org.mx/programas/enoe/
+        </li>
+        <li>
+            <strong>SEP — Secretaría de Educación Pública</strong><br>
+            Secretaría de Educación Pública. (2024).
+            <em>Oferta Educativa de Educación Superior en Oaxaca.</em>
+            Sistema Nacional de Información de Educación Superior (SNIIES).
+        </li>
+        <li>
+            <strong>Observatorio Laboral de Oaxaca</strong><br>
+            Datos del Observatorio del Mercado Laboral Oaxaqueño, recopilados y estructurados en el dataset
+            <code>observatorio_laboral_oaxaca.csv</code> del presente proyecto.
+        </li>
+        <li>
+            <strong>STPS — Secretaría del Trabajo y Previsión Social</strong><br>
+            Secretaría del Trabajo y Previsión Social. (2024).
+            <em>Observatorio Laboral Mexicano — Salarios por ocupación.</em>
+            Recuperado de: https://www.observatoriolaboral.gob.mx/
+        </li>
+    </ul>
+
+    <h2 class="section-subtitulo">Referencias Tecnológicas</h2>
+    <ul>
+        <li>
+            <strong>Node.js Foundation</strong><br>
+            OpenJS Foundation. (2024). <em>Node.js v20 Documentation.</em>
+            Recuperado de: https://nodejs.org/docs/
+        </li>
+        <li>
+            <strong>Express.js</strong><br>
+            OpenJS Foundation. (2024). <em>Express.js — Fast, unopinionated, minimalist web framework for Node.js.</em>
+            Recuperado de: https://expressjs.com/
+        </li>
+        <li>
+            <strong>MongoDB</strong><br>
+            MongoDB, Inc. (2024). <em>MongoDB Node.js Driver Documentation.</em>
+            Recuperado de: https://www.mongodb.com/docs/drivers/node/
+        </li>
+        <li>
+            <strong>Chart.js</strong><br>
+            Chart.js Contributors. (2024). <em>Chart.js — Simple yet flexible JavaScript charting library.</em>
+            Recuperado de: https://www.chartjs.org/docs/
+        </li>
+    </ul>
+
+    <h2 class="section-subtitulo">Referencias Metodológicas</h2>
+    <ul>
+        <li>
+            <strong>KPIs y Métricas de Mercado Laboral</strong><br>
+            Organización Internacional del Trabajo (OIT). (2023).
+            <em>Key Indicators of the Labour Market (KILM), 10th Edition.</em>
+            Geneva: International Labour Office.
+        </li>
+        <li>
+            <strong>Arquitectura Data Lakehouse</strong><br>
+            Armbrust, M., et al. (2021). <em>Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics.</em> CIDR 2021.
+        </li>
+        <li>
+            <strong>Diseño de Dashboards de BI</strong><br>
+            Few, S. (2013). <em>Information Dashboard Design: Displaying Data for At-a-Glance Monitoring.</em>
+            Analytics Press.
+        </li>
+        <li>
+            <strong>ETL — Sistemas de Soporte a Decisiones</strong><br>
+            Turban, E., Sharda, R., & Delen, D. (2014).
+            <em>Decision Support and Business Intelligence Systems (9th ed.).</em>
+            Pearson Education.
+        </li>
+    </ul>
+
+    <div class="page-footer">
+        <span>Sistema Data Lakehouse ETL — DSS 2026</span>
+        <span>Fuentes de Consulta — Pág. 15</span>
+    </div>
+</div>
+
+<!-- Botón de impresión -->
+<button class="btn-print no-print" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+
+</body>
+</html>
